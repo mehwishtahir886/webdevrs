@@ -10,16 +10,26 @@
 }
 .navbar_main{
     width: 100%;
-    height: 100px;
+    height: 80px;
     background-color: var(--primary-dark);
     box-shadow: 0px 0px 20px rgba(156, 156, 156, 0.405);
 }
+.top_part1{
+    height: 20px;
+    display: flex;
+    align-items: center;
+}
+.top_part2{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
 .top_part1 a{
-    font-size: 15px;
+    font-size: .8em;
 }
 .navbar_top{
     width: 90%;
-    height: 50px;
+    height: 40px;
     margin: auto;
     color: white;
     font-size: 16px;
@@ -28,25 +38,20 @@
     align-items: center;
     justify-content: space-between;
 }
-.navbar_top a{
-    color: white;
-    text-decoration: none;
-}
 .top_part2{
-    width: 150px;
-    height: 50px;
+    width: max-content;
+    height: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
-
-
-
+.top_part2 div{
+    margin: 5px;
+    font-size: .8em;
+}
 .navbar{
     width: 90%;
     height: 80px;
-    /* padding: 10px; */
     background-color: white;
     box-shadow: 0px 0px 10px rgba(156, 156, 156, 0.222);
     margin: auto;
@@ -79,16 +84,17 @@
     justify-content: space-evenly;
 }
 .navbar_nav ul > li{
-    /* background-color: red; */
     padding: 30px 0px;
     cursor: pointer;
-    /* position: relative; */
 }
-.navbar_nav ul li a{    
+.navbar_nav ul > li a{    
     color: #999;
     margin: 20px;
     font-weight: 300;
     text-decoration: none;
+}
+.navbar_nav ul > li:hover a{
+    color: blue;
 }
 .navbar_nav ul li:nth-child(1) a{
     color: var(--primary-dark);
@@ -98,22 +104,13 @@
 .top_part3{
     width: 150px;
     height: 50px;
-    /* background-color: red; */
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.top_part3 .fa-circle-user{
-    font-size: 30px;
-    line-height: 50px;
-}
-.top_part3 .fa-angle-down{
-    font-size: 10px;
-    margin-left: 10px;
-}
 .top_part3 span{
-    font-size: 18px;
-    margin-left: 10px;
+    font-size: .8em;
+    margin: 5px;
 }
 
 
@@ -148,10 +145,7 @@
 .coursesGif{
     width: 40%;
     height: 100%;
-    /* background-image: url(../../public/images/dropdownBG.jpg); */
-    /* background-size: cover; */
     display: flex;
-    /* justify-content: center; */
     align-items: center;
 }
 .coursesGif img{
@@ -177,7 +171,6 @@
 .courseLanguage li:hover{
     color: blue;
     text-decoration: underline;
-    list-style: inside;
     padding: 0 10px;
 }
 .MobileApplication{

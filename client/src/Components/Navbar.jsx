@@ -2,6 +2,9 @@ import React from 'react'
 import './Navbar.css'
 import logo from '../images/logo.png'
 import navImg from '../images/Computer.gif'
+import { AiOutlineMail,AiOutlinePhone,AiFillCaretDown } from "react-icons/ai";
+import { IoLocationOutline } from "react-icons/io5";
+import { FaUserCircle } from "react-icons/fa";
 
 const Navbar = () => {
   return (
@@ -9,24 +12,35 @@ const Navbar = () => {
         
         <div className='navbar_main'>
             <div className='navbar_top'>
-                <div className='top_part1'><a href='#'>FAQs</a> &nbsp; | &nbsp; <a href="#">Help</a> &nbsp; | &nbsp; <a href="#">Support</a> </div>
-                {/* <div className='top_part2'><i class="fa-brands fa-facebook-f"></i>  <i class="fa-brands fa-twitter"></i> <i class="fa-brands fa-linkedin-in"></i> <i class="fa-brands fa-instagram"></i> <i class="fa-brands fa-youtube"></i> </div> */}
+                <div className='top_part1'>
+                  <div className='top_part2'>
+                    <AiOutlineMail />
+                    <div>webdevrs@gmail.com</div>
+                  </div>&nbsp; | &nbsp;
+                  <div className='top_part2'>
+                    <IoLocationOutline />
+                    <div>Hafeez center IT Tower</div>
+                  </div>&nbsp; | &nbsp;
+                  <div className='top_part2'>
+                    <AiOutlinePhone />
+                     <div>+9253735356</div>
+                  </div>
+                </div>
                 <div className='top_part3'>
-                  <i class="fa-solid fa-circle-user"></i>
+                  <FaUserCircle style={{fontSize: "25px"}} />
                   <span>Ahmad</span>
-                  <i class="fa-solid fa-angle-down"></i>
+                  <AiFillCaretDown style={{fontSize: "10px"}} />
                 </div>
             </div>
             <div className='navbar'>
                 <div className='logo'>
                   <img src={logo} />
-                    {/* <span>Web</span><span>Devrs</span> */}
                 </div>
                 <div className='navbar_nav'>
                     <ul>
                       <li><a href="#">Home</a></li>
                       <li><a href="#">About</a></li>
-                      <li><a href="#">Courses</a>
+                      <li><a href="#">Courses<AiFillCaretDown style={{fontSize: "10px"}} /></a>
                       <div className='coursesDropdown'>
                         <div className='coursesC'>
                           <div className='courseLanguage'>
