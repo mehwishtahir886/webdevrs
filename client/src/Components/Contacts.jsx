@@ -1,10 +1,14 @@
 import React from 'react'
+import Container from 'react-bootstrap/Container';
+import classes from "./Contact.module.css"
 
 const Contacts = () => {
   return (
-    <div>
-      Contact us Form
-    </div>
+    <>
+    <Container className={classes.Container_Contact}>
+
+    </Container>
+    </>
   )
 }
 
