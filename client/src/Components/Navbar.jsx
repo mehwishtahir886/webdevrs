@@ -32,7 +32,7 @@ const Navbar = () => {
                   <AiFillCaretDown style={{fontSize: "10px"}} />
                 </div>
             </div>
-            <div className='navbar'>
+            <div className='navbar-m'>
                 <div className='logo'>
                   <img src={logo} />
                 </div>
@@ -80,7 +80,9 @@ const Navbar = () => {
                       </div>
                       </li>
                       <li><a href="#">Blog</a></li>
-                      <li><a href="#">Contact</a></li>
+                      <Link to="/Contact">
+                      <li>Contact</li>
+                      </Link>
                     </ul>
                 </div>
             </div>
