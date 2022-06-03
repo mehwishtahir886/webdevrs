@@ -1,6 +1,20 @@
 .Container_Contact{
     height: 100vh;
-    width: 100vw;
-    background-color: red;
-    /* border: 1px solid red; */
+    width: 100%;
+    background-color: var(--primary-light);
+}
+.Main_contact{
+    height: 500px;
+    /* border: 1px solid; */
+    position: absolute;
+    left: 16%;
+    top: 30%;
+    background-color: white;
+}
+.Detail_contact{
+    height: 450px;
+    position: absolute;
+    left: -10%;
+    top: 25px;
+    background-color: var(--primary-dark);
 }

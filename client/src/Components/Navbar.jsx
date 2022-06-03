@@ -2,6 +2,7 @@ import React from 'react'
 import './Navbar.css'
 import logo from '../images/logo.png'
 import navImg from '../images/Computer.gif'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   return (
@@ -10,17 +11,15 @@ const Navbar = () => {
         <div className='navbar_main'>
             <div className='navbar_top'>
                 <div className='top_part1'><a href='#'>FAQs</a> &nbsp; | &nbsp; <a href="#">Help</a> &nbsp; | &nbsp; <a href="#">Support</a> </div>
-                {/* <div className='top_part2'><i class="fa-brands fa-facebook-f"></i>  <i class="fa-brands fa-twitter"></i> <i class="fa-brands fa-linkedin-in"></i> <i class="fa-brands fa-instagram"></i> <i class="fa-brands fa-youtube"></i> </div> */}
                 <div className='top_part3'>
                   <i class="fa-solid fa-circle-user"></i>
                   <span>Ahmad</span>
                   <i class="fa-solid fa-angle-down"></i>
                 </div>
             </div>
-            <div className='navbar'>
+            <div className='navbar-m'>
                 <div className='logo'>
                   <img src={logo} />
-                    {/* <span>Web</span><span>Devrs</span> */}
                 </div>
                 <div className='navbar_nav'>
                     <ul>
@@ -66,7 +65,9 @@ const Navbar = () => {
                       </div>
                       </li>
                       <li><a href="#">Blog</a></li>
-                      <li><a href="#">Contact</a></li>
+                      <Link to="/Contact">
+                      <li>Contact</li>
+                      </Link>
                     </ul>
                 </div>
             </div>
