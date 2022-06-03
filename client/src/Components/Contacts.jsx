@@ -2,14 +2,11 @@ import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap';
 import "./Contact.module.css"
 import classes from "./Contact.module.css"
-import Navbar from './Navbar';
-import "../Components/Navbar.css"
 
 
 const Contacts = () => {
   return (
     <>
-      {/* <Navbar/> */}
       <Container fluid className={classes.Container_Contact}>
         <Row>
           <Col className={classes.Main_contact} xl={7} lg={8} md={8} sm={8}>
