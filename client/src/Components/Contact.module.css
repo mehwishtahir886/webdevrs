@@ -2,19 +2,62 @@
     height: 100vh;
     width: 100%;
     background-color: var(--primary-light);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .Main_contact{
     height: 500px;
-    /* border: 1px solid; */
-    position: absolute;
-    left: 16%;
-    top: 30%;
+    width: 800px;
+    position: relative;
     background-color: white;
 }
 .Detail_contact{
-    height: 450px;
+    height: 85%;
     position: absolute;
-    left: -10%;
-    top: 25px;
+    left: -8%;
+    top: 7.5%;
     background-color: var(--primary-dark);
+    color: white;
+}
+.Form_box{
+    top: 5%;
+    height: 90%;
+    border: 1px solid red;
+    position: absolute;
+    right: 5%;
+}
+.Contact_Name{
+    padding: 20px;
+}
+.Detail_box{
+    width: 300px;
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+}
+.Details_li{
+    list-style: none;
+    width: max-content;
+    cursor: pointer;
+}
+.Location_icon{
+    font-size: 1.3em;
+    margin: 10px;
+    margin-top: 0px;
+    cursor: pointer;
+
+}
+.SocialContact{
+    height: 30px;
+    width: 40%;
+    margin-left: 15%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.cont_Social{
+    font-size: 1.3em;
+    cursor: pointer;
 }
