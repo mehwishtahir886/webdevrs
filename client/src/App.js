@@ -1,13 +1,12 @@
 import React from 'react'
-import Contacts from './Components/Contacts'
-import Navbar from './Components/Navbar'
 import {Route, Routes} from "react-router-dom"
+import Home from './Components/Home'
 
 const App = () => {
   return (
     <>
     <Routes>
-      <Route path="/Contact" element={<Contacts/>}/>
+    <Route path="/" element={<Home/>}/>
     </Routes>
     </>
   )
