@@ -34,7 +34,6 @@
 }
 .Contact_Name{
     padding: 20px;
-    font-weight: bold;
 }
 .Detail_box{
     width: 300px;
@@ -68,12 +67,10 @@
     cursor: pointer;
 }
 .getTouch{
-    font-weight: 600;
     color: var(--primary-dark);
 }
 .LabelName{
     color: var(--primary-dark);
-    font-weight: bold;
 
 }
 .FeelFree{
