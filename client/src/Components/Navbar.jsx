@@ -5,8 +5,9 @@ import navImg from '../images/Computer.gif'
 import { AiOutlineMail,AiOutlinePhone,AiFillCaretDown } from "react-icons/ai";
 import { IoLocationOutline } from "react-icons/io5";
 import { FaUserCircle } from "react-icons/fa";
+import { Navbar, Container, Nav, NavDropdown } from 'react-bootstrap';
 
-const Navbar = () => {
+const NavbarBanner = () => {
   return (
     <>
         
@@ -16,11 +17,11 @@ const Navbar = () => {
                   <div className='top_part2'>
                     <AiOutlineMail />
                     <div>webdevrs@gmail.com</div>
-                  </div>&nbsp; | &nbsp;
+                    &nbsp; | &nbsp;</div>
                   <div className='top_part2'>
                     <IoLocationOutline />
                     <div>Hafeez center IT Tower</div>
-                  </div>&nbsp; | &nbsp;
+                    &nbsp; | &nbsp; </div>
                   <div className='top_part2'>
                     <AiOutlinePhone />
                      <div>+9253735356</div>
@@ -32,16 +33,21 @@ const Navbar = () => {
                   <AiFillCaretDown style={{fontSize: "10px"}} />
                 </div>
             </div>
-            <div className='navbar-m'>
-                <div className='logo'>
-                  <img src={logo} />
-                </div>
-                <div className='navbar_nav'>
-                    <ul>
-                      <li><a href="#">Home</a></li>
-                      <li><a href="#">About</a></li>
-                      <li><a href="#">Courses<AiFillCaretDown style={{fontSize: "10px"}} /></a>
-                      <div className='coursesDropdown'>
+
+            <Navbar expand="lg">
+              <Container fluid className='m-0'>
+                <Navbar.Brand href="#home">
+                  <img style={{width: "70px",height: "45px"}} src={logo} />
+                </Navbar.Brand>
+                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Collapse id="basic-navbar-nav">
+                  <Nav className="me-auto nav" style={{position: "absolute", right: "20px"}}>
+                    <Nav.Link style={{marginLeft: "25px"}} href="#home">Home</Nav.Link>
+                    <Nav.Link style={{marginLeft: "25px"}} href="#link">About</Nav.Link>
+                    <Nav.Link style={{marginLeft: "25px"}} href="#link">Blog</Nav.Link>
+                    <NavDropdown style={{marginLeft: "25px", padding: "0"}} title="Dropdown" id="basic-nav-dropdown">
+
+                    <div className='coursesDropdown'>
                         <div className='coursesC'>
                           <div className='courseLanguage'>
                             <p>Frontend</p>
@@ -78,16 +84,17 @@ const Navbar = () => {
                           <img src={navImg} />
                         </div>
                       </div>
-                      </li>
-                      <li><a href="#">Blog</a></li>
-                      <li>Contact</li>
-                    </ul>
-                </div>
-            </div>
+
+                    </NavDropdown>
+                    <Nav.Link style={{marginLeft: "20px"}} href="#link">Contact</Nav.Link>
+                  </Nav>
+                </Navbar.Collapse>
+              </Container>
+            </Navbar>
         </div>
 
     </>
   )
 }
 
-export default Navbar
+export default NavbarBanner

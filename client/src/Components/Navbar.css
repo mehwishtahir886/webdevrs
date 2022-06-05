@@ -98,7 +98,9 @@
 }
 .navbar_nav ul li:nth-child(1) a{
     color: var(--primary-dark);
+    background-color: rgb(255, 247, 247);
 }
+
 
 
 .top_part3{
@@ -112,6 +114,25 @@
     font-size: .8em;
     margin: 5px;
 }
+@media screen and (max-width: 990px) {
+    .nav{
+        left: 0;
+        top: 80px;
+        width: 100%;
+        box-shadow: 0px 0px 10px rgba(156, 156, 156, 0.222);
+        background-color: white;
+    }
+}
+@media screen and (max-width: 678px) {
+    .top_part2:nth-child(3){
+        display: none;
+    }
+}
+@media screen and (max-width: 565px) {
+    .top_part2:nth-child(2){
+        display: none;
+    }
+}
 
 
 
@@ -123,23 +144,26 @@
 
 .coursesDropdown{
     position: absolute;
-    top: 100%;  
-    left: 0;
-    width: 100%;
-    height: 40vh;
+    top: 0;  
+    right: -55px;
+    width: 90vw;
+    height: 50vh;
     display: flex;
-    opacity: 0;
-    visibility: hidden;
+    flex-direction: row;
+    align-items: center;
     margin-top: 20px;
     transition: .5s ease;
     background-color: white;
     box-shadow: 0 0 10px 0 #eee;
 }
+.show{
+    padding: 0;
+    border: 0;
+}
 .coursesC{  
     width: 60%;
-    height: 100%;
+    height: max-content;
     display: flex;
-    align-items: center;
     justify-content: center;
 }
 .coursesGif{
@@ -151,11 +175,12 @@
 .coursesGif img{
     width: 60%;
     height: 70%;
+    margin: auto;
 }
 .courseLanguage{
     width: 20%;
     height: 80%;
-    margin: 0 10px;
+    margin: 0 30px;
 }
 .courseLanguage p{
     color: darkblue;
@@ -180,4 +205,50 @@
 .Cloud{
     width: 100%;
     height: 50%;
+}
+
+@media screen and (max-width: 1200px) {
+    .courseLanguage li{
+        margin: 5px 0;
+    }
+}
+@media screen and (max-width: 990px) {
+    .coursesDropdown{
+        top: 20px;
+        right: 0;
+    }
+}
+@media screen and (max-width: 790px) {
+    .coursesGif img{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 630px) {
+    .coursesDropdown{
+        flex-direction: column !important;
+        height: max-content;
+        width: 90vw;
+    }
+    .coursesC{
+        width: 100%;
+        padding: 30px 0;
+    }
+    .coursesGif{
+        width: 100%;
+        padding: 10px 0;
+    }
+}
+@media screen and (max-width: 430px) {
+    .coursesDropdown{
+        width: 90vw;
+    }
+    .coursesC{
+        width: 100%;
+        padding: 30px 10px;
+        flex-direction: column;
+    }
+    .courseLanguage{
+        width: 100%;
+        margin-bottom: 30px;
+    }
 }
