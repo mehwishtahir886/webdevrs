@@ -6,6 +6,7 @@ import { AiOutlineMail,AiOutlinePhone,AiFillCaretDown } from "react-icons/ai";
 import { IoLocationOutline } from "react-icons/io5";
 import { FaUserCircle } from "react-icons/fa";
 import { Navbar, Container, Nav, NavDropdown } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 const NavbarBanner = () => {
   return (
@@ -36,16 +37,19 @@ const NavbarBanner = () => {
 
             <Navbar expand="lg">
               <Container fluid className='m-0'>
-                <Navbar.Brand href="#home">
+                <Link style={{padding: "10px 5px" ,textDecoration: "none", color: "#999"}} to={"/"}>
+                  <Navbar.Brand>
                   <img style={{width: "70px",height: "45px"}} src={logo} />
                 </Navbar.Brand>
+                </Link>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                   <Nav className="me-auto nav" style={{position: "absolute", right: "20px"}}>
-                    <Nav.Link style={{marginLeft: "25px"}} href="#home">Home</Nav.Link>
-                    <Nav.Link style={{marginLeft: "25px"}} href="#link">About</Nav.Link>
-                    <Nav.Link style={{marginLeft: "25px"}} href="#link">Blog</Nav.Link>
-                    <NavDropdown style={{marginLeft: "25px", padding: "0"}} title="Courses" id="basic-nav-dropdown">
+                    <Nav.Link style={{marginLeft: "25px", padding: "9px 0"}} to="/projects"><Link style={{padding: "10px 5px" ,textDecoration: "none", color: "#999"}} to={"/"}>Home</Link></Nav.Link>
+                    <Nav.Link style={{marginLeft: "25px", padding: "9px 0"}}><Link style={{padding: "10px 5px" ,textDecoration: "none", color: "#999"}} to={"/"}>About</Link></Nav.Link>
+                    <Nav.Link style={{marginLeft: "25px", padding: "9px 0"}}><Link style={{padding: "10px 5px" ,textDecoration: "none", color: "#999"}} to={"/"}>Blog</Link></Nav.Link>
+                    <Nav.Link style={{marginLeft: "25px", padding: "9px 0"}}><Link style={{padding: "10px 5px" ,textDecoration: "none", color: "#999"}} to={"/projects"}>Projects</Link></Nav.Link>
+                    <NavDropdown style={{marginLeft: "25px", padding: "0px"}} title="Courses" id="basic-nav-dropdown">
 
                     <div className='coursesDropdown'>
                         <div className='coursesC'>
@@ -86,7 +90,7 @@ const NavbarBanner = () => {
                       </div>
 
                     </NavDropdown>
-                    <Nav.Link style={{marginLeft: "20px"}} href="#link">Contact</Nav.Link>
+                    <Nav.Link style={{marginLeft: "20px"}}><Link style={{padding: "10px 5px" ,textDecoration: "none", color: "#999"}} to={"/"}>Contact</Link></Nav.Link>
                   </Nav>
                 </Navbar.Collapse>
               </Container>
