@@ -59,6 +59,7 @@
     justify-content: space-between;
     align-items: center;
     position: relative;
+    z-index: 11;
 }
 .logo{
     width: 70px;
@@ -144,9 +145,9 @@
 
 .coursesDropdown{
     position: absolute;
-    top: 0;  
-    right: -55px;
-    width: 90vw;
+    top: -5px;  
+    right: -41px;
+    width: 89vw;
     height: 50vh;
     display: flex;
     flex-direction: row;
@@ -155,6 +156,7 @@
     transition: .5s ease;
     background-color: white;
     box-shadow: 0 0 10px 0 #eee;
+    z-index: 11;
 }
 .show{
     padding: 0;
@@ -188,14 +190,14 @@
 .courseLanguage li{
     position: relative;
     margin: 10px 0;
+    cursor: pointer;
     font-size: 13px;
     list-style: none;
     color: #999;
     transition: .5s ease;
 }
 .courseLanguage li:hover{
-    color: blue;
-    text-decoration: underline;
+    color: var(--primary-dark);
     padding: 0 10px;
 }
 .MobileApplication{
@@ -210,6 +212,9 @@
 @media screen and (max-width: 1200px) {
     .courseLanguage li{
         margin: 5px 0;
+    }
+    .coursesDropdown{
+        width: 90vw;
     }
 }
 @media screen and (max-width: 990px) {

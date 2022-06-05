@@ -45,7 +45,7 @@ const NavbarBanner = () => {
                     <Nav.Link style={{marginLeft: "25px"}} href="#home">Home</Nav.Link>
                     <Nav.Link style={{marginLeft: "25px"}} href="#link">About</Nav.Link>
                     <Nav.Link style={{marginLeft: "25px"}} href="#link">Blog</Nav.Link>
-                    <NavDropdown style={{marginLeft: "25px", padding: "0"}} title="Dropdown" id="basic-nav-dropdown">
+                    <NavDropdown style={{marginLeft: "25px", padding: "0"}} title="Courses" id="basic-nav-dropdown">
 
                     <div className='coursesDropdown'>
                         <div className='coursesC'>
