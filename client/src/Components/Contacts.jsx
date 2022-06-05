@@ -14,7 +14,7 @@ const Contacts = () => {
         <Row>
           <Col className={classes.Main_contact} xl={7} lg={8} md={8} sm={8}>
             <Row>
-              <Col className={classes.Detail_contact} xl={5} lg={5} md={5} sm={12} >
+              <Col className={classes.Detail_contact} xl={5} lg={5} md={5} sm={5} >
                 <h3 className={classes.Contact_Name}>Contact Us</h3>
                 <div className={classes.Detail_box}>
                   <i style={{ marginTop: "7px" }} className={`fa-solid fa-location-dot ${classes.Location_icon}`}></i>
@@ -39,7 +39,7 @@ const Contacts = () => {
                   <i className={`fa-brands fa-linkedin-in ${classes.cont_Social}`}></i>
                 </div>
               </Col>
-              <Col className={classes.Form_box} xl={7} lg={8} md={8} sm={12}>
+              <Col className={classes.Form_box} xl={7} lg={6} md={6} sm={6}>
                   <h4 className={classes.getTouch}>Get in Touch</h4>
                   <p className={classes.FeelFree}>Feel free to drop us lines below</p>
                 <Form>

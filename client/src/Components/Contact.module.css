@@ -1,4 +1,4 @@
-.Container_Contact{
+.Container_Contact {
     min-height: 100vh;
     width: 100%;
     background-color: var(--primary-light);
@@ -7,13 +7,15 @@
     align-items: center;
     flex-wrap: wrap;
 }
-.Main_contact{
+
+.Main_contact {
     min-height: 75vh;
     width: 800px;
     position: relative;
     background-color: white;
 }
-.Detail_contact{
+
+.Detail_contact {
     height: 85%;
     position: absolute;
     left: -8%;
@@ -22,7 +24,8 @@
     color: white;
     box-shadow: -1px 0px 24px 1px rgba(61, 61, 61, 0.75);
 }
-.Form_box{
+
+.Form_box {
     top: 5%;
     height: 90%;
     position: absolute;
@@ -32,28 +35,33 @@
     justify-content: center;
 
 }
-.Contact_Name{
+
+.Contact_Name {
     padding: 20px;
 }
-.Detail_box{
+
+.Detail_box {
     width: 300px;
     display: flex;
     padding: 5px;
     justify-content: space-between;
 }
-.Details_li{
+
+.Details_li {
     list-style: none;
     width: max-content;
     cursor: pointer;
 }
-.Location_icon{
+
+.Location_icon {
     font-size: 1.3em;
     margin: 10px;
     margin-top: 0px;
     cursor: pointer;
 
 }
-.SocialContact{
+
+.SocialContact {
     height: 30px;
     width: 40%;
     margin-left: 15%;
@@ -62,21 +70,26 @@
     justify-content: space-evenly;
     align-items: center;
 }
-.cont_Social{
+
+.cont_Social {
     font-size: 1.3em;
     cursor: pointer;
 }
-.getTouch{
+
+.getTouch {
     color: var(--primary-dark);
 }
-.LabelName{
+
+.LabelName {
     color: var(--primary-dark);
 
 }
-.FeelFree{
+
+.FeelFree {
     color: var(--primary-gray);
 }
-.sendbutton{
+
+.sendbutton {
     position: absolute;
     bottom: -2%;
     right: 2%;
@@ -88,6 +101,135 @@
     letter-spacing: 4px;
     box-shadow: 0px 1px 14px -1px rgba(133, 187, 252, 0.7);
     border: none;
+}
 
-    
+@media (max-width:991px) {
+    .Main_contact {
+        width: 700px;
+    }
+
+    .Detail_contact {
+        left: -4%;
+    }
+
+    .sendbutton {
+        bottom: -5%;
+    }
+}
+
+@media (max-width:767px) {
+    .Main_contact {
+        width: 600px;
+    }
+
+    .Detail_contact {
+        left: -4%;
+        width: 270px;
+    }
+
+    .sendbutton {
+        bottom: -5%;
+        width: 12vw;
+    }
+}
+
+@media (max-width:662px) {
+    .Container_Contact {
+        height: 180vh;
+    }
+
+    .Main_contact {
+        width: 500px;
+        height: 150vh;
+        background-color: red;
+    }
+
+    .Detail_contact {
+        left: 0;
+        width: 100%;
+        height: 75vh;
+        top: 0;
+    }
+
+    .Form_box {
+        left: 0;
+        top: 76vh;
+        width: 100%;
+        height: 70vh;
+    }
+
+    .sendbutton {
+        width: 20vw;
+    }
+}
+
+@media (max-width:520px) {
+    .Container_Contact {
+        height: 160vh;
+    }
+    .Main_contact {
+        width: 400px;
+        height: 150vh;
+        background-color: red;
+    }
+    .sendbutton {
+        width: 20vw;
+        bottom: 0;
+    }
+}
+
+@media (max-width:410px) {
+    .Container_Contact {
+        height: 120vh;
+    }
+    .Main_contact {
+        width: 300px;
+        height: 105vh;
+        background-color: red;
+    }
+    .Detail_contact {
+        left: 0;
+        width: 100%;
+        height: 50vh;
+        top: 0;
+    }
+    .Form_box {
+        left: 0;
+        top: 50vh;
+        width: 100%;
+        height: 50vh;
+    }
+
+    .sendbutton {
+        width: 25vw;
+        bottom: -30px;
+
+    }
+}
+
+@media (max-width:305px) {
+    .Container_Contact {
+        height: 120vh;
+    }
+    .Main_contact {
+        width: 250px;
+        height: 110vh;
+        background-color: red;
+    }
+    .Detail_contact {
+        left: 0;
+        width: 100%;
+        height: 50vh;
+        top: 0;
+    }
+    .Form_box {
+        left: 0;
+        top: 50vh;
+        width: 100%;
+        height: 50vh;
+    }
+
+    .sendbutton {
+        width: 25vw;
+    }
 }
