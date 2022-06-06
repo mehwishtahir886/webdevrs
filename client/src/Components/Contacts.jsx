@@ -45,7 +45,7 @@ const Contacts = () => {
                 <Form>
                   <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
                     <Form.Label className={classes.LabelName}>Name</Form.Label>
-                    <Form.Control type="email" placeholder="Enter Name...." />
+                    <Form.Control type="text" placeholder="Enter Name...." />
                   </Form.Group>
                   <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
                     <Form.Label className={classes.LabelName}>Email address</Form.Label>
