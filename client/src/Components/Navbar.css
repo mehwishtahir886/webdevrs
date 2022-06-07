@@ -8,6 +8,10 @@
     --primary-light: rgb(70,198,206);
     --primary-gray: rgb(167, 153, 153);
 }
+.nav_nav{
+    height: 120px;
+    background-color: transparent;
+}
 .navbar_main{
     width: 100%;
     height: 80px;
