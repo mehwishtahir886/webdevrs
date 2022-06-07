@@ -171,7 +171,7 @@
 .copyright {
     color: var(--light-gray);
     text-align: center;
-    padding: 10px 0px 0px 10px;
+    padding-bottom: 20px;
 }
 
 @media (max-width:1100px) {
