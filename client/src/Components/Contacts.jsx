@@ -6,11 +6,8 @@ import classes from "./Contact.module.css"
 import "./Navbar.css"
 import Button from 'react-bootstrap/Button'
 import { BsFacebook,BsTwitter,BsInstagram,BsGoogle} from "react-icons/bs";
-import { FaMapMarkerAlt} from "react-icons/fa";
 import {AiOutlineMail,AiOutlineWhatsApp,AiOutlineMobile} from "react-icons/ai";
 import { GoLocation } from "react-icons/go";
-
-
 
 
 
@@ -41,7 +38,6 @@ const Contacts = () => {
                   <p style={{ marginLeft: "5px" }} className={classes.Details_li}>+92 3056520720</p>
                 </div>
                 <div className={classes.SocialContact}>
-                  {/* <i className={`fa-brands fa-facebook ${classes.cont_Social}`}></i> */}
                   <BsFacebook className={classes.cont_Social}/>
                     <BsTwitter className={classes.cont_Social} />
                     <BsInstagram className={classes.cont_Social}/>
