@@ -1,17 +1,26 @@
 .MainFooter {
-    border: 1px solid;
     background-color: var(--primary-dark);
 }
 
 .Box {
     height: 350px;
-    border: 1px solid red;
-    margin-left: 50px;
+    margin-left: 30px;
+    width: max-content;
+}
+
+.Box:nth-child(2) {
+    width: max-content;
+    margin-left: 0;
+}
+
+.Box:nth-child(3) {
+    width: 300px;
+    margin-left: 0;
 }
 
 .Box:nth-child(4) {
     margin-left: 0;
-    width: 290px;
+    width: 280px;
 }
 
 .Footer_logo {
@@ -23,11 +32,6 @@
     margin-bottom: 30px;
 
 }
-
-/* .footer_img {
-    height: 100%;
-    width: 100%;
-} */
 
 .Folllow {
     color: #fff;
@@ -59,13 +63,127 @@
     text-align: center;
     line-height: 38px;
     border-radius: 50%;
-    background-color:rgb(59,89,152) ;
+    background-color: var(--facbook-color);
     color: white;
     cursor: pointer;
 }
-.Footer_Socialicon:nth-child(2){
-    background-color: rgb(85,172,238);
+
+.Footer_Socialicon:nth-child(2) {
+    background-color: var(--Twitter-color);
 }
-.Footer_Socialicon:nth-child(3){
-    background-color: rgb(221,75,57);
+
+.Footer_Socialicon:nth-child(3) {
+    background-color: var(--Google-color);
+}
+
+.FooterLink {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 30px;
+    position: relative;
+}
+
+.FooterLink::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -15px;
+    height: 2px;
+    width: 100px;
+    background: var(--secondary-dark);
+}
+
+.Box li {
+    position: relative;
+    margin: 15px 30px;
+    cursor: pointer;
+    font-size: 15px;
+    list-style: none;
+    color: var(--light-gray);
+    transition: .5s ease;
+}
+
+.Box li:hover {
+    color: var(--secondary-dark);
+    padding: 0 10px;
+}
+
+.Box:nth-child(3) p {
+    position: relative;
+    margin: 15px 30px;
+    cursor: pointer;
+    color: var(--light-gray);
+    transition: .5s ease;
+}
+
+.Box:nth-child(3) p:hover {
+    color: var(--secondary-dark);
+}
+
+.Box:nth-child(4) p {
+    color: var(--light-gray);
+    position: relative;
+    margin: 20px 30px;
+    cursor: pointer;
+}
+
+.subcribe {
+    position: relative;
+    overflow: hidden;
+}
+
+.SubEmail {
+    width: 90%;
+    margin: 10px 30px;
+    padding: 15px;
+    background: var(--light-gray);
+    border: 1px solid var(--secondary-dark);
+}
+
+.SubEmail:focus {
+    outline: none;
+}
+
+.Subbtn {
+    padding: 15px 20px;
+    position: absolute;
+    top: 11px;
+    right: 0;
+    border: none;
+    background-color: var(--secondary-dark);
+    color: var(--Telegram-color);
+}
+
+.TEl {
+    color: #fff;
+    font-size: 25px;
+    transform: rotate(-6deg);
+}
+
+.footerhr {
+    height: 2px;
+    width: 90%;
+    margin-left: 5%;
+    color: white;
+}
+
+.copyright {
+    color: var(--light-gray);
+    text-align: center;
+    padding: 10px 0px 0px 10px;
+}
+
+@media (max-width:1100px) {
+    .Box {
+        margin: 0px 0px 0px 30px;
+        width: 280px;
+        height: max-content;
+    }
+}
+
+@media (max-width:460px) {
+    .followPara {
+        width: 80%;
+    }
 }
