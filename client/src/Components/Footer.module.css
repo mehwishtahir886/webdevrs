@@ -1,26 +1,26 @@
 .MainFooter {
     background-color: var(--primary-dark);
 }
-
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+}
 .Box {
-    height: 350px;
-    margin-left: 30px;
-    width: max-content;
+    height: max-content;
 }
 
 .Box:nth-child(2) {
-    width: max-content;
     margin-left: 0;
 }
 
 .Box:nth-child(3) {
-    width: 300px;
+    /* width: 300px; */
     margin-left: 0;
 }
 
 .Box:nth-child(4) {
     margin-left: 0;
-    width: 280px;
+    /* width: 340px; */
 }
 
 .Footer_logo {
@@ -29,7 +29,7 @@
     backdrop-filter: blur(3px);
     display: flex;
     align-items: flex-end;
-    margin-bottom: 30px;
+    margin-top: 20px;
 
 }
 
@@ -39,14 +39,14 @@
     font-size: 20px;
     font-weight: 700;
     font-family: 'Poppins', sans-serif;
-    margin-bottom: 20px;
+    margin-top: 30px;
 }
 
 .followPara {
     margin-bottom: 14px;
     font-size: 14px;
     color: var(--light-gray);
-    line-height: 28px;
+    line-height: 25px;
 }
 
 .FootersocialIcons {
@@ -88,37 +88,39 @@
     content: "";
     position: absolute;
     left: 0;
-    bottom: -15px;
+    bottom: -10px;
     height: 2px;
     width: 100px;
-    background: var(--secondary-dark);
+    background: var(--primary-light);
 }
 
 .Box li {
     position: relative;
-    margin: 15px 30px;
+    margin: 10px 30px;
     cursor: pointer;
-    font-size: 15px;
+    font-size: 14px;
     list-style: none;
     color: var(--light-gray);
     transition: .5s ease;
 }
 
 .Box li:hover {
-    color: var(--secondary-dark);
+    color: var(--primary-light);
     padding: 0 10px;
 }
 
 .Box:nth-child(3) p {
     position: relative;
-    margin: 15px 30px;
+    margin: 10px 30px;
     cursor: pointer;
     color: var(--light-gray);
     transition: .5s ease;
+    font-size: 14px;
+
 }
 
 .Box:nth-child(3) p:hover {
-    color: var(--secondary-dark);
+    color: var(--primary-light);
 }
 
 .Box:nth-child(4) p {
@@ -132,13 +134,16 @@
     position: relative;
     overflow: hidden;
 }
+.subPara{
+    font-size: 14px;
+}
 
 .SubEmail {
     width: 90%;
     margin: 10px 30px;
     padding: 15px;
     background: var(--light-gray);
-    border: 1px solid var(--secondary-dark);
+    border: 1px solid var(--primary-light);
 }
 
 .SubEmail:focus {
@@ -151,12 +156,11 @@
     top: 11px;
     right: 0;
     border: none;
-    background-color: var(--secondary-dark);
-    color: var(--Telegram-color);
+    background-color: var(--primary-light);
 }
 
 .TEl {
-    color: #fff;
+    color: white;
     font-size: 25px;
     transform: rotate(-6deg);
 }
@@ -176,10 +180,11 @@
 
 @media (max-width:1100px) {
     .Box {
-        margin: 0px 0px 0px 30px;
-        width: 280px;
         height: max-content;
     }
+    /* .Box:nth-child(4) {
+        width: max-content;
+    } */
 }
 
 @media (max-width:460px) {
