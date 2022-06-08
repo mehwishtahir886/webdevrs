@@ -1,6 +1,7 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap';
 import Form from 'react-bootstrap/Form'
+import Navbar from "./Navbar"
 import "./Contact.module.css"
 import classes from "./Contact.module.css"
 import "./Navbar.css"
@@ -8,13 +9,13 @@ import Button from 'react-bootstrap/Button'
 import { BsFacebook, BsTwitter, BsInstagram, BsGoogle } from "react-icons/bs";
 import { AiOutlineMail, AiOutlineWhatsApp, AiOutlineMobile } from "react-icons/ai";
 import { GoLocation } from "react-icons/go";
-
-
+import Footer from './Footer';
 
 
 const Contacts = () => {
   return (
     <>
+      <Navbar />
       <Container fluid className={classes.Container_Contact}>
         <Row>
           <Col className={classes.Main_contact} xl={7} lg={8} md={8} sm={8}>
@@ -67,6 +68,7 @@ const Contacts = () => {
           </Col>
         </Row>
       </Container>
+      <Footer/>
     </>
   )
 }

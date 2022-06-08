@@ -91,7 +91,7 @@ const NavbarBanner = () => {
                       </div>
 
                     </NavDropdown>
-                    <Nav.Link style={{marginLeft: "20px"}}><Link style={{padding: "10px 5px" ,textDecoration: "none", color: "#999"}} to={"/"}>Contact</Link></Nav.Link>
+                    <Nav.Link style={{marginLeft: "20px"}}><Link style={{padding: "10px 5px" ,textDecoration: "none", color: "#999"}} to={"/Contact"}>Contact</Link></Nav.Link>
                   </Nav>
                 </Navbar.Collapse>
               </Container>
