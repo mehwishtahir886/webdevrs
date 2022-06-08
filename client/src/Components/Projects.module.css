@@ -1,0 +1,42 @@
+.heading{
+    margin-left: 50px;
+    /* font-size: 30px; */
+}
+.para{
+    margin-left: 50px;
+    width: 400px;
+}
+.row{
+    margin: 0 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+@media screen and (max-width: 1025px) {
+    .Card{
+        width: 300px !important;
+    }
+}
+@media screen and (max-width: 470px) {
+    .para{
+        width: 90%;
+        margin-left: 20px;
+        text-align: center;
+    }
+    .heading{
+        margin-left: 0;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 400px) {
+    .Card{
+        width: 100%;
+    }
+    .row{
+        width: 100%;
+        /* margin: 0; */
+        justify-content: center;
+        margin: 20px;
+    }
+}

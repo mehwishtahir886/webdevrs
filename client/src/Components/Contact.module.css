@@ -38,16 +38,20 @@
 
 .Contact_Name {
     padding: 20px;
+    margin-top:50px;
 }
 
 .Detail_box {
-    width: 300px;
     display: flex;
     padding: 5px;
     justify-content: space-between;
 }
+.lis_contact{
+    display: flex;
+}
 
 .Details_li {
+    margin-left:5px;
     list-style: none;
     width: max-content;
     cursor: pointer;
@@ -55,10 +59,9 @@
 
 .Location_icon {
     font-size: 1.3em;
-    margin: 10px;
-    margin-top: 0px;
+    margin-right: 10px;
+    margin-top:2.5px;
     cursor: pointer;
-
 }
 
 .SocialContact {
@@ -67,8 +70,9 @@
     margin-left: 15%;
     margin-top: 20px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
+    margin: 30px;
 }
 
 .cont_Social {

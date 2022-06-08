@@ -12,6 +12,7 @@ const NavbarBanner = () => {
   return (
     <>
         
+        <div className='nav_nav'>
         <div className='navbar_main'>
             <div className='navbar_top'>
                 <div className='top_part1'>
@@ -95,6 +96,7 @@ const NavbarBanner = () => {
                 </Navbar.Collapse>
               </Container>
             </Navbar>
+        </div>
         </div>
 
     </>
