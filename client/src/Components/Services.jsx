@@ -8,6 +8,12 @@ import {
   Col,
 } from 'react-bootstrap';
 
+import { AiOutlineSchedule,AiOutlineFileProtect } from "react-icons/ai";
+import {BiBriefcase} from 'react-icons/bi'
+import {FiUserCheck} from 'react-icons/fi'
+import {TbWorld} from 'react-icons/tb'
+import {RiTodoLine} from 'react-icons/ri'
+
 const Services = () => {
   return (
     <>
@@ -25,7 +31,7 @@ const Services = () => {
             <div className={classes.main}>
 
               <div className={classes.icon} >
-                <i class="fa-solid fa-calendar"></i>
+               <AiOutlineSchedule/>
                 <span className={classes.ico1}></span>
                 <span className={classes.icoo1}></span>
 
@@ -56,7 +62,7 @@ const Services = () => {
             <div className={classes.main}>
 
               <div className={classes.icon} >
-                <i class="fa-solid fa-code"></i>
+              <AiOutlineFileProtect/>
 
                 <span className={classes.ico2}></span>
                 <span className={classes.icoo2}></span>
@@ -89,7 +95,7 @@ const Services = () => {
 
 
               <div className={classes.icon} >
-                <i class="fa-solid fa-briefcase"></i>
+               <BiBriefcase/>
                 <span className={classes.ico3}></span>
                 <span className={classes.icoo3}></span>
 
@@ -124,7 +130,7 @@ const Services = () => {
             <div className={classes.main} >
 
               <div className={classes.icon} >
-                <i class="fa-solid fa-earth-africa"></i>
+              <TbWorld/>
                 <span className={classes.ico4}></span>
                 <span className={classes.icoo4}></span>
 
@@ -155,7 +161,7 @@ const Services = () => {
             <div className={classes.main}>
 
               <div className={classes.icon} >
-              <i class="fa-solid fa-gear"></i>
+              <FiUserCheck/>
               <span className={classes.ico5}></span>
                 <span className={classes.icoo5}></span>
 
@@ -182,7 +188,7 @@ const Services = () => {
             <div className={classes.main}>
 
               <div className={classes.icon} >
-              <i class="fa-solid fa-clipboard-list"></i>
+              <RiTodoLine/>
               <span className={classes.ico6}></span>
                 <span className={classes.icoo6}></span>
             
