@@ -9,28 +9,48 @@
 
 } */
 
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0px 15px 0px
+}
+
 .border{
     background-color: var(--primary-gray);
     background-color: rgb(238, 235, 235);
 }
 
 .main{
-    height: 50vh;
+    height: 45vh;
     cursor: pointer;
-    width:100% ;
+    width:85% ;
     display: flex;
     align-items: center;
     flex-direction: column;
     transition: all ease-out 0.15s;
     top: 2rem;
 
+
+}
+
+.main:hover{
+    background-color: white;
+}
+
+.main:hover .heading{
+    color: var(--primary-light);
+}
+
+.main:hover .content{
+    color: var(--primary-light);
 }
 
 .icon{
-    color: var(--primary-dark);
+    color: var(--primary-light);
     font-size: 2.5rem;
     margin-bottom: 50px;
-    margin-top: 1rem;
+    margin-top: 2.5rem;
     transition: all linear 0.34s;
     position: relative;
     z-index: 2;
@@ -46,9 +66,9 @@
 
 .ico1{
     position: absolute;
-    background-color:var(--primary-dark);
-    height: 4rem;
-    width: 4rem;
+    background-color:var(--primary-light);
+    height: 3.5rem;
+    width: 3.5rem;
     border-radius: 50%;
     z-index: -1;
     transform: scale(0);
@@ -61,10 +81,10 @@
 
 .icoo1{
     position: absolute;
-    border: solid 1px var(--primary-dark);
+    border: solid 1px var(--primary-light);
     background-color: transparent;
-    height: 4rem;
-    width: 4rem;
+    height: 3.5rem;
+    width: 3.5rem;
     opacity: 0;
     border-radius: 50%;
     transform: scale(0);
@@ -95,9 +115,9 @@ animation: ico .5s forwards ;
 
 .ico2{
     position: absolute;
-    background-color:var(--primary-dark);
-    height: 4rem;
-    width: 4rem;
+    background-color:var(--primary-light);
+    height: 3.5rem;
+    width: 3.5rem;
     border-radius: 50%;
     z-index: -1;
     transform: scale(0);
@@ -109,10 +129,10 @@ animation: ico .5s forwards ;
 
 .icoo2{
     position: absolute;
-    border: solid 1px var(--primary-dark);
+    border: solid 1px var(--primary-light);
     background-color: transparent;
-    height: 4rem;
-    width: 4rem;
+    height: 3.5rem;
+    width: 3.5rem;
     opacity: 0;
     border-radius: 50%;
     transform: scale(0);
@@ -140,9 +160,9 @@ animation: ico .5s forwards ;
 
 .ico3{
     position: absolute;
-    background-color:var(--primary-dark);
-    height: 4rem;
-    width: 4rem;
+    background-color:var(--primary-light);
+    height: 3.5rem;
+    width: 3.5rem;
     border-radius: 50%;
     z-index: -1;
     transform: scale(0);
@@ -155,10 +175,10 @@ animation: ico .5s forwards ;
 
 .icoo3{
     position: absolute;
-    border: solid 1px var(--primary-dark);
+    border: solid 1px var(--primary-light);
     background-color: transparent;
-    height: 4rem;
-    width: 4rem;
+    height: 3.5rem;
+    width: 3.5rem;
     opacity: 0;
     border-radius: 50%;
     transform: scale(0);
@@ -189,9 +209,9 @@ animation: ico .5s forwards ;
 
 .ico4{
     position: absolute;
-    background-color:var(--primary-dark);
-    height: 4rem;
-    width: 4rem;
+    background-color:var(--primary-light);
+    height: 3.5rem;
+    width: 3.5rem;
     border-radius: 50%;
     z-index: -1;
     transform: scale(0);
@@ -204,10 +224,10 @@ animation: ico .5s forwards ;
 
 .icoo4{
     position: absolute;
-    border: solid 1px var(--primary-dark);
+    border: solid 1px var(--primary-light);
     background-color: transparent;
-    height: 4rem;
-    width: 4rem;
+    height: 3.5rem;
+    width: 3.5rem;
     opacity: 0;
     border-radius: 50%;
     transform: scale(0);
@@ -238,9 +258,9 @@ animation: ico .5s forwards ;
 
 .ico5{
     position: absolute;
-    background-color:var(--primary-dark);
-    height: 4rem;
-    width: 4rem;
+    background-color:var(--primary-light);
+    height: 3.5rem;
+    width: 3.5rem;
     border-radius: 50%;
     z-index: -1;
     transform: scale(0);
@@ -253,10 +273,10 @@ animation: ico .5s forwards ;
 
 .icoo5{
     position: absolute;
-    border: solid 1px var(--primary-dark);
+    border: solid 1px var(--primary-light);
     background-color: transparent;
-    height: 4rem;
-    width: 4rem;
+    height: 3.5rem;
+    width: 3.5rem;
     opacity: 0;
     border-radius: 50%;
     transform: scale(0);
@@ -286,9 +306,9 @@ animation: ico .5s forwards ;
 
 .ico6{
     position: absolute;
-    background-color:var(--primary-dark);
-    height: 4.5rem;
-    width: 4.5rem;
+    background-color:var(--primary-light);
+    height: 3.5rem;
+    width: 3.5rem;
     border-radius: 50%;
     z-index: -1;
     transform: scale(0);
@@ -301,10 +321,10 @@ animation: ico .5s forwards ;
 
 .icoo6{
     position: absolute;
-    border: solid 1px var(--primary-dark);
+    border: solid 1px var(--primary-light);
     background-color: transparent;
-    height: 4.5rem;
-    width: 4.5rem;
+    height: 3.5rem;
+    width: 3.5rem;
     opacity: 0;
     border-radius: 50%;
     transform: scale(0);
@@ -364,13 +384,13 @@ animation: ico .5s forwards;
 
 
 .heading{
-    color: var(--primary-dark);
+    color: black;
     font-size: 1.5rem;
     margin-bottom: 1.5rem;
 }
 
 .content{
-    color: var(--primary-dark);
+    color: var(--primary-gray);
     font-size: 1rem;
     text-align: center;
     line-height: 20px;
@@ -378,7 +398,23 @@ animation: ico .5s forwards;
 
 
 
+@media screen and (min-width: 300px) and (max-width:400px) {
 
+    .heading{
+        font-size: 20px;
+    }
+ 
+
+}
+
+@media screen and (min-width: 570px) and (max-width:655px) {
+
+    .heading{
+        font-size: 20px;
+    }
+ 
+
+}
 
 
 

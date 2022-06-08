@@ -2,6 +2,7 @@ import React from 'react'
 import { Container, Row, Col, Card, Button } from 'react-bootstrap'
 import classes from './Projects.module.css'
 import Navbar from "./Navbar"
+import Footer from "./Footer"
 
 const projects = () => {
 
@@ -98,6 +99,7 @@ const projects = () => {
                 
             </Row>
         </Container>
+        <Footer/>
 
 
     </>
