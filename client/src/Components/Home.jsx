@@ -1,6 +1,6 @@
 import React from 'react'
 import About from './About'
-import Contacts from './Contacts'
+import Contacts from './ContactsPage'
 import Footer from './Footer'
 import Navbar from './Navbar'
 import Services from './Services'
@@ -10,7 +10,6 @@ const Home = () => {
         <Navbar/>
         <About/>
         <Services/>
-        <Contacts/>
         <Footer/>
     </div>
   )

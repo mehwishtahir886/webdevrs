@@ -1,6 +1,7 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap';
 import Form from 'react-bootstrap/Form'
+import Navbar from "./Navbar"
 import "./Contact.module.css"
 import classes from "./Contact.module.css"
 import "./Navbar.css"
@@ -8,13 +9,13 @@ import Button from 'react-bootstrap/Button'
 import { BsFacebook, BsTwitter, BsInstagram, BsGoogle } from "react-icons/bs";
 import { AiOutlineMail, AiOutlineWhatsApp, AiOutlineMobile } from "react-icons/ai";
 import { GoLocation } from "react-icons/go";
-
-
-
+import Footer from './Footer';
+import classs from "./Footer.module.css"
 
 const Contacts = () => {
   return (
     <>
+      <Navbar />
       <Container fluid className={classes.Container_Contact}>
         <Row>
           <Col className={classes.Main_contact} xl={7} lg={8} md={8} sm={8}>
@@ -37,11 +38,16 @@ const Contacts = () => {
                   <AiOutlineMobile className={classes.Location_icon} />
                   <p className={classes.Details_li}>+92 3056520720</p>
                 </div>
-                <div className={classes.SocialContact}>
-                  <BsFacebook className={classes.cont_Social} />
-                  <BsTwitter className={classes.cont_Social} />
-                  <BsInstagram className={classes.cont_Social} />
-                  <BsGoogle className={classes.cont_Social} />
+                <div style={{display:"flex"}} className={classes.FootersocialIcons}>
+                  <div style={{margin:"5px"}} className={classs.Footer_Socialicon}>
+                    <BsFacebook />
+                  </div>
+                  <div style={{margin:"5px"}} className={classs.Footer_Socialicon}>
+                    <BsTwitter />
+                  </div>
+                  <div style={{margin:"5px"}} className={classs.Footer_Socialicon}>
+                    <BsGoogle />
+                  </div>
                 </div>
               </Col>
               <Col className={classes.Form_box} xl={7} lg={6} md={6} sm={6}>
@@ -67,6 +73,7 @@ const Contacts = () => {
           </Col>
         </Row>
       </Container>
+      <Footer />
     </>
   )
 }
