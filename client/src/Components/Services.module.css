@@ -1,0 +1,384 @@
+
+
+
+/* 
+:root{
+    --primary-dark:rgb(25,67,118);
+    --primary-light:rgb(70,198,206);
+    --primary-gray:rgb(167,153,153);
+
+} */
+
+.border{
+    background-color: var(--primary-gray);
+    background-color: rgb(238, 235, 235);
+}
+
+.main{
+    height: 50vh;
+    cursor: pointer;
+    width:100% ;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    transition: all ease-out 0.15s;
+    top: 2rem;
+
+}
+
+.icon{
+    color: var(--primary-dark);
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+    margin-top: 1rem;
+    transition: all linear 0.34s;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+}
+
+
+
+/* /1/ */
+
+.ico1{
+    position: absolute;
+    background-color:var(--primary-dark);
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    z-index: -1;
+    transform: scale(0);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+    
+}
+
+.icoo1{
+    position: absolute;
+    border: solid 1px var(--primary-dark);
+    background-color: transparent;
+    height: 4rem;
+    width: 4rem;
+    opacity: 0;
+    border-radius: 50%;
+    transform: scale(0);
+    z-index: -2;
+    transition: 300ms;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.main:hover .icoo1{
+    opacity: 1;
+  transform: scale(1.15);
+}
+
+.main:hover .ico1{
+
+animation: ico .5s forwards ;
+
+
+
+}
+
+
+/* /2/ */
+
+
+
+.ico2{
+    position: absolute;
+    background-color:var(--primary-dark);
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    z-index: -1;
+    transform: scale(0);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+}
+
+.icoo2{
+    position: absolute;
+    border: solid 1px var(--primary-dark);
+    background-color: transparent;
+    height: 4rem;
+    width: 4rem;
+    opacity: 0;
+    border-radius: 50%;
+    transform: scale(0);
+    z-index: -2;
+    transition: 300ms;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.main:hover .icoo2{
+    opacity: 1;
+  transform: scale(1.15);
+}
+
+.main:hover .ico2{
+
+animation: ico .5s forwards ;
+
+}
+
+/* /3/ */
+
+
+
+.ico3{
+    position: absolute;
+    background-color:var(--primary-dark);
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    z-index: -1;
+    transform: scale(0);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+    
+}
+
+.icoo3{
+    position: absolute;
+    border: solid 1px var(--primary-dark);
+    background-color: transparent;
+    height: 4rem;
+    width: 4rem;
+    opacity: 0;
+    border-radius: 50%;
+    transform: scale(0);
+    z-index: -2;
+    transition: 300ms;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.main:hover .icoo3{
+    opacity: 1;
+  transform: scale(1.15);
+}
+
+.main:hover .ico3{
+
+animation: ico .5s forwards ;
+
+}
+
+
+/* /4/ */
+
+
+
+
+
+.ico4{
+    position: absolute;
+    background-color:var(--primary-dark);
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    z-index: -1;
+    transform: scale(0);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+    
+}
+
+.icoo4{
+    position: absolute;
+    border: solid 1px var(--primary-dark);
+    background-color: transparent;
+    height: 4rem;
+    width: 4rem;
+    opacity: 0;
+    border-radius: 50%;
+    transform: scale(0);
+    z-index: -2;
+    transition: 300ms;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.main:hover .icoo4{
+    opacity: 1;
+  transform: scale(1.15);
+}
+
+.main:hover .ico4{
+
+animation: ico .5s forwards ;
+
+}
+
+
+
+
+/* /5/ */
+
+
+
+.ico5{
+    position: absolute;
+    background-color:var(--primary-dark);
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    z-index: -1;
+    transform: scale(0);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+    
+}
+
+.icoo5{
+    position: absolute;
+    border: solid 1px var(--primary-dark);
+    background-color: transparent;
+    height: 4rem;
+    width: 4rem;
+    opacity: 0;
+    border-radius: 50%;
+    transform: scale(0);
+    z-index: -2;
+    transition: 300ms;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.main:hover .icoo5{
+    opacity: 1;
+  transform: scale(1.15);
+}
+
+.main:hover .ico5{
+
+animation: ico .5s forwards ;
+
+}
+
+
+
+
+/* /6/ */
+
+
+.ico6{
+    position: absolute;
+    background-color:var(--primary-dark);
+    height: 4.5rem;
+    width: 4.5rem;
+    border-radius: 50%;
+    z-index: -1;
+    transform: scale(0);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+    
+}
+
+.icoo6{
+    position: absolute;
+    border: solid 1px var(--primary-dark);
+    background-color: transparent;
+    height: 4.5rem;
+    width: 4.5rem;
+    opacity: 0;
+    border-radius: 50%;
+    transform: scale(0);
+    z-index: -2;
+    transition: 300ms;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.main:hover .icoo6{
+    opacity: 1;
+  transform: scale(1.15);
+}
+
+.main:hover .ico6{
+
+animation: ico .5s forwards;
+
+}
+
+
+/* ///// */
+
+
+.main:hover .icon {
+
+    animation: icon .5s .1s forwards;
+
+}
+
+
+
+
+
+@keyframes icon{
+
+    0% {}
+    100%{
+
+        color:white
+    }
+}
+
+
+
+
+@keyframes ico{
+
+    0% {}
+    100%{
+
+        transform: scale(1)
+    }
+}
+
+
+
+.heading{
+    color: var(--primary-dark);
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.content{
+    color: var(--primary-dark);
+    font-size: 1rem;
+    text-align: center;
+    line-height: 20px;
+}
+
+
+
+
+
+
+
