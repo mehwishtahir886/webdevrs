@@ -1,23 +1,38 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Asap+Condensed&family=Baloo+2&family=Bebas+Neue&family=Righteous&display=swap');
+:root{
+    --Heading:'Bebas Neue', cursive;    
+    --Para:'Asap Condensed', sans-serif;    
+}
 .courses_container{
-    height: 50vh; 
+    left: 0;
+    height: 400vh;
 }
 .courses_info{
-    height: 100%;
+    position: sticky;
+    top: 0;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border: 1px solid;
 }
 .courses_info p{
     margin: 0 70px;
 }
 .courses_info ul{
-    margin: 10px 55px;
+    margin: 10px 37px;
 }
 .courses_info ul li{
+    margin: 10px 0;
+    width: max-content;
+    list-style: none;
     font-size: 1.1em;
-    /* font-family: var(--Para); */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.courses_info ul li span{
+    margin: 0 10px;
 }
 .courses_info p:nth-child(1){
     font-family: var(--Heading);
@@ -28,7 +43,7 @@
     font-family: var(--Para);
     color: blue;
     font-size: 1.5em;
-    margin: 0 0 10px 70px;
+    margin: -5px 0 10px 70px;
     font-weight: bold;
 }
 .courses_info p:nth-child(3){
@@ -38,10 +53,116 @@
     font-weight: lighter;
     padding-right: 50px;
 }
-.courses_St{
+.courses_bullets{
+    width: 80%;
+    height: max-content;    
+    margin: 0 60px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.courses_bullets > div{
+    position: relative;
+    width: max-content;
+    height: max-content;
+    margin: 15px;
+    padding: 10px 25px;
+    border-radius: 7px;
+    background-color: white;
+    box-shadow: 0 0 15px 0 rgb(209, 207, 207);
+}
+.courses_bullets div div{
+    top: 0;
+    right: -4px;
+    z-index: -1;
+    position: absolute;
+    width: 10px;
+    border-radius: 0 7px 7px 0;
     height: 100%;
+    background-color: blue;
+}
+.courses_St{
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid;
+}
+.courses_St1{
+    position: relative;
+    width: 90%;
+    height: 80%;
+    background-color: white;
+    box-shadow: 0 0 20px 0 #eee;
+    border-radius: 5px;
+}
+.courses_St_Heading{
+    font-family: var(--Heading);
+    font-size: 1.5em;
+    letter-spacing: 1px;
+    margin: 30px 0 0 20px;
+}
+.courses_St_Para{
+    margin: 20px 20px;
+    color: #555;
+    padding-right: 40px;
+}
+.courses_St_Info{
+    width: 90%;
+    height: max-contentx;
+    margin: 30px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.courses_St_Info1{
+    margin-right: 20px;
+}
+.courses_St_Info1 p:nth-child(1){
+    color: #999;
+}
+.courses_St_Info1 p:nth-child(2){
+    color: #555;
+    width: max-content;
+    padding: 5px 20px;
+    margin: -10px 0;
+    border-radius: 5px;
+    background: #F7F8FA;
+}
+.courses_St_Info2{
+    width: 90%;
+    height: max-content;
+    margin: -10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.courses_St_Info3{
+    width: 90%;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.courses_St_Info3 div{
+    padding: 5px 20px;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: #F2F1EC;
+}
+.courses_St_Info2 p{
+    color: #999;
+    margin: 0 10px;
+}
+.courses_St_btn{
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    padding: 10px 20px;
+    border: none;
+    background-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    background: linear-gradient(45deg, rgb(77, 77, 245) 80%,white);
 }

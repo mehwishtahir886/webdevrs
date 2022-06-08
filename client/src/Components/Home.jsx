@@ -1,6 +1,7 @@
 import React from 'react'
 import About from './About'
 import Contacts from './Contacts'
+import Courses from './Courses'
 import Footer from './Footer'
 import Navbar from './Navbar'
 import Services from './Services'
@@ -9,6 +10,7 @@ const Home = () => {
     <div>
         <Navbar/>
         <About/>
+        <Courses />
         <Services/>
         <Footer/>
     </div>
