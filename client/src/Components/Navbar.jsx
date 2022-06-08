@@ -46,9 +46,10 @@ const NavbarBanner = () => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                   <Nav className="me-auto nav" style={{position: "absolute", right: "20px"}}>
-                    <Nav.Link style={{marginLeft: "25px", padding: "9px 0"}} to="/projects"><Link style={{padding: "10px 5px" ,textDecoration: "none", color: "#999"}} to={"/"}>Home</Link></Nav.Link>
-                    <Nav.Link style={{marginLeft: "25px", padding: "9px 0"}}><Link style={{padding: "10px 5px" ,textDecoration: "none", color: "#999"}} to={"/"}>About</Link></Nav.Link>
-                    <Nav.Link style={{marginLeft: "25px", padding: "9px 0"}}><Link style={{padding: "10px 5px" ,textDecoration: "none", color: "#999"}} to={"/"}>Blog</Link></Nav.Link>
+                    <Nav.Link style={{marginLeft: "25px", padding: "9px 0"}}><Link style={{padding: "10px 5px" ,textDecoration: "none", color: "#999"}} to={"/"}>Home</Link></Nav.Link>
+                    <Nav.Link style={{marginLeft: "25px", padding: "9px 0"}}><Link style={{padding: "10px 5px" ,textDecoration: "none", color: "#999"}} to={"/about"}>About</Link></Nav.Link>
+                    <Nav.Link style={{marginLeft: "25px", padding: "9px 0"}}><Link style={{padding: "10px 5px" ,textDecoration: "none", color: "#999"}} to={"/blogs"}>Blogs</Link></Nav.Link>
+                    <Nav.Link style={{marginLeft: "25px", padding: "9px 0"}}><Link style={{padding: "10px 5px" ,textDecoration: "none", color: "#999"}} to={"/events"}>Events</Link></Nav.Link>
                     <Nav.Link style={{marginLeft: "25px", padding: "9px 0"}}><Link style={{padding: "10px 5px" ,textDecoration: "none", color: "#999"}} to={"/projects"}>Projects</Link></Nav.Link>
                     <NavDropdown style={{marginLeft: "25px", padding: "0px"}} title="Courses" id="basic-nav-dropdown">
 
