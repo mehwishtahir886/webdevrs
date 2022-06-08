@@ -49,6 +49,7 @@ const NavbarBanner = () => {
                     <Nav.Link style={{marginLeft: "25px", padding: "9px 0"}}><Link style={{padding: "10px 5px" ,textDecoration: "none", color: "#999"}} to={"/"}>Home</Link></Nav.Link>
                     <Nav.Link style={{marginLeft: "25px", padding: "9px 0"}}><Link style={{padding: "10px 5px" ,textDecoration: "none", color: "#999"}} to={"/about"}>About</Link></Nav.Link>
                     <Nav.Link style={{marginLeft: "25px", padding: "9px 0"}}><Link style={{padding: "10px 5px" ,textDecoration: "none", color: "#999"}} to={"/blogs"}>Blogs</Link></Nav.Link>
+                    <Nav.Link style={{marginLeft: "25px", padding: "9px 0"}}><Link style={{padding: "10px 5px" ,textDecoration: "none", color: "#999"}} to={"/events"}>Events</Link></Nav.Link>
                     <Nav.Link style={{marginLeft: "25px", padding: "9px 0"}}><Link style={{padding: "10px 5px" ,textDecoration: "none", color: "#999"}} to={"/projects"}>Projects</Link></Nav.Link>
                     <NavDropdown style={{marginLeft: "25px", padding: "0px"}} title="Courses" id="basic-nav-dropdown">
 
