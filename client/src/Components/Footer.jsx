@@ -34,16 +34,6 @@ const Footer = () => {
                                 </div>
                             </div>
                         </Col>
-                        <Col className={classes.Box} xl={3} lg={3} md={6}>
-                            <h3 className={classes.FooterLink}>Our Services</h3>
-                            <li>Marketing Strategy</li>
-                            <li>Interior Design</li>
-                            <li>Digital Services</li>
-                            <li>Product Selling</li>
-                            <li>Product Design</li>
-                            <li>Social Marketing</li>
-
-                        </Col>
                         <Col className={classes.Box} xl={3} lg={4} md={6}>
                             <h3 className={classes.FooterLink}>Company Address</h3>
                             <p>P1-40 ,IT.Tower , Hali Road ,Gulberg-||| , Lahore </p>
@@ -57,6 +47,15 @@ const Footer = () => {
                             <p>
                                 Email :webdevrs@gmail.com
                             </p>
+                        </Col>
+                        <Col className={classes.Box} xl={3} lg={3} md={6}>
+                            <h3 className={classes.FooterLink}>Our Services</h3>
+                            <li>Marketing Strategy</li>
+                            <li>Interior Design</li>
+                            <li>Digital Services</li>
+                            <li>Product Selling</li>
+                            <li>Product Design</li>
+                            <li>Social Marketing</li>
                         </Col>
                         <Col className={classes.Box} xl={3} md={6}>
                             <h3 className={classes.FooterLink}>Subscribe</h3>

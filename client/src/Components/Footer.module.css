@@ -100,7 +100,7 @@
     padding: 0 10px;
 }
 
-.Box:nth-child(3) p {
+.Box:nth-child(2) p {
     position: relative;
     margin: 10px 30px;
     cursor: pointer;
@@ -110,7 +110,7 @@
 
 }
 
-.Box:nth-child(3) p:hover {
+.Box:nth-child(2) p:hover {
     color: var(--primary-light);
 }
 
