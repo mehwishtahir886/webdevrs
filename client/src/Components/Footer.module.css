@@ -1,11 +1,13 @@
 .MainFooter {
     background-color: var(--primary-dark);
-    padding:2% 5% 0;
+    padding: 2% 5% 0;
 }
-.footer{
+
+.footer {
     display: flex;
     justify-content: space-evenly;
 }
+
 .Box {
     height: max-content;
 }
@@ -123,7 +125,8 @@
     position: relative;
     overflow: hidden;
 }
-.subPara{
+
+.subPara {
     font-size: 14px;
 }
 
@@ -170,6 +173,7 @@
     .Box {
         height: max-content;
     }
+
     /* .Box:nth-child(2) {
         margin: 0;
     }
@@ -181,12 +185,29 @@
     .Box:nth-child(4) {
         margin-left: 0;
     } */
-    
+
 }
 
-@media (max-width:767px){
-    .Box{
+@media (max-width:767px) {
+    .Box {
         width: 60%;
+    }
+
+    .webdevrs {
+        margin: 20px;
+    }
+
+    .followPara {
+        margin: 20px;
+    }
+
+    .Folllow {
+        margin: 20px;
+    }
+
+    .FootersocialIcons {
+        margin: 20px;
+
     }
 }
 

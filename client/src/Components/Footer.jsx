@@ -16,7 +16,7 @@ const Footer = () => {
                         <Col className={classes.Box} xl={3} lg={4} md={6} >
                             <div className={classes.Footer_logo}>
                                 {/* <img className={classes.footer_img} src={FoooterLogo} /> */}
-                                <h2 style={{ color: "var(--primary-light)" }}>Web<span style={{ color: "rgb(248,34,73)" }}>Devrs</span></h2>
+                                <h2 className={classes.webdevrs} style={{ color: "var(--primary-light)" }}>Web<span style={{ color: "rgb(248,34,73)" }}>Devrs</span></h2>
                             </div>
                             <p className={classes.followPara}>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do <br />
                                 eiusmod tempor incididuntut consec tetur adipisicing elit,Lorem <br />
