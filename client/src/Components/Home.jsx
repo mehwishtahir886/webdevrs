@@ -3,11 +3,13 @@ import About from './About'
 import Contacts from './Contacts'
 import Footer from './Footer'
 import Navbar from './Navbar'
+import Services from './Services'
 const Home = () => {
   return (
     <div>
         <Navbar/>
         <About/>
+        <Services/>
         <Contacts/>
         <Footer/>
     </div>

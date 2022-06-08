@@ -12,11 +12,11 @@ const Footer = () => {
         <>
             <Container fluid className={classes.MainFooter} >
                 <footer>
-                    <Row>
-                        <Col className={classes.Box} xl={4}>
+                    <Row className={classes.footer}>
+                        <Col className={classes.Box} xl={3} lg={4} md={6} >
                             <div className={classes.Footer_logo}>
                                 {/* <img className={classes.footer_img} src={FoooterLogo} /> */}
-                                <h2 style={{ color: "var(--primary-light)" }}>Web<span style={{ color: "rgb(248,34,73)" }}>Devrs</span></h2>
+                                <h2 className={classes.webdevrs} style={{ color: "var(--primary-light)" }}>Web<span style={{ color: "rgb(248,34,73)" }}>Devrs</span></h2>
                             </div>
                             <p className={classes.followPara}>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do <br />
                                 eiusmod tempor incididuntut consec tetur adipisicing elit,Lorem <br />
@@ -34,7 +34,7 @@ const Footer = () => {
                                 </div>
                             </div>
                         </Col>
-                        <Col className={classes.Box} xl={2}>
+                        <Col className={classes.Box} xl={3} lg={3} md={6}>
                             <h3 className={classes.FooterLink}>Our Services</h3>
                             <li>Marketing Strategy</li>
                             <li>Interior Design</li>
@@ -44,7 +44,7 @@ const Footer = () => {
                             <li>Social Marketing</li>
 
                         </Col>
-                        <Col className={classes.Box} xl={2}>
+                        <Col className={classes.Box} xl={3} lg={4} md={6}>
                             <h3 className={classes.FooterLink}>Company Address</h3>
                             <p>P1-40 ,IT.Tower , Hali Road ,Gulberg-||| , Lahore </p>
                             <p>
@@ -58,9 +58,9 @@ const Footer = () => {
                                 Email :webdevrs@gmail.com
                             </p>
                         </Col>
-                        <Col className={classes.Box} xl={2}>
+                        <Col className={classes.Box} xl={3} md={6}>
                             <h3 className={classes.FooterLink}>Subscribe</h3>
-                            <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+                            <p className={classes.subPara}>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
                             <div className={classes.subcribe}>
                                 <input type="text" className={classes.SubEmail} placeholder="Enter Email..."/>
                             <button className={classes.Subbtn}><FaTelegramPlane className={classes.TEl}/></button>
