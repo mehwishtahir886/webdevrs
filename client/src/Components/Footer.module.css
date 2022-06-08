@@ -212,6 +212,9 @@
 }
 
 @media (max-width:460px) {
+    .Box {
+        width: 80%;
+    }
     .followPara {
         width: 80%;
     }
