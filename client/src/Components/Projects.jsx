@@ -1,12 +1,13 @@
 import React from 'react'
 import { Container, Row, Col, Card, Button } from 'react-bootstrap'
 import classes from './Projects.module.css'
+import Navbar from "./Navbar"
 
 const projects = () => {
 
   return (
     <>
-        
+    <Navbar/>
         <Container fluid style={{marginTop: "50px"}}>
             <h1 className={classes.heading}>Student projects</h1>
             <p className={classes.para}>Our students build real-world projects to put theories into practice.</p>
