@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container, Row, Col, Card, Button } from 'react-bootstrap'
-import classes from './projects.module.css'
+import classes from './Projects.module.css'
 
 const projects = () => {
 
