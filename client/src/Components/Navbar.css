@@ -1,25 +1,4 @@
-*{
-    padding: 0;
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-}
-@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400&display=swap');
 
-:root{
-    --primary-dark: rgb(25,67,118);
-    --secondary-dark: rgb(8, 110, 235);
-    --secondary-light: blue;
-    --primary-light: rgb(70,198,206);
-    --primary-gray: rgb(167, 153, 153);
-    --light-gray:rgb(214, 205, 205);
-    --Heading:'Bebas Neue', cursive;    
-    --Para:'Asap Condensed', sans-serif; 
-    --facbook-color:rgb(59, 89, 152); 
-    --Twitter-color:rgb(85, 172, 238);
-    --Google-color:rgb(221, 75, 57);
-    --Telegram-color:rgb(255,94,20);
-    --Cario-fontFamily: 'Cairo', sans-serif;
-}
 .nav_nav{
     height: 120px;
     background-color: transparent;
