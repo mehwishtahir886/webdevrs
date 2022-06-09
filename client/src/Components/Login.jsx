@@ -10,12 +10,12 @@ const Login = () => {
                 <div className={classes.LoginOverlay}></div>
                 <div className={classes.LoginForm}>
                     <div className={classes.LoginAlert}>
-                        <h3 className={classes.Loginhead}>Login</h3>
+                        <h3 className={classes.Loginhead}> Login</h3>
                     </div>
                     <Form className={classes.LoginFormm}>
                         <Form.Group className="mb-3" controlId="formBasicEmail">
                             <Form.Label className={classes.loginLabel}>Email address</Form.Label>
-                            <Form.Control className={classes.LoginPlace} type="email" placeholder="Enter email" />
+                            <Form.Control className={classes.LoginPlace} type="email" placeholder="&f218;Enter email" />
                             <Form.Text className="text-muted">
                                 We'll never share your email with anyone else.
                             </Form.Text>

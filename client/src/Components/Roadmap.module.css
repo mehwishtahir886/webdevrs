@@ -41,30 +41,22 @@
         flex-direction: column;
     }
     
-    :root{
-        --primary-dark:rgb(25,67,118);
-        --primary-light:rgb(70,198,206);
-        --primary-gray:rgb(167,153,153);
-    
-    }
-    
     .pa h5{
-        margin-top: 2%;
-        color: var(--primary-dark);
-        font-size: 170%;
-        font-weight: 500;
         text-decoration: underline;
+        font-family: var(--Para-fonts);
+        color: var(--secondary-light);
+        font-size: 1.5em;
+        font-weight: bold;
     }
     
     .pa h1{
-        font-weight: 1000;
-        color: var(--primary-dark);
-        /* font-size: 1rem; */
+        font-size:2.5em;
+        font-weight: bold;
+        font-family: var(--Heading-fonts);
     }
     
     .pa p{
-        /* font-size: 1.2rem; */
-        font-size: 19px;
+        font-size: 1.1em;
         text-align: justify;
         color: var(--primary-gray);
         /* border: solid 1px black; */

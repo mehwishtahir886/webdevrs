@@ -10,15 +10,10 @@ import SignUp from './SignUp'
 const Home = () => {
   return (
     <div>
-      
+    
         <Navbar/>
-        <About/>
-        <SignUp/>
-        /////////////////////////////////
-        ///////////////////////////////// Login
-        <Login/>
-        <Courses />
         <Roadmap/>
+        <Courses />
         <Services/>
         <Footer/>
     </div>
