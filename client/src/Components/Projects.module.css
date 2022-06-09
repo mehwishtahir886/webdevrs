@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap');
 .heading{
     margin: 5px 5%;
+    font-family: var(--Cario-fontFamily);
 }
 .para{
     margin: 0 5%;
@@ -26,6 +28,27 @@
 .card_heading{
     color: var(--primary-dark);
 }
+.courses_St_btn{
+    /* position: absolute; */
+    padding: 6px 10px;
+    bottom: 30px;
+    left: 30px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 5px;    
+    border: none;
+    background-size:300% 100%;
+    background-image: linear-gradient(45deg, var(--primary-light), var(--secondary-light),#04befe);
+    border-radius: 5px;
+    transition: all .4s ease-in-out;
+}
+.courses_St_btn:hover {
+    background-position:100% 0;
+    transition: all .4s ease-in-out;
+}
+
+
 
 @media screen and (max-width: 1025px) {
     .Card{

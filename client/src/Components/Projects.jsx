@@ -22,7 +22,9 @@ const projects = () => {
                     <Card.Title className={classes.card_heading} style={{fontSize:"18px"}}>Project Name</Card.Title>
                     <Card.Text className={classes.card_para} style={{fontSize:"12px", marginBottom: "5px"}}>HTML, CSS</Card.Text>
                     <Card.Text className={classes.card_para} style={{fontSize:"14px", marginTop: "0"}}>In Frontend</Card.Text>
-                    <Button variant="outline-primary" >View Course</Button>
+                    {/* <Button variant="secondary" size="sm" style={{background: "rgb(25,67,118)"}} >View Course</Button> */}
+                    <button className={classes.courses_St_btn}>View Course</button>
+                    <button className={classes.courses_St_btn}>View Course</button>
                 </Card.Body>
             </Card>
 
