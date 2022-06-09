@@ -43,7 +43,7 @@ const Services = () => {
               </div>
 
               <h1 className={classes.heading} >
-                FLEXIBLE SCHEDULING
+                Flexible Scheduling
               </h1>
 
               <div className={classes.content} >
@@ -75,7 +75,8 @@ const Services = () => {
               </div>
 
               <h1 className={classes.heading} >
-                OPEN ENROLLMENT
+              
+                Open Enrollment
               </h1>
 
               <div className={classes.content} >
@@ -108,7 +109,8 @@ const Services = () => {
               </div>
 
               <h1 className={classes.heading} >
-                JOB PLACEMENT
+            
+                Job Placement
               </h1>
 
               <div className={classes.content} >
@@ -142,7 +144,8 @@ const Services = () => {
               </div>
 
               <h1 className={classes.heading} >
-                HYBRID TRAINING
+              
+                Hybric Training
               </h1>
 
               <div className={classes.content} >
@@ -173,7 +176,8 @@ const Services = () => {
               </div>
 
               <h1 className={classes.heading} >
-                SELF-PACED
+            
+                Self-Paced
               </h1>
 
               <div className={classes.content} >
@@ -201,7 +205,8 @@ const Services = () => {
               </div>
 
               <h1 className={classes.heading} >
-                THOROUGH CURRICULUM
+                Thorough Curriculm
+          
               </h1>
 
               <div className={classes.content} >
