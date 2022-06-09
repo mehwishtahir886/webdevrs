@@ -21,7 +21,12 @@ const Services = () => {
 
       {/* //////////////////////////////////////////////////// */}
 
-      <Container fluid className={classes.border} >
+<div className={classes.par}>
+
+
+
+
+      <Container className={classes.border} >
 
         <Row>
           {/* //1// */}
@@ -215,6 +220,8 @@ const Services = () => {
 
 
       </Container>
+
+      </div>
 
 
     </>
