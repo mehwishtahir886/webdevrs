@@ -1,8 +1,7 @@
 import React from 'react'
 import classes from "./Footer.module.css"
 import { Container, Col, Row } from "react-bootstrap"
-import FoooterLogo from "../images/logo.png"
-import { BsFacebook, BsTwitter, BsInstagram, BsGoogle } from "react-icons/bs";
+import { BsFacebook, BsTwitter, BsGoogle } from "react-icons/bs";
 import {FaTelegramPlane} from "react-icons/fa"
 
 
@@ -68,7 +67,7 @@ const Footer = () => {
                     </Row>
                 </footer>
                 <hr className={classes.footerhr} />
-                <p className={classes.copyright}>Copyright &copy; All right Reserved Webdevrs</p>
+                <p className={classes.copyright}>Copyright 2022 &copy; All right Reserved Webdevrs</p>
             </Container>
         </>
     )

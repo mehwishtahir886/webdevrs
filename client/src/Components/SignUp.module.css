@@ -26,6 +26,7 @@
     
 }
 .Uphead{
+    margin-top: 20px;
     font-size: 1.6em;
     color: var(--primary-dark);
     font-weight: bold;
@@ -41,11 +42,12 @@
 .SignUpFormm{
     width: 80%;
     margin-left: 10%;
+    margin-top: 10px;
 }
 .Upbtn{
     position: absolute;
     right: 10%;
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
 .Label{
     color: var(--primary-dark);
