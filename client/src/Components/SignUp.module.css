@@ -23,8 +23,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
+}
+.Uphead{
+    margin-top: 20px;
     font-size: 1.6em;
     color: var(--primary-dark);
+    font-weight: bold;
 }
 .Signupform {
     position: absolute;
@@ -37,12 +42,23 @@
 .SignUpFormm{
     width: 80%;
     margin-left: 10%;
+    margin-top: 10px;
 }
 .Upbtn{
     position: absolute;
     right: 10%;
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
 .Label{
     color: var(--primary-dark);
+}
+.Already{
+    font-size: 14px;
+    color: var(--primary-dark);
+    cursor: pointer;
+    position: absolute;
+    bottom: 2%;
+}
+.Plachold::placeholder{
+    font-size: 13px;
 }
