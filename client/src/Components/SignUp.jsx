@@ -1,9 +1,11 @@
 import React from 'react'
 import { Container, Form, Button } from 'react-bootstrap';
 import classes from "./SignUp.module.css"
+import { Link } from 'react-router-dom';
 const SignUp = () => {
     return (
         <>
+        
             <Container fluid className={classes.Main_Signup}>
                 <div className={classes.SignUpoverlay}></div>
                 <div className={classes.Signupform}>
@@ -34,6 +36,13 @@ const SignUp = () => {
                         <Button className={classes.Upbtn} variant="primary" type="submit">
                             Signup
                         </Button>
+                        <p className={classes.Already}> Already an Account ? &nbsp; 
+                            <Link to="/login">
+                            <span>Click Here</span> 
+                            </Link>
+                        
+                        </p>
+                        
                     </Form>
                 </div>
             </Container>

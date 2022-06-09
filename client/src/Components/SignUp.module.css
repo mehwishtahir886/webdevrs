@@ -46,3 +46,10 @@
 .Label{
     color: var(--primary-dark);
 }
+.Already{
+    font-size: 14px;
+    color: var(--primary-dark);
+    cursor: pointer;
+    position: absolute;
+    bottom: 3%;
+}
