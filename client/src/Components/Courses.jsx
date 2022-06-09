@@ -13,7 +13,8 @@ const Courses = () => {
               <p>WebCoderz</p>
               <p>Essentially, it's any web development project that would normally require both a front end developer and back end developer — but instead, a full stack developer fills the role of both</p>
               <ul>
-                <li><AiFillCheckCircle className={classes.courses_info_icons} /><span>Supporting development efforts from project conceptualization to launch.</span></li>
+                <li><AiFillCheckCircle className={classes.courses_info_icons} /><span>Supporting development efforts from projects.</span></li>
+                {/* <li><AiFillCheckCircle className={classes.courses_info_icons} /><span>Supporting development efforts from projects. conceptualization to launch.</span></li> */}
                 <li><AiFillCheckCircle className={classes.courses_info_icons} /><span>Prototyping and building applications and/or websites.</span></li>
                 <li><AiFillCheckCircle className={classes.courses_info_icons} /><span>Designing front end interfaces and user experiences.</span></li>
               </ul>
@@ -32,7 +33,7 @@ const Courses = () => {
                 </div>
               </div>
             </Col>
-            <Col md={6} sm={12}>
+            <Col md={6} sm={12} style={{padding:"0"}}>
               <Container fluid>
                 <Row className={classes.courses_St} style={{height: "100vh"}}>
                   <div className={classes.courses_St1}>
