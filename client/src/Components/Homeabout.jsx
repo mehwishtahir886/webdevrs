@@ -6,7 +6,7 @@ import {
   Row,
   Col,
 } from 'react-bootstrap';
-import './Khch.module.css'
+
 
 
 const Homeabout = () => {
@@ -40,4 +40,4 @@ const Homeabout = () => {
   )
 }
 
-export default Abouthome
+export default Homeabout
