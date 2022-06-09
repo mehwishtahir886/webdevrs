@@ -11,8 +11,8 @@ import Homeabout from './Homeabout'
 const Home = () => {
   return (
     <div>
-        <Homeabout/>
         <Navbar/>
+        <Homeabout/>
         <Roadmap/>
         <Courses />
         <Services/>
