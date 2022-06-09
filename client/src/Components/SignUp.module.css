@@ -1,0 +1,70 @@
+.Main_Signup {
+    height: 100vh;
+    border: 1px solid;
+    background-image: url(https://fjwp.s3.amazonaws.com/blog/wp-content/uploads/2020/01/09151859/coding-bootcamp-1024x486.png);
+    /* background-image: url(https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y29kaW5nJTIwYm9vdGNhbXB8ZW58MHx8MHx8&w=1000&q=80); */
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding: 0;
+}
+
+.SignUpoverlay {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: var(--primary-dark);
+    opacity: .8;
+}
+
+.Signupform {
+    position: absolute;
+    height: 500px;
+    width: 400px;
+    backdrop-filter: blur(5px);
+    background-color: rgba(245, 245, 245, 0.527);
+    border-radius: 5px;
+    right: 10%;
+    top: 13%;
+}
+
+.TextAnime {
+    height: 300px;
+    width: 50%;
+    position: absolute;
+    top: 15%;
+    left: 3%;
+}
+
+.TextAnimate {
+    line-height: 50px;
+    overflow: hidden;
+    white-space: nowrap;
+    letter-spacing: 5px;
+    line-height: 30px;
+    animation: Textanim 9s 1 steps(30);
+    color: white;
+}
+
+@keyframes Textanim {
+    0% {
+        width: 0ch;
+        border-right: 1px solid;
+    }
+
+    99% {
+        border-right: 1px solid;
+    }
+
+    100% {
+        width: 30ch;
+        border-right: none;
+    }
+}
+
+.WelcomeSignup {
+    color: white;
+    line-height: 30px;
+    font-size: 15px;
+    text-align: justify;
+}
