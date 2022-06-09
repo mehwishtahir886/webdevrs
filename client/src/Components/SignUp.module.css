@@ -6,6 +6,9 @@
     background-size: cover;
     position: relative;
     padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .SignUpoverlay {
@@ -21,9 +24,6 @@
     height: 500px;
     width: 400px;
     backdrop-filter: blur(5px);
-    background-color: rgba(245, 245, 245, 0.527);
+    background-color: rgba(245, 245, 245, 0.727);
     border-radius: 5px;
-    left: 37%;
-    top: 13%;
 }
-
