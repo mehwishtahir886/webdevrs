@@ -173,5 +173,5 @@
     border-radius: 5px;
     cursor: pointer;
     color: white;
-    background: linear-gradient(45deg, var(--primary-light) 80%,white);
+    background: linear-gradient(45deg,var(--secondary-light),var(--primary-light) 80%);
 }
