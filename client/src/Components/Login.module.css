@@ -1,64 +1,53 @@
-.Main_Signup {
+.MainLogin{
     height: 100vh;
     background-image: url(../images/Forms\ Background.png);
     background-position: center;
     background-size: cover;
     position: relative;
-    padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
-.SignUpoverlay {
+.LoginOverlay{
     height: 100%;
     width: 100%;
     position: absolute;
     background-color: var(--primary-dark);
     opacity: .8;
 }
-.AlertDiv{
-    height: 10%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
-.Uphead{
-    margin-top: 20px;
-    font-size: 1.6em;
-    color: var(--primary-dark);
-    font-weight: bold;
-}
-.Signupform {
+.LoginForm {
     position: absolute;
-    height: 550px;
+    height: 400px;
     width: 400px;
     backdrop-filter: blur(5px);
     background-color: rgba(245, 245, 245);
     border-radius: 5px;
 }
-.SignUpFormm{
+.LoginAlert{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Loginhead{
+    margin-top: 10px;
+    font-size: 1.6em;
+    color: var(--primary-dark);
+    font-weight: bold;
+}
+.LoginFormm{
     width: 80%;
     margin-left: 10%;
-    margin-top: 10px;
 }
-.Upbtn{
-    position: absolute;
-    right: 10%;
-    text-transform: capitalize;
-}
-.Label{
+.loginLabel{
     color: var(--primary-dark);
 }
-.Already{
-    font-size: 14px;
-    color: var(--primary-dark);
-    cursor: pointer;
-    position: absolute;
-    bottom: 2%;
-}
-.Plachold::placeholder{
+.LoginPlace::placeholder{
     font-size: 13px;
+}
+.LoginBtn{
+    position: absolute;
+    left: 20%;
+    width: 60%;
 }
