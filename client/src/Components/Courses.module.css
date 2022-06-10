@@ -286,12 +286,17 @@
         margin: 10px 20px;
     }
 }
+@media screen and (max-width: 832px) {
+    .courses_St_Info{
+        flex-wrap: nowrap;
+    }
+}
 @media screen and (max-width: 842px) {
     .courses_info p:nth-child(1){
         font-size: 2.2em;
     }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .courses_info{
         height: max-content;
         padding: 20px;
