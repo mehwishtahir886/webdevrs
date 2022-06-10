@@ -2,7 +2,7 @@ import React from 'react'
 import classes from "./Footer.module.css"
 import { Container, Col, Row } from "react-bootstrap"
 import { BsFacebook, BsTwitter, BsGoogle } from "react-icons/bs";
-import {FaTelegramPlane} from "react-icons/fa"
+import { FaTelegramPlane } from "react-icons/fa"
 
 
 
@@ -60,8 +60,8 @@ const Footer = () => {
                             <h3 className={classes.FooterLink}>Subscribe</h3>
                             <p className={classes.subPara}>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
                             <div className={classes.subcribe}>
-                                <input type="text" className={classes.SubEmail} placeholder="Enter Email..."/>
-                            <button className={classes.Subbtn}><FaTelegramPlane className={classes.TEl}/></button>
+                                <input type="text" className={classes.SubEmail} placeholder="Enter Email..." />
+                                <button className={classes.Subbtn}><FaTelegramPlane className={classes.TEl} /></button>
                             </div>
                         </Col>
                     </Row>
