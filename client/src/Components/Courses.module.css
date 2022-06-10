@@ -79,6 +79,7 @@
     background-color: var(--secondary-light);
 }
 .courses_St{
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -106,6 +107,7 @@
     height: max-content;
     margin: 30px 20px;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: flex-start;
 }
@@ -291,6 +293,23 @@
 }
 @media screen and (max-width: 768px) {
     .courses_info{
+        height: max-content;
+        padding: 20px;
+    }
+    .courses_St{
+        margin: 15% 0;
+        height: max-content;
+    }
+    .courses_St_Info1{
+        margin: 10px;
+    }
+    .courses_St_Info2{
+        margin-bottom: 30%;
+    }
+    .courses_info{
         position: relative;
+    }
+    .courses_container{
+        height: max-content;
     }
 }
