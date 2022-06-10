@@ -3,13 +3,16 @@ import { Container, Row, Col, Card, Button } from 'react-bootstrap'
 import classes from './Projects.module.css'
 import Navbar from "./Navbar"
 import Footer from "./Footer"
+import { FiEye } from "react-icons/fi";
+
+
 
 const projects = () => {
 
   return (
     <>
     <Navbar/>
-        <Container fluid style={{marginTop: "50px",marginBottom: "", paddingLeft: " 0 5%"}}>
+        <Container fluid style={{marginTop: "50px",marginBottom: "50px", paddingLeft: " 0 5%"}}>
             <h1 className={classes.heading}>Student projects</h1>
             <p className={classes.para}>Our students build real-world projects to put theories into practice.</p>
             <Row className={classes.row}>
@@ -22,9 +25,8 @@ const projects = () => {
                     <Card.Title className={classes.card_heading} style={{fontSize:"18px"}}>Project Name</Card.Title>
                     <Card.Text className={classes.card_para} style={{fontSize:"12px", marginBottom: "5px"}}>HTML, CSS</Card.Text>
                     <Card.Text className={classes.card_para} style={{fontSize:"14px", marginTop: "0"}}>In Frontend</Card.Text>
-                    {/* <Button variant="secondary" size="sm" style={{background: "rgb(25,67,118)"}} >View Course</Button> */}
-                    <button className={classes.courses_St_btn}>View Course</button>
-                    <button className={classes.courses_St_btn}>View Course</button>
+                    <button className={classes.courses_St_btn}> <FiEye style={{margingLeft: "5px"}} /> View</button>
+                    <button className={classes.courses_St_btn}>Details</button>
                 </Card.Body>
             </Card>
 
@@ -34,7 +36,8 @@ const projects = () => {
                     <Card.Title className={classes.card_heading} style={{fontSize:"18px"}}>Project Name</Card.Title>
                     <Card.Text className={classes.card_para} style={{fontSize:"12px", marginBottom: "5px"}}>HTML, CSS</Card.Text>
                     <Card.Text className={classes.card_para} style={{fontSize:"14px", marginTop: "0"}}>In Frontend</Card.Text>
-                    <Button variant="outline-primary" >View Course</Button>
+                    <button className={classes.courses_St_btn}> <FiEye /> View</button>
+                    <button className={classes.courses_St_btn}>Details</button>
                 </Card.Body>
             </Card>
 
@@ -44,7 +47,8 @@ const projects = () => {
                     <Card.Title className={classes.card_heading} style={{fontSize:"18px"}}>Project Name</Card.Title>
                     <Card.Text className={classes.card_para} style={{fontSize:"12px", marginBottom: "5px"}}>HTML, CSS</Card.Text>
                     <Card.Text className={classes.card_para} style={{fontSize:"14px", marginTop: "0"}}>In Frontend</Card.Text>
-                    <Button variant="outline-primary" >View Course</Button>
+                    <button className={classes.courses_St_btn}> <FiEye /> View</button>
+                    <button className={classes.courses_St_btn}>Details</button>
                 </Card.Body>
             </Card>
 
@@ -54,7 +58,8 @@ const projects = () => {
                     <Card.Title className={classes.card_heading} style={{fontSize:"18px"}}>Project Name</Card.Title>
                     <Card.Text className={classes.card_para} style={{fontSize:"12px", marginBottom: "5px"}}>HTML, CSS</Card.Text>
                     <Card.Text className={classes.card_para} style={{fontSize:"14px", marginTop: "0"}}>In Frontend</Card.Text>
-                    <Button variant="outline-primary" >View Course</Button>
+                    <button className={classes.courses_St_btn}> <FiEye /> View</button>
+                    <button className={classes.courses_St_btn}>Details</button>
                 </Card.Body>
             </Card>
             
@@ -64,7 +69,8 @@ const projects = () => {
                     <Card.Title className={classes.card_heading} style={{fontSize:"18px"}}>Project Name</Card.Title>
                     <Card.Text className={classes.card_para} style={{fontSize:"12px", marginBottom: "5px"}}>HTML, CSS</Card.Text>
                     <Card.Text className={classes.card_para} style={{fontSize:"14px", marginTop: "0"}}>In Frontend</Card.Text>
-                    <Button variant="outline-primary" >View Course</Button>
+                    <button className={classes.courses_St_btn}> <FiEye /> View</button>
+                    <button className={classes.courses_St_btn}>Details</button>
                 </Card.Body>
             </Card>
 
@@ -74,7 +80,8 @@ const projects = () => {
                     <Card.Title className={classes.card_heading} style={{fontSize:"18px"}}>Project Name</Card.Title>
                     <Card.Text className={classes.card_para} style={{fontSize:"12px", marginBottom: "5px"}}>HTML, CSS</Card.Text>
                     <Card.Text className={classes.card_para} style={{fontSize:"14px", marginTop: "0"}}>In Frontend</Card.Text>
-                    <Button variant="outline-primary" >View Course</Button>
+                    <button className={classes.courses_St_btn}> <FiEye /> View</button>
+                    <button className={classes.courses_St_btn}>Details</button>
                 </Card.Body>
             </Card>
 
@@ -84,7 +91,8 @@ const projects = () => {
                     <Card.Title className={classes.card_heading} style={{fontSize:"18px"}}>Project Name</Card.Title>
                     <Card.Text className={classes.card_para} style={{fontSize:"12px", marginBottom: "5px"}}>HTML, CSS</Card.Text>
                     <Card.Text className={classes.card_para} style={{fontSize:"14px", marginTop: "0"}}>In Frontend</Card.Text>
-                    <Button variant="outline-primary" >View Course</Button>
+                    <button className={classes.courses_St_btn}> <FiEye /> View</button>
+                    <button className={classes.courses_St_btn}>Details</button>
                 </Card.Body>
             </Card>
             
@@ -94,7 +102,8 @@ const projects = () => {
                     <Card.Title className={classes.card_heading} style={{fontSize:"18px"}}>Project Name</Card.Title>
                     <Card.Text className={classes.card_para} style={{fontSize:"12px", marginBottom: "5px"}}>HTML, CSS</Card.Text>
                     <Card.Text className={classes.card_para} style={{fontSize:"14px", marginTop: "0"}}>In Frontend</Card.Text>
-                    <Button variant="outline-primary" >View Course</Button>
+                    <button className={classes.courses_St_btn}> <FiEye /> View</button>
+                    <button className={classes.courses_St_btn}>Details</button>
                 </Card.Body>
             </Card>
             
