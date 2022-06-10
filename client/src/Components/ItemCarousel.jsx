@@ -8,7 +8,7 @@ export default styled.div`
   width: 100%;
   // background-color: var(--primary-dark);
   // color: #fff;
-  // margin: 15px;
+  margin: 15px;
   // font-size: 4em;
   border:1px solid;
 `;
