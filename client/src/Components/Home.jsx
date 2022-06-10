@@ -8,11 +8,13 @@ import Roadmap from './Roadmap'
 import Services from './Services'
 // import SignUp from './SignUp'
 import Homeabout from './Homeabout'
+import Carousel from './Carouselslider'
 const Home = () => {
   return (
     <div>
         <Navbar/>
         <Homeabout/>
+        <Carousel/>
         <Roadmap/>
         <Courses />
         <Services/>
