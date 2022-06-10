@@ -6,7 +6,6 @@
     position: sticky;
     top: 0;
     height: 100vh;
-    /* border: 1px solid ; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -33,7 +32,6 @@
     font-family: var(--Heading-fonts);
     font-size:2.5em;
     font-weight: bold;
-    /* background-color: red; */
 }
 .courses_info p:nth-child(2){
     font-family: var(--Para-fonts);
@@ -81,7 +79,6 @@
     background-color: var(--secondary-light);
 }
 .courses_St{
-    /* border: 1px solid; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -106,7 +103,7 @@
 }
 .courses_St_Info{
     width: 90%;
-    height: max-contentx;
+    height: max-content;
     margin: 30px 20px;
     display: flex;
     align-items: center;
@@ -175,7 +172,11 @@
     background-position:100% 0;
     transition: all .4s ease-in-out;
 }
-
+@media screen and (max-width: 1330px) {
+    .courses_St1{
+        height: 90%;
+    }
+}
 @media screen and (max-width: 1225px) {
     .courses_St1{
         height: 90%;
@@ -191,7 +192,100 @@
     }
     .courses_bullets{
         width: 90%;
-        background-color: red;
         margin: 0 20px;
+    }
+    .courses_St_Info3{
+        width: 100%;
+    }
+    .courses_St_Para{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1080px) {
+    .courses_info p{
+        margin: 0 30px;
+    }   
+    .courses_info p:nth-child(2){
+        margin: -5px 0 10px 30px;
+    }
+    .courses_info ul{
+        margin: 10px 0;
+    }
+    .courses_bullets{
+        width: 90%;
+        margin: 0 20px;
+    }
+    .courses_St_Info3{
+        width: 100%;    
+    }
+    .courses_St_Info3 div{
+        padding: 5px 20px;
+        border-radius: 5px;
+        margin: 5px;
+        background-color: #F2F1EC;
+    }
+    .courses_St_Info1 p:nth-child(2){
+        width: max-content;
+        margin: -10px -5px;
+    }
+    .courses_St_Heading{
+        margin: 20px 0 0 20px;
+    }
+    .courses_St_Para{
+        margin: 15px 20px;
+    }
+    .courses_St_Info{
+        margin: 15px 20px;
+    }
+    .courses_St_Info2{
+        margin: 0 10px;
+    }
+    .courses_bullets{
+        width: 100%;
+        margin: 0 30px;
+    }
+    .courses_bullets > div{
+        margin: 5px;
+        padding: 10px 20px;
+    }
+    .courses_info p:nth-child(1){
+        width: 100%;
+    }
+}
+@media screen and (max-width: 965px) {
+    .courses_St_Info3{
+        width: 100%;
+    }
+    .courses_St_Para{
+        font-size: 15px;
+        margin: 10px 10px;
+    }
+    .courses_St_Heading{
+        margin: 20px 0 0 10px;
+    }
+}
+@media screen and (max-width: 808px) {
+    .courses_St_Info3{
+        width: 110%;    
+    }
+    .courses_St_Info3 div{
+        padding: 5px 12px;
+        margin: 5px 3px;
+    }
+    .courses_St_btn{
+        bottom: 20px;
+        left: 25px;
+    }
+    .courses_St_Para{
+        font-size: 15px;
+        margin: 5px 10px;
+    }
+    .courses_St_Info{
+        margin: 10px 20px;
+    }
+}
+@media screen and (max-width: 842px) {
+    .courses_info p:nth-child(1){
+        font-size: 2.2em;
     }
 }

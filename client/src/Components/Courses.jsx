@@ -8,7 +8,7 @@ const Courses = () => {
     <>
       <Container fluid className={classes.courses_container}>
         <Row style={{height: "100%"}}>
-            <Col md={6} sm={12} className={classes.courses_info}>
+            <Col md={6} className={classes.courses_info}>
               <p>Full Stack Development</p>
               <p>WebCoderz</p>
               <p>Essentially, it's any web development project that would normally require both a front end developer and back end developer — but instead, a full stack developer fills the role of both</p>
@@ -33,7 +33,7 @@ const Courses = () => {
                 </div>
               </div>
             </Col>
-            <Col md={6} sm={12} style={{padding:"0"}}>
+            <Col md={6} style={{padding:"0"}}>
               <Container fluid>
                 <Row className={classes.courses_St} style={{height: "100vh"}}>
                   <div className={classes.courses_St1}>
