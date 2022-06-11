@@ -30,7 +30,7 @@ const Carouselslider = () => {
                                         <div className={classes.Lang1}>HTML</div>
                                         <div className={classes.Lang1}>CSS</div>
                                         <div className={classes.Lang1}>Javascript</div>
-                                        <div className={classes.Lang1}>Rect.js</div>
+                                        <div className={classes.Lang1}>React.js</div>
                                     </div>
                                 </div>
                             </Item>
