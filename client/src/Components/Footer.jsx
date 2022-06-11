@@ -66,7 +66,6 @@ const Footer = () => {
                         </Col>
                     </Row>
                 </footer>
-                <hr className={classes.footerhr} />
                 <p className={classes.copyright}>Copyright 2022 &copy; All right Reserved Webdevrs</p>
             </Container>
         </>

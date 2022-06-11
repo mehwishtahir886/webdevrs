@@ -10,7 +10,7 @@ const Courses = () => {
         <Row style={{height: "100%"}}>
             <Col md={6} className={classes.courses_info}>
               <p>Full Stack Development</p>
-              <p>WebCoderz</p>
+              <p>WebDevrs</p>
               <p>Essentially, it's any web development project that would normally require both a front end developer and back end developer — but instead, a full stack developer fills the role of both</p>
               <ul>
                 <li><AiFillCheckCircle className={classes.courses_info_icons} /><span>Supporting development efforts from projects.</span></li>
@@ -135,7 +135,7 @@ const Courses = () => {
                           <div>MySQL</div>
                         </div>
                     </div>
-                    <button className={classes.courses_St_btn}>View Relative Projects</button>
+                    <button className={ classes.courses_St_btn}>View Relative Projects</button>
                   </div>
                 </Row>
               </Container>

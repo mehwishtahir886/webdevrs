@@ -51,7 +51,7 @@ const NavbarBanner = () => {
                     <Nav.Link style={{marginLeft: "25px", padding: "9px 0"}}><Link style={{padding: "10px 5px" ,textDecoration: "none", color: "#999"}} to={"/blogs"}>Blogs</Link></Nav.Link>
                     <Nav.Link style={{marginLeft: "25px", padding: "9px 0"}}><Link style={{padding: "10px 5px" ,textDecoration: "none", color: "#999"}} to={"/events"}>Events</Link></Nav.Link>
                     <Nav.Link style={{marginLeft: "25px", padding: "9px 0"}}><Link style={{padding: "10px 5px" ,textDecoration: "none", color: "#999"}} to={"/projects"}>Projects</Link></Nav.Link>
-                    <NavDropdown style={{marginLeft: "25px", padding: "0px"}} title="Courses" id="basic-nav-dropdown">
+                    <Nav.Link className='cousrses_nav' style={{marginLeft: "25px", padding: "9px 0"}}><Link style={{padding: "10px 5px" ,textDecoration: "none", color: "#999"}} to={"/courses"}>Courses<AiFillCaretDown style={{fontSize: "10px"}} /></Link>
 
                     <div className='coursesDropdown'>
                         <div className='coursesC'>
@@ -91,8 +91,8 @@ const NavbarBanner = () => {
                         </div>
                       </div>
 
-                    </NavDropdown>
-                    <Nav.Link style={{marginLeft: "20px"}}><Link style={{padding: "10px 5px" ,textDecoration: "none", color: "#999"}} to={"/ContactPage"}>Contact</Link></Nav.Link>
+                    </Nav.Link>
+                    <Nav.Link style={{marginLeft: "20px"}}><Link style={{padding: "10px 5px" ,textDecoration: "none", color: "#999"}} to={"/ContactPage"}>Contacts</Link></Nav.Link>
                   </Nav>
                 </Navbar.Collapse>
               </Container>

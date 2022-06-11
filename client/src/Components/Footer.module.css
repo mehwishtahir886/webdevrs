@@ -34,15 +34,15 @@
 }
 
 .followPara {
-    margin-bottom: 14px;
+    margin: 25px 0;
     font-size: 14px;
     color: var(--light-gray);
-    line-height: 25px;
+    line-height: 3vh;
 }
 
 .FootersocialIcons {
-    width: 170px;
-    height: 50px;
+    width: max-content; 
+    height: max-content;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -51,8 +51,9 @@
 .Footer_Socialicon {
     height: 40px;
     width: 40px;
-    text-align: center;
-    line-height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 50%;
     background-color: var(--facbook-color);
     color: white;
@@ -60,6 +61,7 @@
 }
 
 .Footer_Socialicon:nth-child(2) {
+    margin: 10px;
     background-color: var(--Twitter-color);
 }
 
@@ -72,7 +74,7 @@
     color: #fff;
     font-size: 20px;
     font-weight: 600;
-    margin: 30px;
+    margin: 30px 0 40px 30px;
     position: relative;
 }
 
@@ -88,7 +90,7 @@
 
 .Box li {
     position: relative;
-    margin: 10px 30px;
+    margin: 7px 30px;
     cursor: pointer;
     font-size: 14px;
     list-style: none;
@@ -123,18 +125,12 @@
     cursor: pointer;
 }
 
-.subcribe {
-    position: relative;
-    overflow: hidden;
-}
-
 .subPara {
     font-size: 14px;
 }
 
 .SubEmail {
-    width: 90%;
-    margin: 10px 30px;
+    width: 250px;
     padding: 15px;
     background: var(--light-gray);
     border: 1px solid var(--primary-light);
@@ -144,10 +140,19 @@
     outline: none;
 }
 
+.subcribe {
+    margin: 0 30px;
+    width: max-content;
+    height: max-content;
+    background-color: red;
+    position: relative;
+    overflow: hidden;
+}
+
 .Subbtn {
     padding: 15px 20px;
     position: absolute;
-    top: 11px;
+    top: 0;
     right: 0;
     border: none;
     background-color: var(--primary-light);
@@ -159,17 +164,12 @@
     transform: rotate(-6deg);
 }
 
-.footerhr {
-    height: 2px;
-    width: 100%;
-    color: white;
-}
-
 .copyright {
     color: var(--light-gray);
     text-align: center;
-    padding-bottom: 20px;
-    margin-bottom: 0;
+    padding: 25px;
+    margin-top: 20px;
+    border-top: 0.5px solid #999;
 }
 
 @media (max-width:1100px) {

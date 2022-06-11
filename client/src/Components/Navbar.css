@@ -140,19 +140,32 @@
 
 .coursesDropdown{
     position: absolute;
-    top: -5px;  
-    right: -41px;
+    top: 180%;  
+    right: -3.3%;
     width: 89vw;
     height: 50vh;
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-top: 20px;
     transition: .5s ease;
     background-color: white;
     box-shadow: 0 0 10px 0 #eee;
     z-index: 11;
+    opacity: 0;
+    visibility: hidden;
 }
+.cousrses_nav:hover .coursesDropdown{
+    visibility: visible;
+    top: 148%;
+    opacity: 1;
+}
+
+@media screen and (max-width: 992px) {
+    .cousrses_nav:hover .coursesDropdown{
+        top: 100%;
+    }
+}
+
 .show{
     padding: 0;
     border: 0;
