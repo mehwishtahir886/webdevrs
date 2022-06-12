@@ -1,5 +1,6 @@
 .cont{
     height: max-content;
+  
 }
 
 .two{
@@ -21,7 +22,7 @@
     height: 70%;
     width: 55%;
     background-color: white;
-    margin-left: -30%;
+    margin-left: -27%;
     z-index: 10;
     background-size: cover;
     background-image: url(https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGNvbXB1dGVyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
@@ -36,11 +37,11 @@
 }
 
 .kp{
-    height: 75%;
-    width: 50%;
+    height: 65%;
+    width: 55%;
     position: absolute;
     left: 5%;
-    top: 10%;
+    top: 16%;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -160,13 +161,18 @@
 
 @media screen and (min-width: 770px) and (max-width:1025px) {
 
+    .twoimg{
+       width: 100%;
+    }
+
     .two{
         height: 100vh;
         width: 100%;
     }
     .twoside{
-        margin-left: -30%;
+        margin-left: -25%;
         height: 70%;
+        width: 75%;
     }
 
     .kp h1{
@@ -177,5 +183,21 @@
         width: 100%;
     }
     
+
+}
+
+@media screen and (min-width: 1026px) and (max-width:1200px) {
+
+    .twoimg{
+        height: 80%;
+        width: 100%;
+    }
+    .kp{
+        width: 60%;
+    }
+    .twoside{
+        width: 60%;
+        left: 0%;
+    }
 
 }

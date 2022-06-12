@@ -13,7 +13,7 @@ const Homeabout = () => {
   return (
     <>
 
-    <Container className={classes.cont} >
+    <Container  className={classes.cont} >
         <div className={classes.two} >
             <div className={classes.twoimg}>
    

@@ -9,10 +9,12 @@ import Services from './Services'
 // import SignUp from './SignUp'
 import Homeabout from './Homeabout'
 import Carousel from './Carouselslider'
+import Faqs from './Faqs'
 const Home = () => {
   return (
     <div>
         <Navbar/>
+        <Faqs/>
         <Homeabout/>
         <Carousel/>
         <Roadmap/>
