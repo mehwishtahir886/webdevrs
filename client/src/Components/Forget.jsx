@@ -7,11 +7,11 @@ const Logout = () => {
         <>
             <Container fluid className={classes.MainLogout}>
                 <div className={classes.Logoutoverlay}></div>
-                    <div className={classes.LogoutForm}>
+                <div className={classes.LogoutForm}>
                     <div className={classes.LogoutAlert}>
                         <h5 className={classes.LogoutHead}>Forget Password</h5>
                     </div>
-                    <Form style={{width:"80%",marginLeft:"10%"}} >
+                    <Form style={{ width: "80%", marginLeft: "10%" }} >
                         <Form.Group className="mb-3" controlId="formBasicEmail">
                             <Form.Label className={classes.logoutLabel}>Email address</Form.Label>
                             <Form.Control className={classes.LogoutPlace} type="email" placeholder="Enter email" />
@@ -26,14 +26,14 @@ const Logout = () => {
                         </Form.Group>
                         <Form.Group className="mb-3" controlId="formBasicPassword">
                             <Form.Label className={classes.logoutLabel}>Confirm Password</Form.Label>
-                            <Form.Control className={classes.LogoutPlace} type="password" placeholder="Confirm Password" disabled={true}   />
+                            <Form.Control className={classes.LogoutPlace} type="password" placeholder="Confirm Password" disabled={true} />
                         </Form.Group>
                         <Button className={classes.LogoutBtn} variant="primary" type="button">
                             Next
                         </Button>
 
                     </Form>
-                    </div>
+                </div>
             </Container>
         </>
     )

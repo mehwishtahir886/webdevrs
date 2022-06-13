@@ -7,14 +7,19 @@
     height: 100vh;
     /* background-color: rgb(153, 153, 153); */
   }
- 
-  .controls_wrapper {
-    width: 100%;
-  }
-  
+   
   .carousel_wrapper {
     width: 100%;
   }
+  .carousel_wrapper button{
+    color: var(--primary-dark);
+    margin: 10px;
+  }
+  .carousel_wrapper button:hover{
+    color: white;
+    background-color: var(--primary-dark) !important;
+  }
+  
   
   .rec-carousel-item:focus {
     outline: none;
@@ -37,9 +42,9 @@
     align-items: center;
     font-weight: normal;
     color: white;
-    font-size: 15px;
-    letter-spacing: 1px;
+    font-size: var(--main-heading-size);
     background-color: var(--primary-dark);
+    font-family: var(--Heading-fonts);
   }
   .cardImage{
     height: 200px;
@@ -49,10 +54,15 @@
   .CardHeading{
     font-weight: bold;
     color: var(--primary-dark);
+    font-size: var(--main-heading-size);
+    font-family: var(--Heading-fonts);
+
   }
   .CardPara{
     text-align: center ;
     color: var(--primary-gray);
+    font-size: var(--sub-heading-size);
+    font-family: var(--Heading-fonts);
   }
   .CardLanguage{
     height: 100px;
