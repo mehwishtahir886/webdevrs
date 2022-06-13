@@ -5,7 +5,6 @@ import { MdKeyboardArrowUp,MdKeyboardArrowDown } from "react-icons/md";
 const Faqsmy = ({a,q}) => {
     console.log(a,q,'this is q and a');
 
-
     const [leng, setLeng] =React.useState(false);
     
 

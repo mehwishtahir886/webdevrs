@@ -15,12 +15,11 @@ const Home = () => {
   return (
     <div>
         <Navbar/>
-        <Faqs/>
         <Homeabout/>
-        <Carousel/>
         <Roadmap/>
         <Courses />
         <Services/>
+        <Faqs/>
         <Footer/>
     </div>
   )

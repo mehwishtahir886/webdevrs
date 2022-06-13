@@ -17,7 +17,7 @@ const Homeabout = () => {
         <div className={classes.two} >
             <div className={classes.twoimg}>
    
-                <div className={classes.overlay}>
+
                 <div className={classes.kp}>
                     <h2>About Company</h2>
                     <h1>We Work With You to 
@@ -27,9 +27,9 @@ const Homeabout = () => {
                     <p>
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores suscipit blanditiis molestias voluptatem? Cum magnam a quisquam ut laborum fugiat est, minus maiores iusto asperiores neque distinctio vitae beatae ratione.
                     </p>
-                    <button>Click</button>
+                    <button>Read More...</button>
                 </div>
-                </div>
+
             </div>
             <div className={classes.twoside}></div>
         </div>

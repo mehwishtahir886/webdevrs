@@ -1,6 +1,7 @@
 .MainLogin{
     height: 100vh;
-    background-image: url(../images/Forms\ Background.png);
+    /* background-image: url(../images/Forms\ Background.png); */
+    background-image: linear-gradient(rgb(25,67,118, .7), rgb(25,67,118, .7)), url("../images/Forms\ Background.png");
     background-position: center;
     background-size: cover;
     position: relative;
@@ -8,13 +9,13 @@
     justify-content: center;
     align-items: center;
 }
-.LoginOverlay{
+/* .LoginOverlay{
     height: 100%;
     width: 100%;
     position: absolute;
     background-color: var(--primary-dark);
     opacity: .8;
-}
+} */
 .LoginForm {
     position: absolute;
     height: 400px;
