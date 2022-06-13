@@ -6,6 +6,9 @@ import {
     Row,
     Col,
 } from 'react-bootstrap';
+import chose from '../images/wewe.png'
+import learning from '../images/start.png'
+import hired from '../images/hired.png'
 
 
 const Roadmap = () => {
@@ -23,7 +26,7 @@ const Roadmap = () => {
 
                 <div className={classes.imgp} >
 
-                    <img className={classes.img} src="https://images.unsplash.com/photo-1452457750107-cd084dce177d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y29tcHV0ZXIlMjBwcm9ncmFtZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="" />
+                    <img className={classes.img} src={chose } alt="" />
 
                 </div>
 
@@ -32,17 +35,7 @@ const Roadmap = () => {
                     <h5>Step 1 :</h5>
                     <h1>Chose A Programme .</h1>
                     <p>
-                    Partner with the addmission rep to talk about your carrier goals 
-                        and chose the right programme with you , then chose form range
-                        of students-freindly payment options such paying upforts , month
-                        Partner with the addmission rep to talk about your carrier goals 
-                        and chose the right programme with you , then chose form range
-                        of students-freindly payment options such paying upforts , month
-                        Partner with the addmission rep to talk about your carrier goals 
-                        and chose the right programme with you , then chose form range
-                        of students-freindly payment options such paying upforts , month
-                        Partner with the addmission rep to talk about your carrier goals 
-                        to month or deferring tution until after you are hire
+                    Partner with an Admissions Rep to talk about your career goals and choose the right program for you. Then, choose from a range of student-friendly payment options, such as paying upfront, month to month, or deferring tuition until after you're hired.
                     </p>
                 </div>
 
@@ -60,23 +53,13 @@ const Roadmap = () => {
                     <h5>Step 2 :</h5>
                     <h1>Start Learning .</h1>
                     <p>
-                    Partner with the addmission rep to talk about your carrier goals 
-                        and chose the right programme with you , then chose form range
-                        of students-freindly payment options such paying upforts , month
-                        Partner with the addmission rep to talk about your carrier goals 
-                        and chose the right programme with you , then chose form range
-                        of students-freindly payment options such paying upforts , month
-                        Partner with the addmission rep to talk about your carrier goals 
-                        and chose the right programme with you , then chose form range
-                        of students-freindly payment options such paying upforts , month
-                        Partner with the addmission rep to talk about your carrier goals 
-                        to month or deferring tution until after you are hire
+                    Learn the skills to break into a new career, with a dedicated team by your side. You'll have the full support of your personal mentor, Academic Success Manager, and expert, on-demand help via live chat. Study part-time while working, or full-time to speed up your career change.
                     </p>
                 </div>
 
                 <div className={classes.imgp} >
 
-                    <img className={classes.img} src="https://images.unsplash.com/photo-1452457750107-cd084dce177d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y29tcHV0ZXIlMjBwcm9ncmFtZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="" />
+                    <img className={classes.img} src={learning} alt="" />
 
                 </div>
 
@@ -91,7 +74,7 @@ const Roadmap = () => {
 
                 <div className={classes.imgp} >
 
-                    <img className={classes.img} src="https://images.unsplash.com/photo-1452457750107-cd084dce177d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y29tcHV0ZXIlMjBwcm9ncmFtZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="" />
+                    <img className={classes.img} src={hired} alt="" />
 
                 </div>
 
@@ -100,17 +83,7 @@ const Roadmap = () => {
                     <h5>Step 3 :</h5>
                     <h1>Get Hired .</h1>
                     <p>
-                        Partner with the addmission rep to talk about your carrier goals 
-                        and chose the right programme with you , then chose form range
-                        of students-freindly payment options such paying upforts , month
-                        Partner with the addmission rep to talk about your carrier goals 
-                        and chose the right programme with you , then chose form range
-                        of students-freindly payment options such paying upforts , month
-                        Partner with the addmission rep to talk about your carrier goals 
-                        and chose the right programme with you , then chose form range
-                        of students-freindly payment options such paying upforts , month
-                        Partner with the addmission rep to talk about your carrier goals 
-                        to month or deferring tution until after you are hire
+                    Follow up your program with 6 months of career support. Your career coach will help you tailor your portfolio and resume, create a target employer list, nail your interviews, and negotiate for the highest salary.
                     </p>
                 </div>
 

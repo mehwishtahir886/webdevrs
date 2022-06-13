@@ -5,16 +5,19 @@
         align-items: center;
         /* border: solid 1px black; */
         flex-direction: row;
-        margin-top: 40px;
+        margin-top: 25px;
+        /* border: solid 1px black; */
+        height: max-content;
     
     }
     .imgp{
-        height: 98%;
+        height: 200px;
         width: 49%;
         /* border: solid 1px green; */
         display: flex;
         justify-content:center;
         align-items: center;
+        /* border: solid 1px black; */
         
     }
     
@@ -29,13 +32,14 @@
     
     .pa{
         /* height:10%; */
-        height: 450px;
+        height: 200px;
         width: 49%;
         /* border: solid 1px green; */
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
         flex-direction: column;
+        /* border: solid 1px black; */
     }
     
     .pa h5{
