@@ -1,5 +1,5 @@
 import React from 'react'
-import classes from "./Logout.module.css"
+import classes from "./Forget.module.css"
 import { Container, Form, Button } from "react-bootstrap"
 
 const Logout = () => {
@@ -13,12 +13,20 @@ const Logout = () => {
                     </div>
                     <Form style={{width:"80%",marginLeft:"10%"}} >
                         <Form.Group className="mb-3" controlId="formBasicEmail">
-                            <Form.Label className={classes.LogoutLabel}>Email address</Form.Label>
+                            <Form.Label className={classes.logoutLabel}>Email address</Form.Label>
                             <Form.Control className={classes.LogoutPlace} type="email" placeholder="Enter email" />
                         </Form.Group>
                         <Form.Group className="mb-3" controlId="formBasicEmail">
-                            <Form.Label className={classes.LogoutLabel}>Code</Form.Label>
+                            <Form.Label className={classes.logoutLabel}>Code</Form.Label>
                             <Form.Control className={classes.LogoutPlace} type="text" placeholder="Enter Otp" />
+                        </Form.Group>
+                        <Form.Group className="mb-3" controlId="formBasicPassword">
+                            <Form.Label className={classes.logoutLabel}>New Password</Form.Label>
+                            <Form.Control className={classes.LogoutPlace} type="password" placeholder="New Password"/>
+                        </Form.Group>
+                        <Form.Group className="mb-3" controlId="formBasicPassword">
+                            <Form.Label className={classes.logoutLabel}>Confirm Password</Form.Label>
+                            <Form.Control className={classes.LogoutPlace} type="password" placeholder="Confirm Password"  />
                         </Form.Group>
                         <Button className={classes.LogoutBtn} variant="primary" type="button">
                             Next
