@@ -6,10 +6,12 @@ import Home from './Components/Home'
 import Login from './Components/Login'
 import Projects from './Components/Projects'
 import SignUp from './Components/SignUp'
+import Forget from './Components/Forget'
 
 const App = () => {
   return (
     <>
+    
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
@@ -17,6 +19,7 @@ const App = () => {
         <Route path='/login' element={<Login />} />
         <Route path='/Signup' element={<SignUp />} />
         <Route path='/courses' element={<ComCourses />} />
+        <Route path='/Forgot' element={<Forget/>}/>
       </Routes>
     </>
   )

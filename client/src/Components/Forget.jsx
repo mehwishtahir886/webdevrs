@@ -22,11 +22,11 @@ const Logout = () => {
                         </Form.Group>
                         <Form.Group className="mb-3" controlId="formBasicPassword">
                             <Form.Label className={classes.logoutLabel}>New Password</Form.Label>
-                            <Form.Control className={classes.LogoutPlace} type="password" placeholder="New Password"/>
+                            <Form.Control className={classes.LogoutPlace} type="password" placeholder="New Password" disabled={true} />
                         </Form.Group>
                         <Form.Group className="mb-3" controlId="formBasicPassword">
                             <Form.Label className={classes.logoutLabel}>Confirm Password</Form.Label>
-                            <Form.Control className={classes.LogoutPlace} type="password" placeholder="Confirm Password"  />
+                            <Form.Control className={classes.LogoutPlace} type="password" placeholder="Confirm Password" disabled={true}   />
                         </Form.Group>
                         <Button className={classes.LogoutBtn} variant="primary" type="button">
                             Next

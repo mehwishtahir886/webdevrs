@@ -36,6 +36,9 @@ const Login = () => {
                                 <span style={{ color: "var(--primary-light)" }}>Click Here</span>
                             </Link>
                         </p>
+                        <Link to="/Forgot">
+                        <p className={classes.ForgetPass}>Forgot Password</p>
+                        </Link>
                     </Form>
                 </div>
             </Container>
