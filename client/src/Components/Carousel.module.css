@@ -35,7 +35,7 @@
     height: 30px;
     width: 200px;
     border-radius: 50px;
-    margin-left: 20%;
+    margin: auto;
     margin-top: 20px;
     display: flex;
     justify-content: center;
@@ -61,7 +61,8 @@
   .CardPara{
     text-align: center ;
     color: var(--primary-gray);
-    font-size: var(--sub-heading-size);
+    /* font-size: var(--sub-heading-size) !important; */
+    font-size: .95em;
     font-family: var(--Heading-fonts);
   }
   .CardLanguage{
