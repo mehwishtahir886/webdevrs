@@ -5,6 +5,7 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
+    /* background-color: rgb(153, 153, 153); */
   }
  
   .controls_wrapper {
@@ -34,7 +35,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-weight: bold;
+    font-weight: normal;
     color: white;
     font-size: 15px;
     letter-spacing: 1px;
@@ -47,11 +48,11 @@
   }
   .CardHeading{
     font-weight: bold;
-    color: white;
+    color: var(--primary-dark);
   }
   .CardPara{
     text-align: center ;
-    color: var(--primary-dark);
+    color: var(--primary-gray);
   }
   .CardLanguage{
     height: 100px;
@@ -73,6 +74,12 @@
     color:var(--primary-dark);
     font-size: 14px;
     font-weight: bold;
+    cursor: pointer;
+    transition:  all .10s linear;
+  }
+  .Lang1:hover{
+    background-color: var(--primary-dark);
+    color: white;
   }
   .cardimg{
     height: 100%;

@@ -18,9 +18,9 @@ const Logout = () => {
                         </Form.Group>
                         <Form.Group className="mb-3" controlId="formBasicEmail">
                             <Form.Label className={classes.LogoutLabel}>Code</Form.Label>
-                            <Form.Control className={classes.LogoutPlace} type="text" placeholder="Enter Code" />
+                            <Form.Control className={classes.LogoutPlace} type="text" placeholder="Enter Otp" />
                         </Form.Group>
-                        <Button className={classes.LogoutBtn} variant="primary" type="click">
+                        <Button className={classes.LogoutBtn} variant="primary" type="button">
                             Next
                         </Button>
 
