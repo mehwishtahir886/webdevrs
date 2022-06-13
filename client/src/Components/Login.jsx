@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container, Form, Button } from 'react-bootstrap';
 import classes from "./Login.module.css"
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom"
 
 const Login = () => {
     return (
@@ -31,9 +31,9 @@ const Login = () => {
                         <Button className={classes.LoginBtn} variant="primary" type="submit">
                             Login
                         </Button>
-                        <p className={classes.LoginAlready}> Not a Member ? &nbsp; 
-                            <Link style={{textDecoration:"none"}} to="/Signup">
-                            <span style={{color:"var(--primary-light)"}}>Click Here</span> 
+                        <p className={classes.LoginAlready}> Not a Member ? &nbsp;
+                            <Link style={{ textDecoration: "none" }} to="/Signup">
+                                <span style={{ color: "var(--primary-light)" }}>Click Here</span>
                             </Link>
                         </p>
                     </Form>

@@ -10,10 +10,12 @@ import Services from './Services'
 import Homeabout from './Homeabout'
 import Carousel from './Carouselslider'
 import Faqs from './Faqs'
+import Logout from './Logout'
 const Home = () => {
   return (
     <div>
         <Navbar/>
+        <Logout/>
         <Faqs/>
         <Homeabout/>
         <Carousel/>
