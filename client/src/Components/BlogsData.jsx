@@ -6,7 +6,7 @@ const BlogsData = [
         BackImage:"https://seefar.org/wp-content/uploads/using-machine-learning.jpg",
         Head:"Markiting Mananger ",
         Description:"Lorem ipsum dolor esse ad reiciendis voluptates commodi quibusdam molestiae?",
-        DateTime:"25-09-2007"
+        DateTime:"15 July,1999"
     },
     {
         Name:"Ahmed",
@@ -15,7 +15,7 @@ const BlogsData = [
         BackImage:"https://cdn.wallpapersafari.com/61/53/G8PFzr.jpg",
         Head:"Language Master ",
         Description:"Lorem ipsum dolor esse ad reiciendis voluptates commodi quibusdam molestiae?",
-        DateTime:"15-12-1999"
+        DateTime:"15 July,1999"
     },
     {
         Name:"Umer",
@@ -24,7 +24,7 @@ const BlogsData = [
         BackImage:"https://i.pinimg.com/736x/a6/d4/e1/a6d4e17a2aa4c201d8116da5b6abd44c--really-cool-wallpapers-colorful-wallpaper.jpg",
         Head:"Cyber Security Expert ",
         Description:"Lorem ipsum dolor esse ad reiciendis voluptates commodi quibusdam molestiae?",
-        DateTime:"05-05-2001"
+        DateTime:"15 July,1999"
     },
     {
         Name:"Awais",
@@ -33,7 +33,7 @@ const BlogsData = [
         BackImage:"https://wallpaperaccess.com/full/2178327.jpg",
         Head:"Technical Expert ",
         Description:"Lorem ipsum dolor esse ad reiciendis voluptates commodi quibusdam molestiae?",
-        DateTime:"03-08-2005"
+        DateTime:"15 July,1999"
     },
 ]
 
