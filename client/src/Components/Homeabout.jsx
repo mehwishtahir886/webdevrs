@@ -1,6 +1,7 @@
 
 import React from 'react'
 import classes from './Homeabout.module.css';
+import web from '../videos/web.mp4';
 import {
   Container,
   Row,
@@ -31,7 +32,9 @@ const Homeabout = () => {
                 </div>
 
             </div>
-            <div className={classes.twoside}></div>
+            <div className={classes.twoside}>
+              <video className={classes.towside} height={"100%"} src={web} controls autoPlay loop></video>
+            </div>
         </div>
     </Container>       
 

@@ -25,14 +25,14 @@
         
         border-radius: 0px 50px 0px 50px;
         height:100% ;
-        width:100%;
+        width:50%;
         /* border: solid 1px black; */
     
     }
     
     .pa{
         /* height:10%; */
-        height: 200px;
+        height: 229px;
         width: 49%;
         /* border: solid 1px green; */
         display: flex;
@@ -51,7 +51,7 @@
     }
     
     .pa h1{
-        font-size:2.5em;
+        font-size:2.2em;
         font-weight: bold;
         font-family: var(--Heading-fonts);
     }
@@ -60,6 +60,8 @@
         font-size: 1.1em;
         text-align: justify;
         color: var(--primary-gray);
+        line-height: 20px;
+        word-spacing: 0.2px;
         /* border: solid 1px black; */
     }
     
