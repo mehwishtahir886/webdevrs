@@ -4,11 +4,14 @@ import Footer from './Footer'
 import { AiFillCheckCircle } from "react-icons/ai"
 import { Container,Row,Col } from 'react-bootstrap'
 import classes from './ComCourses.module.css'
-import image from '../images/VExtor.png'
 import C1 from '../images/Cvector.png'
 import C2 from '../images/Cvector1.jfif'
 import C3 from '../images/Cvector2.jfif'
 import C4 from '../images/Cvector3.jfif'
+import C_banner_icon1 from '../images/vector-main-courses/VExtor – 3.png'
+import C_banner_icon2 from '../images/vector-main-courses/VExtor – 2.png'
+import C_banner_icon3 from '../images/vector-main-courses/VExtor – 5.png'
+import C_banner_icon4 from '../images/vector-main-courses/VExtor – 4.png'
 import Carouselslider from './Carouselslider'
 
 const ComCourses = () => {
@@ -27,7 +30,24 @@ const ComCourses = () => {
                 <li><AiFillCheckCircle className={classes.Ccourses_banner_info_icons} /><span>Designing front end interfaces and user experiences.</span></li>
               </ul>
           </Col>
-          <Col className={classes.Ccourses_banner}><img src={image} /></Col>
+          <Col className={classes.Ccourses_banner}>
+            <div className={classes.Ccourses_banners}>
+              <div className={classes.C_banner__icon_main}><img src={C_banner_icon1} /></div>
+              <span>Front End Development</span>
+            </div>
+            <div className={classes.Ccourses_banners}>
+              <div className={classes.C_banner__icon_main}><img src={C_banner_icon2} /></div>
+              <span>Front End Development</span>
+            </div>
+            <div className={classes.Ccourses_banners}>
+              <div className={classes.C_banner__icon_main}><img src={C_banner_icon3} /></div>
+              <span>Front End Development</span>
+            </div>
+            <div className={classes.Ccourses_banners}>
+              <div className={classes.C_banner__icon_main}><img src={C_banner_icon4} /></div>
+              <span>Front End Development</span>
+            </div>
+          </Col>
         </Row>
         <Row>
           <Col className={classes.Ccourses_items}>
