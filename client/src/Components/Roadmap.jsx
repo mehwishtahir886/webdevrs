@@ -6,8 +6,8 @@ import {
     Row,
     Col,
 } from 'react-bootstrap';
-import chose from '../images/wewe.png'
-import learning from '../images/start.png'
+import chose from '../images/start.png'
+import learning from '../images/learning.png'
 import hired from '../images/hired.png'
 
 
@@ -58,6 +58,7 @@ const Roadmap = () => {
                 </div>
 
                 <div className={classes.imgp} >
+                
 
                     <img className={classes.img} src={learning} alt="" />
 
