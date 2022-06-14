@@ -4,7 +4,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: max-content;
+    height: 600px;
   }
    
   .carousel_wrapper {
@@ -24,7 +24,7 @@
     outline: none;
   }
   .MianCard{
-      height: 100%;
+      height: max-content;
       width: 100%;
       display: flex;
       flex-direction: column;
@@ -60,14 +60,13 @@
   .CardPara{
     text-align: center ;
     color: var(--primary-gray);
-    /* font-size: var(--sub-heading-size) !important; */
     font-size: .95em;
     font-family: var(--Heading-fonts);
   }
   .CardLanguage{
     height: 100px;
     width: 70%;
-    margin-left: 15%;
+    margin: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -75,7 +74,7 @@
   }
   .Lang1{
     height: 30px;
-    width: 40%;
+    width: 100px;
     border: 2px solid ;
     border-radius: 50px;
     display: flex;
@@ -94,4 +93,11 @@
   .cardimg{
     height: 100%;
     width: 100%;
+  }
+
+  @media (max-width:1230){
+    .CardLanguage{
+      height: 120px;
+      border: 1px solid !important;
+    }
   }

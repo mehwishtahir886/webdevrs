@@ -75,7 +75,7 @@ const ComCourses = () => {
                 </div>
                 <div className={classes.Ccourses_item_image}><img src={C1} /></div>
               </div>
-              <div className={classes.Ccourses_iten_carousel}>
+              <div className={classes.Ccourses_item_carousel}>
                 <Carouselslider />
               </div>
             </div>

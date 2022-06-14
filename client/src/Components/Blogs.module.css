@@ -1,0 +1,26 @@
+.MainBlogg{
+    height: max-content;
+    background-color: red;
+    display: flex;
+    flex-wrap: wrap;
+}
+.BlogCard{
+    height: 400px;
+    width: 280px;
+    border: 1px solid;
+    border-radius: 10px;
+    margin: 22px;
+    background-color: white;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+}
+.BlogBackImage{
+    height: 100%;
+    width: 100%;
+    /* background-color: green; */
+}
+.Blogbimage{
+    height: 100%;
+    width: 100%;
+}
