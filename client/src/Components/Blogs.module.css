@@ -1,26 +1,109 @@
-.MainBlogg{
+.MainBlogg {
     height: max-content;
-    background-color: red;
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
 }
-.BlogCard{
-    height: 400px;
+
+.BlogCard {
+    height: 350px;
     width: 280px;
-    border: 1px solid;
     border-radius: 10px;
-    margin: 22px;
-    background-color: white;
+    background-color: rgb(245, 245, 245);
+    box-shadow: 0 0 10px 0 rgb(200, 200, 200);
+    border-radius: 5px;
     padding: 0;
     overflow: hidden;
     position: relative;
+    margin: 30px;
 }
-.BlogBackImage{
+
+.BlogBackIma {
+    height: 115px;
+    width: 100%;
+}
+
+.BlogBackImage {
     height: 100%;
     width: 100%;
-    /* background-color: green; */
 }
-.Blogbimage{
+.BlogHeadUser{
+    height: 60px;
+    width: 150px;
+    position: absolute;
+    top: 24%;
+    left: 10%;
+    background-color:white;
+    box-shadow: 0 5px 10px 0 rgb(200, 200, 200);
+    display: flex;
+    overflow: hidden;
+}
+.Bloguserima{
+    height: 100%;
+    width: 45%;
+}
+.Blogusrinfo{
+    height: 100%;
+    width: 55%;
+
+}
+.Blogusrimg{
     height: 100%;
     width: 100%;
+}
+.blogusrName:nth-child(1){
+    color: var(--primary-dark);
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: -5px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.blogusrName:nth-child(2){
+    color: var(--primary-gray);
+    font-size: 14px;
+    margin-left: 10px;
+}
+.Blogusrheading{
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    color: var(--primary-dark);
+    font-size: 17px;
+}
+.BlogDesp{
+    position: absolute;
+    top: 53%;
+    left: 10%;
+    color: var(--primary-gray);
+    font-size: 15px;
+}
+.BlogFooter{
+    height: 17%;
+    width: 100%;
+    background-color:var(--primary-dark);
+    position: absolute;
+    bottom: 0;
+}
+.BolgDtime{
+    color: white;
+    font-size: 12px;
+    position: absolute;
+    right: 4%;
+    top: 40%;
+}
+.BlogRef{
+    width: max-content;
+    margin: 20px 10%;
+    padding: 2px 10px;
+    background-color: rgb(221, 221, 221);
+    border-radius: 5px;
+    font-size: 14px;
+    color: var(--primary-dark);
+    margin-bottom: 5px;
+}
+.BlogBook{
+    margin-top: -3px;
 }

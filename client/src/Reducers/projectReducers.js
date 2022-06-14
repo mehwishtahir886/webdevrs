@@ -3,7 +3,7 @@ import {
   PROJECT_LIST_SUCCESS,
   PROJECT_LIST_FAIL,
 
-} from '../constants/projectConstants'
+} from '../Constants/projectConstants'
 
 export const projectListReducer = (state = { projects: [] }, action) => {
   switch (action.type) {
