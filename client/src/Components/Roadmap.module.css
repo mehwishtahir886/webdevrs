@@ -11,7 +11,7 @@
     
     }
     .imgp{
-        height: 200px;
+        height: 210px;
         width: 49%;
         /* border: solid 1px green; */
         display: flex;
@@ -25,14 +25,14 @@
         
         border-radius: 0px 50px 0px 50px;
         height:100% ;
-        width:50%;
+        width:80%;
         /* border: solid 1px black; */
     
     }
     
     .pa{
         /* height:10%; */
-        height: 229px;
+        height: 210px;
         width: 49%;
         /* border: solid 1px green; */
         display: flex;
