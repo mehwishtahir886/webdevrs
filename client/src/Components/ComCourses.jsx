@@ -8,10 +8,10 @@ import C1 from '../images/Cvector.png'
 import C2 from '../images/Cvector1.jfif'
 import C3 from '../images/Cvector2.jfif'
 import C4 from '../images/Cvector3.jfif'
-import C_banner_icon1 from '../images/vector-main-courses/VExtor – 3.png'
-import C_banner_icon2 from '../images/vector-main-courses/VExtor – 2.png'
-import C_banner_icon3 from '../images/vector-main-courses/VExtor – 5.png'
-import C_banner_icon4 from '../images/vector-main-courses/VExtor – 4.png'
+// import C_banner_icon1 from '../images/vector-main-courses/VExtor – 3.png'
+// import C_banner_icon2 from '../images/vector-main-courses/VExtor – 2.png'
+// import C_banner_icon3 from '../images/vector-main-courses/VExtor – 5.png'
+// import C_banner_icon4 from '../images/vector-main-courses/VExtor – 4.png'
 import Carouselslider from './Carouselslider'
 
 const ComCourses = () => {
@@ -32,19 +32,19 @@ const ComCourses = () => {
           </Col>
           <Col className={classes.Ccourses_banner}>
             <div className={classes.Ccourses_banners}>
-              <div className={classes.C_banner__icon_main}><img src={C_banner_icon1} /></div>
+              {/* <div className={classes.C_banner__icon_main}><img src={C_banner_icon1} /></div> */}
               <span>Front End Development</span>
             </div>
             <div className={classes.Ccourses_banners}>
-              <div className={classes.C_banner__icon_main}><img src={C_banner_icon2} /></div>
+              {/* <div className={classes.C_banner__icon_main}><img src={C_banner_icon2} /></div> */}
               <span>Front End Development</span>
             </div>
             <div className={classes.Ccourses_banners}>
-              <div className={classes.C_banner__icon_main}><img src={C_banner_icon3} /></div>
+              {/* <div className={classes.C_banner__icon_main}><img src={C_banner_icon3} /></div> */}
               <span>Front End Development</span>
             </div>
             <div className={classes.Ccourses_banners}>
-              <div className={classes.C_banner__icon_main}><img src={C_banner_icon4} /></div>
+              {/* <div className={classes.C_banner__icon_main}><img src={C_banner_icon4} /></div> */}
               <span>Front End Development</span>
             </div>
           </Col>
