@@ -4,10 +4,9 @@ import classes from "./Blogs.module.css"
 import Navbar from "./Navbar"
 import "./Navbar.css"
 import BlogsData from "./BlogsData"
+import { AiOutlineBook } from "react-icons/ai";
+
 const Blogs = () => {
-    console.log('====================================');
-    console.log(BlogsData);
-    console.log('====================================');
     const BlogsMap = BlogsData.map((item) => {
         return (
             <>
@@ -32,10 +31,10 @@ const Blogs = () => {
                             {item.Description}
                         </p>
                         <div className={classes.BlogFooter}>
-                            <p className={classes.BolgDtime}>{item.DateTime}</p>
                             <div className={classes.BlogRef}>
-                                Exective Eaducation
+                               <AiOutlineBook className={classes.BlogBook}/> Exective Eaducation
                             </div>
+                            <p className={classes.BolgDtime}>{item.DateTime}</p>
                         </div>
                     </div>
                 </Row>
