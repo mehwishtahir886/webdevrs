@@ -5,15 +5,23 @@ import classes from "./Login.module.css"
 
 import {Link} from "react-router-dom"
 import {login} from "../Actions/userActions"
+import { useNavigate } from 'react-router-dom'
 
 const Login = () => {
     const dispatch = useDispatch()
+    const navigate=useNavigate()
 
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
 
     const userLogin = useSelector((state) => state.userLogin)
     const {userInfo } = userLogin
+    
+    useEffect(()=>{
+if(userInfo){
+navigate("/")
+}
+},[userInfo])
 
     const userLoginHandler=(e)=>{
         e.preventDefault()
