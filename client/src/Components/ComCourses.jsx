@@ -9,10 +9,7 @@ import C1 from '../images/Cvector.png'
 import C2 from '../images/Cvector1.jfif'
 import C3 from '../images/Cvector2.jfif'
 import C4 from '../images/Cvector3.jfif'
-import Carouselslider1 from './Carouselslider'
-import Carouselslider2 from './Carouselslider'
-import Carouselslider3 from './Carouselslider'
-import Carouselslider4 from './Carouselslider'
+import Carouselslider from './Carouselslider'
 
 const ComCourses = () => {
   return (
@@ -43,7 +40,7 @@ const ComCourses = () => {
                 <div className={classes.Ccourses_item_image}><img src={C3} /></div>
               </div>
               <div className={classes.Ccourses_item_carousel}>
-                <Carouselslider1 />
+                <Carouselslider />
               </div>
             </div>
             <div className={classes.Ccourses_item}>
@@ -54,8 +51,8 @@ const ComCourses = () => {
                 </div>
                 <div className={classes.Ccourses_item_image}><img src={C2} /></div>
               </div>
-              <div className={classes.Ccourses_iten_carousel}>
-                {/* <Carouselslider2 /> */}
+              <div className={classes.Ccourses_item_carousel}>
+                <Carouselslider />
               </div>
             </div>
             <div className={classes.Ccourses_item}>
@@ -66,8 +63,8 @@ const ComCourses = () => {
                 </div>
                 <div className={classes.Ccourses_item_image}><img src={C4} /></div>
               </div>
-              <div className={classes.Ccourses_iten_carousel}>
-                {/* <Carouselslider3 /> */}
+              <div className={classes.Ccourses_item_carousel}>
+                <Carouselslider />
               </div>
             </div>
             <div className={classes.Ccourses_item}>
@@ -78,8 +75,8 @@ const ComCourses = () => {
                 </div>
                 <div className={classes.Ccourses_item_image}><img src={C1} /></div>
               </div>
-              <div className={classes.Ccourses_iten_carousel}>
-                {/* <Carouselslider4 /> */}
+              <div className={classes.Ccourses_item_carousel}>
+                <Carouselslider />
               </div>
             </div>
           </Col>
