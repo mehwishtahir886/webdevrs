@@ -7,7 +7,7 @@ const Login = () => {
     return (
         <>
             <Container fluid className={classes.MainLogin}>
-                <div className={classes.LoginOverlay}></div>
+                {/* <div className={classes.LoginOverlay}></div> */}
                 <div className={classes.LoginForm}>
                     <div className={classes.LoginAlert}>
                         <h3 className={classes.Loginhead}> Login</h3>
