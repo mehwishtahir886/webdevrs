@@ -2,12 +2,9 @@ import React, { useState, useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { Container, Form, Button } from 'react-bootstrap';
 import classes from "./Login.module.css"
-<<<<<<< HEAD
+
 import {Link} from "react-router-dom"
 import {login} from "../Actions/userActions"
-=======
-import { Link } from "react-router-dom"
->>>>>>> 68786e4c2ec0364115d5c15577b81a858dc07e5c
 
 const Login = () => {
     const dispatch = useDispatch()
@@ -34,11 +31,7 @@ const Login = () => {
                     <Form className={classes.LoginFormm} onSubmit={userLoginHandler}>
                         <Form.Group className="mb-3" controlId="formBasicEmail">
                             <Form.Label className={classes.loginLabel}>Email address</Form.Label>
-<<<<<<< HEAD
                             <Form.Control className={classes.LoginPlace} type="email" placeholder="&f218;Enter email" onChange={(e) => setEmail(e.target.value)}/>
-=======
-                            <Form.Control className={classes.LoginPlace} type="email" placeholder="Enter email" />
->>>>>>> 68786e4c2ec0364115d5c15577b81a858dc07e5c
                             <Form.Text className="text-muted">
                                 We'll never share your email with anyone else.
                             </Form.Text>

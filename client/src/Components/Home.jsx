@@ -8,11 +8,8 @@ import Services from './Services'
 import Homeabout from './Homeabout'
 import Carousel from './Carouselslider'
 import Faqs from './Faqs'
-<<<<<<< HEAD
 import { useNavigate } from 'react-router-dom'
-=======
 import Blogs from './Blogs'
->>>>>>> 68786e4c2ec0364115d5c15577b81a858dc07e5c
 const Home = () => {
   const navigate=useNavigate()
   const userLogin = useSelector((state) => state.userLogin)
