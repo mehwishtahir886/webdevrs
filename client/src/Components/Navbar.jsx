@@ -42,7 +42,6 @@ const NavbarBanner = () => {
                 <Navbar.Brand>
                   <img style={{ width: "70px", height: "45px" }} src={logo} />
                 </Navbar.Brand>
-<<<<<<< HEAD
                 </Link>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
@@ -54,18 +53,6 @@ const NavbarBanner = () => {
                     <Nav.Link style={{marginLeft: "25px", padding: "9px 0"}}><Link style={{padding: "10px 5px" ,textDecoration: "none", color: "#999"}} to={"/projects"}>Projects</Link></Nav.Link>
                     <Nav.Link style={{marginLeft: "25px", padding: "9px 0"}}><Link style={{padding: "10px 5px" ,textDecoration: "none", color: "#999"}} to={"/reviews"}>Reviews</Link></Nav.Link>
                     <Nav.Link className='cousrses_nav' style={{marginLeft: "25px", padding: "9px 0"}}><Link style={{padding: "10px 5px" ,textDecoration: "none", color: "#999"}} to={"/courses"}>Courses<AiFillCaretDown style={{fontSize: "10px"}} /></Link>
-=======
-              </Link>
-              <Navbar.Toggle aria-controls="basic-navbar-nav" />
-              <Navbar.Collapse id="basic-navbar-nav">
-                <Nav className="me-auto nav" style={{ position: "absolute", right: "20px" }}>
-                  <Nav.Link style={{ marginLeft: "25px", padding: "9px 0" }}><Link style={{ padding: "10px 5px", textDecoration: "none", color: "#999" }} to={"/"}>Home</Link></Nav.Link>
-                  <Nav.Link style={{ marginLeft: "25px", padding: "9px 0" }}><Link style={{ padding: "10px 5px", textDecoration: "none", color: "#999" }} to={"/about"}>About</Link></Nav.Link>
-                  <Nav.Link style={{ marginLeft: "25px", padding: "9px 0" }}><Link style={{ padding: "10px 5px", textDecoration: "none", color: "#999" }} to={"/blogs"}>Blogs</Link></Nav.Link>
-                  <Nav.Link style={{ marginLeft: "25px", padding: "9px 0" }}><Link style={{ padding: "10px 5px", textDecoration: "none", color: "#999" }} to={"/events"}>Events</Link></Nav.Link>
-                  <Nav.Link style={{ marginLeft: "25px", padding: "9px 0" }}><Link style={{ padding: "10px 5px", textDecoration: "none", color: "#999" }} to={"/reviews"}>Reviews</Link></Nav.Link>
-                  <Nav.Link className='cousrses_nav' style={{ marginLeft: "25px", padding: "9px 0" }}><Link style={{ padding: "10px 5px", textDecoration: "none", color: "#999" }} to={"/courses"}>Courses<AiFillCaretDown style={{ fontSize: "10px" }} /></Link>
->>>>>>> 68786e4c2ec0364115d5c15577b81a858dc07e5c
 
                     <div className='coursesDropdown'>
                       <div className='coursesC'>
