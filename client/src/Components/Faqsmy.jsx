@@ -1,8 +1,8 @@
 import React from 'react'
 import classes from './Faqs.module.css'
+import { MdKeyboardArrowUp,MdKeyboardArrowDown } from "react-icons/md";
 
 const Faqsmy = ({a,q}) => {
-
 
 
     const [leng, setLeng] =React.useState(false);
@@ -23,7 +23,7 @@ const Faqsmy = ({a,q}) => {
 
 
     <div onClick={()=> setLeng(!leng)} className={`${classes.fpm} pl `}>
-        {leng ? '-' : '+'}
+        {leng ? <MdKeyboardArrowUp/> : <MdKeyboardArrowDown/>}
     </div>
 
 </div>

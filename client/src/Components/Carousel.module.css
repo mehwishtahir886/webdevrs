@@ -4,22 +4,27 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 600px;
   }
- 
-  .controls_wrapper {
-    width: 100%;
-  }
-  
+   
   .carousel_wrapper {
     width: 100%;
   }
+  .carousel_wrapper button{
+    color: var(--primary-dark);
+    margin: 10px;
+  }
+  .carousel_wrapper button:hover{
+    color: white;
+    background-color: var(--primary-dark) !important;
+  }
+  
   
   .rec-carousel-item:focus {
     outline: none;
   }
   .MianCard{
-      height: 100%;
+      height: max-content;
       width: 100%;
       display: flex;
       flex-direction: column;
@@ -29,16 +34,16 @@
     height: 30px;
     width: 200px;
     border-radius: 50px;
-    margin-left: 20%;
+    margin: auto;
     margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-weight: bold;
+    font-weight: normal;
     color: white;
-    font-size: 15px;
-    letter-spacing: 1px;
+    font-size: var(--main-heading-size);
     background-color: var(--primary-dark);
+    font-family: var(--Heading-fonts);
   }
   .cardImage{
     height: 200px;
@@ -47,16 +52,21 @@
   }
   .CardHeading{
     font-weight: bold;
-    color: white;
+    color: var(--primary-dark);
+    font-size: var(--main-heading-size);
+    font-family: var(--Heading-fonts);
+
   }
   .CardPara{
     text-align: center ;
-    color: var(--primary-dark);
+    color: var(--primary-gray);
+    font-size: .95em;
+    font-family: var(--Heading-fonts);
   }
   .CardLanguage{
     height: 100px;
     width: 70%;
-    margin-left: 15%;
+    margin: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -64,7 +74,7 @@
   }
   .Lang1{
     height: 30px;
-    width: 40%;
+    width: 100px;
     border: 2px solid ;
     border-radius: 50px;
     display: flex;
@@ -73,8 +83,21 @@
     color:var(--primary-dark);
     font-size: 14px;
     font-weight: bold;
+    cursor: pointer;
+    transition:  all .10s linear;
+  }
+  .Lang1:hover{
+    background-color: var(--primary-dark);
+    color: white;
   }
   .cardimg{
     height: 100%;
     width: 100%;
+  }
+
+  @media (max-width:1230){
+    .CardLanguage{
+      height: 120px;
+      border: 1px solid !important;
+    }
   }

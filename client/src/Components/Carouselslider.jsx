@@ -3,6 +3,7 @@ import Carousel from "react-elastic-carousel";
 import Item from "./ItemCarousel";
 import classes from "./Carousel.module.css"
 import CardImage from "../images/Laptop.png"
+import "./Carousel.module.css"
 
 const breakPoints = [
     { width: 1, itemsToShow: 1 },

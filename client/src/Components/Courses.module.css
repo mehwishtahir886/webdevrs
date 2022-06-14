@@ -1,6 +1,6 @@
 .courses_container{
     left: 0;
-    height: 400vh;
+    height: 3040px;
 }
 .courses_info{
     position: sticky;
@@ -79,7 +79,7 @@
     background-color: var(--secondary-light);
 }
 .courses_St{
-    height: 100vh;
+    height: 760px;
     display: flex;
     align-items: center;
     justify-content: center;

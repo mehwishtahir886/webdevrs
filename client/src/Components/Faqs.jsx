@@ -11,7 +11,6 @@ import { useState } from 'react';
 const Faqs = () => {
 
 
-
     const questions = [
         {
             q: 'What courses do you offer?',
@@ -91,7 +90,7 @@ const Faqs = () => {
             <Container className={classes.conta}>
  
                 <div className={classes.faq}>
-                    <h1>You've Got Questions? We've Got Answers.</h1>
+                    <h1>You've Got Questions?.</h1>
                     {ren}
                 </div>
 
