@@ -10,5 +10,5 @@ export default styled.div`
   background-color: rgb(245, 245, 245);
   box-shadow: 0 0 10px 0 rgb(200, 200, 200);
   border-radius:10px ;
-  // margin: 35px;
+  margin: 25px;
 `;
