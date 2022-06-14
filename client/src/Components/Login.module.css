@@ -32,9 +32,9 @@
 }
 .Loginhead{
     margin-top: 10px;
-    font-size: 1.6em;
+    font-size: 1.7em;
     color: var(--primary-dark);
-    font-weight: bold;
+    font-family: var(--Heading-fonts);
 }
 .LoginFormm{
     width: 80%;

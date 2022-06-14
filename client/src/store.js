@@ -3,7 +3,7 @@ import thunk from 'redux-thunk'
 import { composeWithDevTools } from 'redux-devtools-extension'
 import {
   projectListReducer,
-} from './reducers/projectReducers'
+} from './Reducers/projectReducers'
 import {
   userLoginReducer,
   userRegisterReducer,
@@ -12,7 +12,7 @@ import {
   userListReducer,
   userDeleteReducer,
   userUpdateReducer,
-} from './reducers/userReducers'
+} from './Reducers/userReducers'
 
 
 const reducer = combineReducers({
@@ -23,6 +23,8 @@ const reducer = combineReducers({
   userList: userListReducer,
   userDelete: userDeleteReducer,
   userUpdate: userUpdateReducer,
+
+  projectList:projectListReducer,
 })
 
 

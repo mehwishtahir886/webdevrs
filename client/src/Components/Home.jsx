@@ -1,25 +1,35 @@
-import React from 'react'
-// import About from './About'
+import React, { useState, useEffect } from 'react'
+import { useDispatch, useSelector } from 'react-redux'
 import Courses from './Courses'
 import Footer from './Footer'
-// import Login from './Login'
 import Navbar from './Navbar'
 import Roadmap from './Roadmap'
 import Services from './Services'
-// import SignUp from './SignUp'
 import Homeabout from './Homeabout'
 import Carousel from './Carouselslider'
 import Faqs from './Faqs'
+import { useNavigate } from 'react-router-dom'
 const Home = () => {
+  const navigate=useNavigate()
+  const userLogin = useSelector((state) => state.userLogin)
+  const {userInfo } = userLogin
+
+  useEffect(() => {
+    console.log(userInfo,"..")
+    if (userInfo == null) {
+      navigate("/login")
+      console.log("login")
+    }
+  }, [userInfo])
   return (
     <div>
         <Navbar/>
-        <Faqs/>
         <Homeabout/>
         <Carousel/>
         <Roadmap/>
         <Courses />
         <Services/>
+        <Faqs/>
         <Footer/>
     </div>
   )

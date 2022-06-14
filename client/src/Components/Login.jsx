@@ -1,21 +1,36 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
+import { useDispatch, useSelector } from 'react-redux'
 import { Container, Form, Button } from 'react-bootstrap';
 import classes from "./Login.module.css"
 import {Link} from "react-router-dom"
+import {login} from "../Actions/userActions"
 
 const Login = () => {
+    const dispatch = useDispatch()
+
+    const [email, setEmail] = useState('')
+    const [password, setPassword] = useState('')
+
+    const userLogin = useSelector((state) => state.userLogin)
+    const {userInfo } = userLogin
+
+    const userLoginHandler=(e)=>{
+        e.preventDefault()
+        dispatch(login(email, password))
+    }
+    
     return (
         <>
             <Container fluid className={classes.MainLogin}>
                 <div className={classes.LoginOverlay}></div>
                 <div className={classes.LoginForm}>
                     <div className={classes.LoginAlert}>
-                        <h3 className={classes.Loginhead}> Login</h3>
+                        <h3 className={classes.Loginhead}> Log in</h3>
                     </div>
-                    <Form className={classes.LoginFormm}>
+                    <Form className={classes.LoginFormm} onSubmit={userLoginHandler}>
                         <Form.Group className="mb-3" controlId="formBasicEmail">
                             <Form.Label className={classes.loginLabel}>Email address</Form.Label>
-                            <Form.Control className={classes.LoginPlace} type="email" placeholder="&f218;Enter email" />
+                            <Form.Control className={classes.LoginPlace} type="email" placeholder="&f218;Enter email" onChange={(e) => setEmail(e.target.value)}/>
                             <Form.Text className="text-muted">
                                 We'll never share your email with anyone else.
                             </Form.Text>
@@ -23,7 +38,7 @@ const Login = () => {
 
                         <Form.Group className="mb-3" controlId="formBasicPassword">
                             <Form.Label className={classes.loginLabel}>Password</Form.Label>
-                            <Form.Control className={classes.LoginPlace} type="password" placeholder="Password" />
+                            <Form.Control className={classes.LoginPlace} type="password" placeholder="Password" onChange={(e) => setPassword(e.target.value)}/>
                         </Form.Group>
                         <Form.Group className="mb-3" controlId="formBasicCheckbox">
                             <Form.Check type="checkbox" label="Remember me" />
