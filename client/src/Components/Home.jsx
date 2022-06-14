@@ -13,7 +13,6 @@ const Home = () => {
   return (
     <div>
         <Navbar/>
-        <Blogs/>
         <Faqs/>
         <Homeabout/>
         <Roadmap/>
