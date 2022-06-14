@@ -11,7 +11,6 @@ import { useState } from 'react';
 const Faqs = () => {
 
 
-
     const questions = [
         {
             q: 'What courses do you offer?',

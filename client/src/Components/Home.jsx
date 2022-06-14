@@ -1,5 +1,5 @@
-import React from 'react'
-// import About from './About'
+import React, { useState, useEffect } from 'react'
+import { useDispatch, useSelector } from 'react-redux'
 import Courses from './Courses'
 import Footer from './Footer'
 import Navbar from './Navbar'
@@ -8,8 +8,20 @@ import Services from './Services'
 import Homeabout from './Homeabout'
 import Carousel from './Carouselslider'
 import Faqs from './Faqs'
+import { useNavigate } from 'react-router-dom'
 import Blogs from './Blogs'
 const Home = () => {
+  const navigate=useNavigate()
+  const userLogin = useSelector((state) => state.userLogin)
+  const {userInfo } = userLogin
+
+  useEffect(() => {
+    console.log(userInfo,"..")
+    if (userInfo == null) {
+      navigate("/login")
+      console.log("login")
+    }
+  }, [userInfo])
   return (
     <div>
         <Navbar/>
