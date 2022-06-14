@@ -10,18 +10,16 @@ import Services from './Services'
 import Homeabout from './Homeabout'
 import Carousel from './Carouselslider'
 import Faqs from './Faqs'
-import Logout from './Logout'
+import Forget from './Forget'
 const Home = () => {
   return (
     <div>
         <Navbar/>
-        <Logout/>
-        <Faqs/>
         <Homeabout/>
-        <Carousel/>
         <Roadmap/>
         <Courses />
         <Services/>
+        <Faqs/>
         <Footer/>
     </div>
   )

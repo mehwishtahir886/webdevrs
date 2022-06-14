@@ -25,7 +25,7 @@
 }
 .LogoutForm{
     position: absolute;
-    height: 400px;
+    height: 500px;
     width: 400px;
     backdrop-filter: blur(5px);
     background-color: rgba(245, 245, 245);
@@ -36,17 +36,18 @@
 }
 .LogoutHead{
     margin-top: 10px;
-    font-size: 1.2em;
+    font-size: 1.7em;
     color: var(--primary-dark);
     font-weight: bold;
+    font-family: var(--Heading-fonts);
 }
 .LogoutPlace::placeholder{
     font-size: 13px;
 }
 .LogoutBtn{
     position: absolute;
-    left: 20%;
-    width: 60%;
+    left: 10%;
+    width: 80%;
     border: none;
     background-size:300% 100%;
     background-image: linear-gradient(45deg, var(--primary-light), var(--secondary-light),#04befe);
@@ -55,6 +56,7 @@
     color: #fff;
     cursor: pointer;
     font-size: 14px;
+    bottom: 5%;
 }
 .LogoutBtn:hover{
     background-position:100% 0;
