@@ -1,25 +1,68 @@
-.MainBlogg{
+.MainBlogg {
     height: max-content;
-    background-color: red;
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
 }
-.BlogCard{
-    height: 400px;
-    width: 280px;
+
+.BlogCard {
+    height: 350px;
+    width: 250px;
     border: 1px solid;
     border-radius: 10px;
-    margin: 22px;
-    background-color: white;
+    background-color: rgb(245, 245, 245);
+    box-shadow: 0 0 10px 0 rgb(200, 200, 200);
+    border-radius: 5px;
     padding: 0;
     overflow: hidden;
     position: relative;
+    margin: 45px;
 }
-.BlogBackImage{
+
+.BlogBackIma {
+    height: 115px;
+    width: 100%;
+}
+
+.BlogBackImage {
     height: 100%;
     width: 100%;
 }
-.Blogbimage{
+.BlogHeadUser{
+    height: 70px;
+    width: 160px;
+    border: 1px solid;
+    position: absolute;
+    top: 22%;
+    left: 10%;
+    border-radius: 5px;
+    background-color:whitesmoke;
+    display: flex;
+    overflow: hidden;
+}
+.Bloguserima{
+    height: 100%;
+    width: 45%;
+}
+.Blogusrinfo{
+    height: 100%;
+    width: 55%;
+
+}
+.Blogusrimg{
     height: 100%;
     width: 100%;
+}
+.blogusrName:nth-child(1){
+    color: var(--primary-dark);
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 4px;
+    margin-top: 8px;
+}
+.blogusrName:nth-child(2){
+    color: var(--primary-dark);
+    font-size: 16px;
 }

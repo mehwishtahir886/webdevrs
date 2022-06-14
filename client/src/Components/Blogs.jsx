@@ -1,7 +1,8 @@
 import React from 'react'
 import {Container,Row} from "react-bootstrap"
 import classes from "./Blogs.module.css"
-// import image from '../images/BlogBack.jpg'
+import Navbar from "./Navbar"
+import "./Navbar.css"
 import BlogsData from "./BlogsData"
 const Blogs = () => {
     console.log('====================================');
@@ -12,10 +13,17 @@ const Blogs = () => {
             <>
             <Row>
                 <div className={classes.BlogCard}>
-                    <div className={classes.BlogBackImage}>
+                    <div className={classes.BlogBackIma}>
                         <img className={classes.BlogBackImage} src={item.BackImage}  />
-                        
-                        {/* <img className={classes.Blogbimage} src=''/> */}
+                    </div>
+                    <div className={classes.BlogHeadUser}>
+                        <div className={classes.Bloguserima}>
+                            <img src={item.UserImage} className={classes.Blogusrimg}/>
+                        </div>
+                        <div className={classes.Blogusrinfo} >
+                            <p className={classes.blogusrName}>{item.Name}</p>
+                            <p className={classes.blogusrName}>{item.Title}</p>
+                        </div>
                     </div>
                 </div>
             </Row>
@@ -24,6 +32,7 @@ const Blogs = () => {
     })
   return (
     <>
+    <Navbar/>
     <Container fluid className={classes.MainBlogg}>
         {BlogsMap}
     </Container>
