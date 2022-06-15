@@ -1,4 +1,11 @@
 .MainEventBanner{
-    height: 100vh;
+    height: max-content;
     background-color: var(--primary-dark);
+    position: absolute;
+    padding: 0;
+    top: 12%;
+}
+.MainVideo{
+    position: absolute;
+    height: 100%;
 }
