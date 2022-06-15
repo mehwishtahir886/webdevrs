@@ -35,6 +35,51 @@ const BlogsData = [
         Description:"Lorem ipsum dolor esse ad reiciendis voluptates commodi quibusdam molestiae?",
         DateTime:"15 July,1999"
     },
+    {
+        Name:"Awais",
+        Title:"Risk Free",
+        UserImage:"https://1.bp.blogspot.com/-u4tzbKlhVOQ/YAh4yivxV-I/AAAAAAAAkrs/Jpft5HKlkIUXxaboKy85shkczQuNQwe4gCLcBGAsYHQ/s738/whatsapp%2Bdp%2Bimages%2Bfor%2Bboys%2B%25282%2529.jpg",
+        BackImage:"https://wallpaperaccess.com/full/2178327.jpg",
+        Head:"Technical Expert ",
+        Description:"Lorem ipsum dolor esse ad reiciendis voluptates commodi quibusdam molestiae?",
+        DateTime:"15 July,1999"
+    },
+    {
+        Name:"Awais",
+        Title:"Risk Free",
+        UserImage:"https://1.bp.blogspot.com/-u4tzbKlhVOQ/YAh4yivxV-I/AAAAAAAAkrs/Jpft5HKlkIUXxaboKy85shkczQuNQwe4gCLcBGAsYHQ/s738/whatsapp%2Bdp%2Bimages%2Bfor%2Bboys%2B%25282%2529.jpg",
+        BackImage:"https://wallpaperaccess.com/full/2178327.jpg",
+        Head:"Technical Expert ",
+        Description:"Lorem ipsum dolor esse ad reiciendis voluptates commodi quibusdam molestiae?",
+        DateTime:"15 July,1999"
+    },
+    {
+        Name:"Awais",
+        Title:"Risk Free",
+        UserImage:"https://1.bp.blogspot.com/-u4tzbKlhVOQ/YAh4yivxV-I/AAAAAAAAkrs/Jpft5HKlkIUXxaboKy85shkczQuNQwe4gCLcBGAsYHQ/s738/whatsapp%2Bdp%2Bimages%2Bfor%2Bboys%2B%25282%2529.jpg",
+        BackImage:"https://wallpaperaccess.com/full/2178327.jpg",
+        Head:"Technical Expert ",
+        Description:"Lorem ipsum dolor esse ad reiciendis voluptates commodi quibusdam molestiae?",
+        DateTime:"15 July,1999"
+    },
+    {
+        Name:"Awais",
+        Title:"Risk Free",
+        UserImage:"https://1.bp.blogspot.com/-u4tzbKlhVOQ/YAh4yivxV-I/AAAAAAAAkrs/Jpft5HKlkIUXxaboKy85shkczQuNQwe4gCLcBGAsYHQ/s738/whatsapp%2Bdp%2Bimages%2Bfor%2Bboys%2B%25282%2529.jpg",
+        BackImage:"https://wallpaperaccess.com/full/2178327.jpg",
+        Head:"Technical Expert ",
+        Description:"Lorem ipsum dolor esse ad reiciendis voluptates commodi quibusdam molestiae?",
+        DateTime:"15 July,1999"
+    },
+    {
+        Name:"Awais",
+        Title:"Risk Free",
+        UserImage:"https://1.bp.blogspot.com/-u4tzbKlhVOQ/YAh4yivxV-I/AAAAAAAAkrs/Jpft5HKlkIUXxaboKy85shkczQuNQwe4gCLcBGAsYHQ/s738/whatsapp%2Bdp%2Bimages%2Bfor%2Bboys%2B%25282%2529.jpg",
+        BackImage:"https://wallpaperaccess.com/full/2178327.jpg",
+        Head:"Technical Expert ",
+        Description:"Lorem ipsum dolor esse ad reiciendis voluptates commodi quibusdam molestiae?",
+        DateTime:"15 July,1999"
+    },
 ]
 
 export default BlogsData 
