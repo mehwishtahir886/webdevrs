@@ -38,6 +38,7 @@
     box-shadow: 0 5px 10px 0 rgb(200, 200, 200);
     display: flex;
     overflow: hidden;
+   
 }
 
 .Bloguserima {
@@ -48,7 +49,7 @@
 .Blogusrinfo {
     height: 100%;
     width: 55%;
-
+    font-family: var(--Heading-fonts);
 }
 
 .Blogusrimg {
@@ -77,6 +78,7 @@
     left: 10%;
     color: var(--primary-dark);
     font-size: 17px;
+    font-family: var(--Heading-fonts);
 }
 
 .BlogDesp {
@@ -136,19 +138,25 @@
 }
 .BlogSideHead{
     color: var(--primary-dark);
-    font-size: 19px;
+    font-size: 25px;
     padding: 30px;
     padding-bottom: 10px;
+    font-family: var(--Heading-fonts);
+
 }
 .BlogSideBar li{
     list-style: none;
-    color: var(--secondary-light);
-    padding: 8px 40px;
+    color: var(--primary-light);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-left: 40px;
     font-size: 15px;
     cursor: pointer;
-    width: max-content;
+    width: 150px;
     transition: all .34s linear;
+    padding-right: 0;
 }
-.BlogSideBar li:hover{
-    padding: 8px 50px;
-}
+/* .liActive{
+    box-shadow: 0 0 10px 0 rgb(200, 200, 200);
+    padding-left: 45px;
+} */

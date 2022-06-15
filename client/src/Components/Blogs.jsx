@@ -2,9 +2,11 @@ import React from 'react'
 import { Container, Row } from "react-bootstrap"
 import classes from "./Blogs.module.css"
 import Navbar from "./Navbar"
+import Footer from './Footer'
 import "./Navbar.css"
 import BlogsData from "./BlogsData"
 import { AiOutlineBook } from "react-icons/ai";
+import { useEffect } from 'react'
 
 const Blogs = () => {
     const BlogsMap = BlogsData.map((item) => {
@@ -41,13 +43,14 @@ const Blogs = () => {
             </>
         )
     })
+   
     return (
         <>
             <Navbar />
             <Container fluid className={classes.MainBlogg}>
                 <div className={classes.BlogSideBar}>
                     <h5 className={classes.BlogSideHead}>Blog Catagories</h5>
-                        <li>All</li>
+                        <li className={classes.liActive}>All</li>
                         <li>Brand Startergy</li>
                         <li>Brand Support</li>
                         <li>Comminuactions</li>
@@ -62,6 +65,7 @@ const Blogs = () => {
                     {BlogsMap}
                 </Container>
             </Container>
+            <Footer/>
         </>
     )
 }
