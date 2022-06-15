@@ -1,11 +1,17 @@
 .MainEventBanner{
-    height: max-content;
+    height: 100vh;
     background-color: var(--primary-dark);
-    position: absolute;
+    position: relative;
     padding: 0;
     top: 12%;
 }
 .MainVideo{
     position: absolute;
-    height: 100%;
+    width: 100%;
+}
+.EventSection{
+    height: 100vh;
+    width: 100%;
+    background-color: red;
+    margin-top: 100px;
 }

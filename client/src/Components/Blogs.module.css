@@ -138,15 +138,17 @@
     color: var(--primary-dark);
     font-size: 19px;
     padding: 30px;
+    padding-bottom: 10px;
 }
 .BlogSideBar li{
     list-style: none;
-    color: var(--primary-dark);
-    padding: 8px 30px;
-    font-size: 14px;
+    color: var(--secondary-light);
+    padding: 8px 40px;
+    font-size: 15px;
     cursor: pointer;
     width: max-content;
+    transition: all .34s linear;
 }
 .BlogSideBar li:hover{
-    text-decoration: underline;
+    padding: 8px 50px;
 }

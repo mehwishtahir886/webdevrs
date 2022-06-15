@@ -46,7 +46,7 @@ const Blogs = () => {
             <Navbar />
             <Container fluid className={classes.MainBlogg}>
                 <div className={classes.BlogSideBar}>
-                    <h5 className={classes.BlogSideHead}>Blog Posts</h5>
+                    <h5 className={classes.BlogSideHead}>Blog Catagories</h5>
                         <li>All</li>
                         <li>Brand Startergy</li>
                         <li>Brand Support</li>

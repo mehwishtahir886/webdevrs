@@ -14,6 +14,9 @@ const Events = () => {
                         <source src={web1} type="video/mp4" />Sorry, your browser doesn't support embedded videos.</video>
                 </div>
             </Container>
+            <Container className={classes.EventSection}>
+
+            </Container>
         </>
     )
 }
