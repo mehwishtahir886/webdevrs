@@ -10,8 +10,45 @@
     width: 100%;
 }
 .EventSection{
-    height: 100vh;
+    height: max-content;
     width: 100%;
     background-color: red;
     margin-top: 100px;
+    padding: 0;
+    position: relative;
+}
+.EventSidebar{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    height: 655px;
+    width: 25%;
+    background-color: rgb(245, 245, 245);
+    box-shadow: 0 2px 5px 2px rgb(200, 200, 200);
+}
+.EventSideHead{
+    color: var(--primary-dark);
+    font-size: 19px;
+    padding: 30px;
+    padding-bottom: 10px;
+}
+.EventSidebar li{
+    list-style: none;
+    color: var(--secondary-light);
+    padding: 8px 40px;
+    font-size: 15px;
+    cursor: pointer;
+    width: max-content;
+    transition: all .34s linear;
+}
+.EventSidebar li:hover{
+    padding: 8px 50px;
+}
+.EventsGallery{
+    height: 100vh;
+    background-color: yellow;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 70%;
 }
