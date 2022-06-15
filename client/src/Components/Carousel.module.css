@@ -4,7 +4,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 600px;
+    height: 550px;
   }
    
   .carousel_wrapper {
@@ -12,20 +12,18 @@
   }
   .carousel_wrapper button{
     color: var(--primary-dark);
-    margin: 10px;
   }
   .carousel_wrapper button:hover{
     color: white;
     background-color: var(--primary-dark) !important;
-  }
-  
-  
+  }  
   .rec-carousel-item:focus {
     outline: none;
   }
   .MianCard{
       height: max-content;
       width: 100%;
+      margin: 10px;
       display: flex;
       flex-direction: column;
       justify-content: space-around;
