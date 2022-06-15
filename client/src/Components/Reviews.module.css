@@ -152,3 +152,54 @@
     background-position:100% 0;
     transition: all .4s ease-in-out;
 }
+
+.backg{
+    background-image: url('https://images.unsplash.com/photo-1592890288564-76628a30a657?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
+    background-size: cover;
+    height: 60vh;
+    width: 100vw;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.backgo{
+    background-color: var(--primary-dark);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0.7;
+    z-index: 10;
+
+
+}
+
+.backr{
+    position: absolute;
+    color: white;
+    /* font-size: 80px; */
+    z-index: 20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: var(--Heading-fonts);
+    /* border: solid 1px black; */
+    height: 120px;
+}
+
+.backr h1{
+    font-size: 55px;
+    font-weight: 400;
+}
+
+.backr h2{
+    font-size: 25px;
+}
+
+.backr p{
+    /* border: solid 1px black; */
+    height: 60px;
+    text-align: center;
+}
