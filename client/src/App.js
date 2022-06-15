@@ -9,6 +9,7 @@ import SignUp from './Components/SignUp'
 import Forget from './Components/Forget'
 import Blogs from './Components/Blogs'
 import Events from './Components/Events'
+import Reviews from './Components/Reviews'
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
         <Route path='/Forgot' element={<Forget />} />
         <Route path='/blogs' element={<Blogs />} />
         <Route path='/events' element={<Events />} />
+        <Route path='/reviews' element={<Reviews />} />
       </Routes>
     </>
   )

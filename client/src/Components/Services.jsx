@@ -28,7 +28,16 @@ const Services = () => {
 
       <Container className={classes.border} >
 
-        <Row>
+                
+        <Row className={classes.row}>
+
+      {/* heading */}
+
+      <Col className={classes.headingser} xl={12} lg={12} md={12} sm={12} >
+        <h1>How We Works</h1>
+      </Col>
+ 
+
           {/* //1// */}
 
           <Col className={` ${classes.flex}`} xl={4} lg={4} md={6} sm={6}  >

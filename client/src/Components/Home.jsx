@@ -10,6 +10,7 @@ import Carousel from './Carouselslider'
 import Faqs from './Faqs'
 import { useNavigate } from 'react-router-dom'
 import Blogs from './Blogs'
+import Reviews from './Reviews'
 const Home = () => {
   const navigate=useNavigate()
   const userLogin = useSelector((state) => state.userLogin)
