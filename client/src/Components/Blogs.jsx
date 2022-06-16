@@ -43,29 +43,29 @@ const Blogs = () => {
             </>
         )
     })
-   
+
     return (
         <>
             <Navbar />
             <Container fluid className={classes.MainBlogg}>
                 <div className={classes.BlogSideBar}>
                     <h5 className={classes.BlogSideHead}>Blog Catagories</h5>
-                        <li className={classes.liActive}>All</li>
-                        <li>Brand Startergy</li>
-                        <li>Brand Support</li>
-                        <li>Comminuactions</li>
-                        <li>Culture</li>
-                        <li>LeaderShip</li>
-                        <li>News and Updates</li>
-                        <li>Process</li>
-                        <li>Visual Identity</li>
-                        <li>In Conservation</li>
+                    <li className={classes.liActive}>All</li>
+                    <li>Brand Startergy</li>
+                    <li>Brand Support</li>
+                    <li>Comminuactions</li>
+                    <li>Culture</li>
+                    <li>LeaderShip</li>
+                    <li>News and Updates</li>
+                    <li>Process</li>
+                    <li>Visual Identity</li>
+                    <li>In Conservation</li>
                 </div>
                 <Container className={classes.blogItemMain}>
                     {BlogsMap}
                 </Container>
             </Container>
-            <Footer/>
+            <Footer />
         </>
     )
 }

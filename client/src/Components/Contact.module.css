@@ -107,6 +107,8 @@
     border: none;
 }
 
+/* //////////////////////// Media Quries /////////////////// */
+
 @media (max-width:991px) {
     .Main_contact {
         width: 700px;
@@ -119,6 +121,7 @@
     .sendbutton {
         bottom: 0;
     }
+    
 }
 
 @media (max-width:767px) {

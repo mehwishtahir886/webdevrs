@@ -5,7 +5,6 @@ import Footer from './Footer'
 import web1 from '../videos/web.mp4';
 import { Container, Row } from 'react-bootstrap'
 const Events = () => {
-
     return (
         <>
             <Navbar />
@@ -30,10 +29,11 @@ const Events = () => {
                     <li>Instructors</li>
                 </div>
                 <Container className={classes.EventsGallery}>
-
+                        
                 </Container>
             </Container>
             <Footer />
+
         </>
     )
 }

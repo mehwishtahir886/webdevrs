@@ -1,9 +1,7 @@
 .MainEventBanner{
     height: 100vh;
-    background-color: var(--primary-dark);
     position: relative;
     padding: 0;
-    top: 12%;
 }
 .MainVideo{
     position: absolute;
@@ -11,16 +9,13 @@
 }
 .EventSection{
     height: max-content;
-    width: 100%;
-    background-color: red;
-    margin-top: 100px;
+    display: flex;
     padding: 0;
-    position: relative;
+    margin-top: 100px;
 }
 .EventSidebar{
-    position: sticky;
+   position: sticky;
     top: 0;
-    z-index: 1;
     height: 655px;
     width: 25%;
     background-color: rgb(245, 245, 245);
@@ -28,9 +23,10 @@
 }
 .EventSideHead{
     color: var(--primary-dark);
-    font-size: 19px;
+    font-size: 25px;
     padding: 30px;
     padding-bottom: 10px;
+    font-family: var(--Heading-fonts);
 }
 .EventSidebar li{
     list-style: none;
@@ -45,10 +41,7 @@
     padding: 8px 50px;
 }
 .EventsGallery{
-    height: 100vh;
+    height: 200vh;
     background-color: yellow;
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 70%;
+   
 }
