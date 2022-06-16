@@ -12,8 +12,8 @@ import C1 from '../images/frontend.png'
 import C2 from '../images/backend.png'
 import C3 from '../images/cloud.png'
 import C4 from '../images/mobile.png'
-import C_banner_icon1 from '../images/vector-main-courses/VExtor___1.png'
-import C_banner_icon2 from '../images/vector-main-courses/VExtor___2.png'
+import C_banner_icon1 from '../images/vector-main-cOURSES/VExtor___1.png'
+import C_banner_icon2 from '../images/vector-main-cOURSES/VExtor___2.png'
 
 import Nav from 'react-bootstrap/Nav';
 
