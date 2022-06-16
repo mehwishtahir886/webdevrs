@@ -56,9 +56,10 @@ const Reviews = () => {
     // console.log(rev);
 
     const updown=()=>{
-        console.log('updown');
-        var v=document.getElementsByClassName('arrow')[0];
-        window.scrollY=800
+        // console.log('updown');
+        // var v=document.getElementsByClassName('arrow')[0];
+        // window.scrollY=800
+        // window.innerHeight=1600
         
         // window
         

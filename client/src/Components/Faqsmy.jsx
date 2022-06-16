@@ -39,7 +39,6 @@ const Faqsmy = ({a,q}) => {
 
 </div>
 
-
     </>
   )
 }

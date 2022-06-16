@@ -7,13 +7,19 @@
 
 }
 
+/* .mrev{
+    height: 95%;
+    width: 100%;
+    /* border: solid 1px black; 
+} */
+
 
 
 .rev{
     height:270px;
     /* background-color: var(--primary-light); */
     width: 100%;
-    /* border: solid 1px black; */
+    /* border: solid 1px orange; */
     display: flex;
     justify-content: space-between;
     align-items:flex-start;
@@ -54,6 +60,8 @@
 .port h1{
     margin-left: 25px;
     font-family: var(--Heading-fonts);
+    text-transform: capitalize;
+
 }
 
 
@@ -209,6 +217,8 @@
 .ph h1{
     font-size: 55px;
     font-weight: 400;
+    text-transform: capitalize;
+
 
 }
 
