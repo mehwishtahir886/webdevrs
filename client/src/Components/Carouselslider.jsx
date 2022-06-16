@@ -4,6 +4,7 @@ import Item from "./ItemCarousel";
 import classes from "./Carousel.module.css"
 import CardImage from "../images/Laptop.png"
 import "./Carousel.module.css"
+import "./Carousel.css"
 
 const breakPoints = [
     { width: 1, itemsToShow: 1 },
@@ -17,7 +18,7 @@ const Carouselslider = () => {
         <>
             <div className={classes.App}>
                 <div className={classes.carousel_wrapper}>
-                    <Carousel breakPoints={breakPoints}>
+                    <Carousel breakPoints={breakPoints} >
                         {items.map((item) => (
                             <Item >
                                 <div className={classes.MianCard}>

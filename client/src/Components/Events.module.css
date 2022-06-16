@@ -1,19 +1,23 @@
 .MainEventBanner {
-    height: 100vh;
+    height: 103vh;
     position: relative;
     padding: 0;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(rgba(25, 67, 118, 0.7),rgba(25, 67, 118, 0.7)),url(../images/Event1.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 .MainVideo {
     position: absolute;
-    width: 100%;
+    width: 1200px;
 }
 
 .EventSection {
     height: max-content;
     display: flex;
     padding: 0;
-    margin-top: 100px;
 }
 
 .EventSidebar {
@@ -58,14 +62,6 @@
     margin: 45px;
     position: relative;
 }
-
-.Gallery_part2 {
-    height: 450px;
-    background-color: green;
-    margin: 45px;
-
-}
-
 .Gallery_part1_img {
     height: 300px;
     width: 100%;
