@@ -4,13 +4,15 @@
     background-color: transparent;
 }
 .Ccourses_banner{
-    height: 84vh;
+    position: relative;
+    height: 68vh;
     padding: 0;
-    background-image: url(../images/vector-main-cOURSES/VExtor.png);
+    background-image: url(../images/vector-main-courses/VExtor.png);
     background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 20px;
 }
 .Ccourses_banner_info{
     display: flex;
@@ -56,18 +58,64 @@
 .Ccourses_banner_info_icons{
     color: var(--primary-light);
 }
+.main_tabs{ 
+    z-index: 111;
+    margin-top: -40px;
+}
+.tabs{
+    width: 90%;
+    margin: auto;
+}
 .Ccourses_banners{
-    background-color: red;
-    margin: 10px;
+    background-color: rgba(255, 255, 255, 0.884);
+    margin: 20px;
+    position: absolute;
+    padding: 15px 10px;
+    box-shadow: 0 0 15px 0 rgb(232, 231, 231);
+    border-radius: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .Ccourses_banners span{
-    margin: 10px;
+    width: 90px;
+    margin-left: 10px;
+    font-family: var(--Heading-fonts);
+    line-height: 2.5vh;
+}
+.Ccourses_banners:nth-child(1){
+    top: 0;
+    left: 35%;
+}
+.Ccourses_banners:nth-child(2){
+    top: 40%;
+    left: 9%;
+}
+.Ccourses_banners:nth-child(3){
+    top: 40%;
+    right: 10%;
+}
+.Ccourses_banners:nth-child(4){
+    bottom: 0;
+    left: 35%;
+}
+.Ccourses_banners_logo{
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%,-52%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: max-content;
+    height: max-content;
+}
+.Ccourses_banners_logo img{
+    width: 100%;
+    height: 100%;
 }
 .C_banner__icon_main{
-    width: 80px;
+    width: 60px;
     height: 40px;
 }
 .C_banner__icon_main img{
@@ -90,7 +138,6 @@
     box-shadow: 0 0 10px 0 #eee;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
 }
 .Ccourses_item_main{
@@ -125,8 +172,45 @@
     height: 100%;
     background-color: cover;
 }
+.Ccourses_item_projects{
+    width: 80%;
+    height: max-content;
+    /* background-color: red; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+.Ccourses_item_projects > div{
+    width: max-content;
+    height: max-content;
+    background-color: white;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 7px 0 #eee;
+    justify-content: center;
+}
+.Ccourses_item_projects > div > div{
+    width: 25px;
+    height: 30px;
+}
+.Ccourses_item_projects > div > div img{
+    width: 100%;
+    height: 100%;
+    margin: 0 5px;
+}
+.Ccourses_item_projects > div span{
+    font-size: 1.1em;
+    margin: 0 15px;
+    padding-right: 30px;
+}
 .Ccourses_item_carousel{
     width: 100%;
     height: max-content;
     margin: 20px 0;
 }
+
+

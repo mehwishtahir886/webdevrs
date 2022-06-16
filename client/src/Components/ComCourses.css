@@ -1,0 +1,7 @@
+.nav-tabs{
+    border-bottom: none;
+}
+.nav-tabs .nav-link.active{
+    background: var(--primary-dark);
+    color: white;
+}
