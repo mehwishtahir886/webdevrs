@@ -4,6 +4,7 @@ import Reviewsmy from './Reviewsmy';
 import classes from './Reviews.module.css';
 import Navbar from './Navbar';
 import Footer from './Footer';
+import { IoIosArrowDown } from "react-icons/io";
 
 import {
     Container,
@@ -54,6 +55,15 @@ const Reviews = () => {
 
     // console.log(rev);
 
+    const updown=()=>{
+        console.log('updown');
+        var v=document.getElementsByClassName('arrow')[0];
+        window.scrollY=800
+        
+        // window
+        
+    }
+
     const ren = rev.map((item) => {
         // console.log(item ,'this is rev');
         return (
@@ -72,13 +82,20 @@ const Reviews = () => {
                 <div className={classes.backgo}></div>
                 <div className={classes.backr} >
 
-                <h1>Students Reviews</h1>
-                <p>This is Reviews and experience of the webdevr students and alumni <br />
-                   We always explore our students works and increase thair skills
-                 </p>
-                 
+                    <div className={classes.ph}>
+                        <h1>Students Reviews</h1>
+                        <p>This is Reviews and experience of the webdevr students and alumni
+                            We always explore our students works and increase thair skills
+                        </p>
+                    </div>
+
+                    <div className={classes.ic} >
+                       <IoIosArrowDown className={`${classes.ici} arrow `} onClick={updown()} />
+                    </div>
+
+
                 </div>
-              
+
             </div>
 
 
