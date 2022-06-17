@@ -17,12 +17,21 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* border: solid 1px black; */
+
 }
 
 .border{
     background-color: var(--primary-gray);
     background-color: rgb(250, 250, 250);
+}
+
+.headingser{
+
+   padding-left: 430px;
+   padding-top: 50px;
+   font-family: (var(--Para-fonts));
+
+
 }
 
 .main{

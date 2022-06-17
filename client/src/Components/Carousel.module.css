@@ -5,18 +5,18 @@
     align-items: center;
     justify-content: center;
     height: 550px;
-  }
-   
+  } 
   .carousel_wrapper {
     width: 100%;
   }
   .carousel_wrapper button{
     color: var(--primary-dark);
   }
+  
   .carousel_wrapper button:hover{
     color: white;
     background-color: var(--primary-dark) !important;
-  }  
+  }
   .rec-carousel-item:focus {
     outline: none;
   }
@@ -53,7 +53,7 @@
     color: var(--primary-dark);
     font-size: var(--main-heading-size);
     font-family: var(--Heading-fonts);
-
+    
   }
   .CardPara{
     text-align: center ;
@@ -92,7 +92,7 @@
     height: 100%;
     width: 100%;
   }
-
+  
   @media (max-width:1230){
     .CardLanguage{
       height: 120px;
