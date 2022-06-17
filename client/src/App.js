@@ -10,6 +10,7 @@ import Forget from './Components/Forget'
 import Blogs from './Components/Blogs'
 import Events from './Components/Events'
 import Reviews from './Components/Reviews'
+import ProjectDetail from './Components/ProjectDetail'
 
 const App = () => {
   return (
@@ -26,6 +27,7 @@ const App = () => {
         <Route path='/blogs' element={<Blogs />} />
         <Route path='/events' element={<Events />} />
         <Route path='/reviews' element={<Reviews />} />
+        <Route path='/projectdetail' element={<ProjectDetail />} />
       </Routes>
     </>
   )
