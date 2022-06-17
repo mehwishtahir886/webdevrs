@@ -1,36 +1,27 @@
-.MainEventBanner {
-    height: 103vh;
-    position: relative;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    background-image: linear-gradient(rgba(25, 67, 118, 0.7),rgba(25, 67, 118, 0.7)),url(../images/Event1.jpg);
-    background-position: center;
-    background-size: cover;
-}
-
-.MainVideo {
-    position: absolute;
-    width: 1200px;
-}
 
 .EventSection {
     height: max-content;
     display: flex;
     padding: 0;
+    margin-top: -40px;
+    background-color: rgb(245, 245, 245);
 }
 
 .EventSidebar {
     position: sticky;
-    top: 0;
-    height: 655px;
+    padding-top: 40px;
+    height: 100vh;
     width: 25%;
-    background-color: rgb(245, 245, 245);
-    box-shadow: 0 2px 5px 2px rgb(200, 200, 200);
+    top: 0;
+    /* background-color:white; */
+    background-color: var(--primary-dark);
+    color: white;
+    /* box-shadow: 0 2px 5px 2px rgb(200, 200, 200); */
 }
 
 .EventSideHead {
-    color: var(--primary-dark);
+    /* color: var(--primary-dark); */
+    color: white;
     font-size: 25px;
     padding: 30px;
     padding-bottom: 10px;
@@ -39,7 +30,6 @@
 
 .EventSidebar li {
     list-style: none;
-    color: var(--secondary-light);
     padding: 8px 40px;
     font-size: 15px;
     cursor: pointer;
@@ -52,26 +42,29 @@
 }
 
 .EventsGallery {
-    height: 200vh;
-    background-color: rgb(245, 245, 245);
+    height: max-content;
+    margin-top: 50px;
 }
 
 .Gallery_part1 {
-    height: 450px;
+    height: 400px;
     padding: 0;
     margin: 45px;
     position: relative;
+    margin-bottom: 20px;
 }
+
 .Gallery_part1_img {
-    height: 300px;
+    height: 250px;
     width: 100%;
     position: absolute;
     overflow: hidden;
+    cursor: pointer;
 }
 
 .Gallery_part1_content {
     position: absolute;
-    height: 250px;
+    height: 225px;
     width: 80%;
     background-color: white;
     bottom: 0;
@@ -79,6 +72,31 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 1px 0px 18px -2px rgba(231, 231, 231, 0.75);
+}
+
+.EventArrow {
+    position: absolute;
+    font-size: 25px;
+    bottom: 10px;
+    right: 40px;
+    cursor: pointer;
+    color: var(--primary-light);
+    animation: Arrowmove 1.5s linear infinite;
+}
+
+@keyframes Arrowmove {
+    0%{
+        right: 40px;
+        opacity: 1;
+    }
+    80%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        right: 30px;
+    }
 }
 
 .Eventimg {
@@ -112,17 +130,20 @@
     flex-direction: column;
     justify-content: space-around;
 }
-.EventDate{
+
+.EventDate {
     font-size: 15px;
     color: var(--primary-dark);
     font-family: var(--Heading-fonts);
 }
-.EventHEading{
+
+.EventHEading {
     font-size: 22px;
     color: var(--primary-dark);
     font-family: var(--Heading-fonts);
 }
-.EventDescreption{
+
+.EventDescreption {
     font-size: 15px;
-    color:var(--Para-fonts);
+    color: var(--Para-fonts);
 }
