@@ -2,6 +2,8 @@
     height: max-content;
     display: flex;
     padding: 0;
+    background-color: rgb(245, 245, 245);
+    margin-top: -50px;
 }
 
 .BlogCard {
@@ -124,20 +126,23 @@
 /* //////////////////////// Side Baar Style ////////////////////// */
 
 .blogItemMain {
+    margin-top: 70px;
     display: flex;
     flex-wrap: wrap;
 }
 
 .BlogSideBar {
     position: sticky;
+    padding-top: 50px;
     top: 0;
-    height: 655px;
+    height: 100vh;
     width: 25%;
-    background-color: rgb(245, 245, 245);
-    box-shadow: 0 2px 5px 2px rgb(200, 200, 200);
+    background-color: var(--primary-dark);
+    /* background-color: rgb(245, 245, 245); */
+    /* box-shadow: 0 2px 5px 2px rgb(200, 200, 200); */
 }
 .BlogSideHead{
-    color: var(--primary-dark);
+    color: white;
     font-size: 25px;
     padding: 30px;
     padding-bottom: 10px;
@@ -155,4 +160,5 @@
     width: 150px;
     transition: all .34s linear;
     padding-right: 0;
+    color: white;
 }
