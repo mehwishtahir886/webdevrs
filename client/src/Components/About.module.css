@@ -59,6 +59,7 @@
     margin: 0;
 }
 .About_container_Col{
+    position: relative;
     height: 100%;
     border: 1px solid;
     display: flex;
@@ -68,6 +69,8 @@
 .About_container_main_circle{
     width: 200px;
     height: 200px;
+    position: absolute;
+    top: -50%;
     background-color: white;
     border-radius: 50%;
 }

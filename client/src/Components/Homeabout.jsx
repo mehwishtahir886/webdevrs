@@ -1,15 +1,8 @@
-
-import React from 'react'
-import classes from './Homeabout.module.css';
-import web from '../videos/web.mp4';
-import imgg from "../images/imgg.png"
-import {
-  Container,
-  Row,
-  Col,
-} from 'react-bootstrap';
-
-
+import React from "react";
+import classes from "./Homeabout.module.css";
+import web from "../videos/web.mp4";
+import imgg from "../images/imgg.png";
+import { Container, Row, Col } from "react-bootstrap";
 
 const Homeabout = () => {
   const openVideo = () => {
@@ -59,7 +52,7 @@ const Homeabout = () => {
 
 
     </>
-  )
-}
+  );
+};
 
-export default Homeabout
+export default Homeabout;

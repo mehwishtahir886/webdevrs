@@ -12,3 +12,8 @@
     background: var(--primary-light);
     color: white;
 }
+
+.react-slideshow-container .default-nav{
+    background: rgba(255, 0, 0, 0) !important;
+    box-shadow: none;
+}
