@@ -1,11 +1,18 @@
 
+.slide-container{
+    background-color: white;
+    /* border: solid 1px orange; */
+    
+}
     
     .slide{
         width: 90%;
         margin: auto;
+        /* color: blue; */
+        background-color: white !important;
+        border: solid 1px orange;        
     }
-    
-    
+
     .row{
         display: flex;
         justify-content: space-between;

@@ -1,6 +1,14 @@
 import React from 'react'
-import { Slide, Fade } from 'react-slideshow-image';
+// import { Slide, Fade } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
+
+//
+
+import AwesomeSlider from 'react-awesome-slider';
+import 'react-awesome-slider/dist/styles.css';
+import './Roadmap.css';
+
+//
 
 import classes from './Roadmap.module.css';
 import {
@@ -16,7 +24,7 @@ const Headerslider = () => {
     return (
         <div className="slide-container">
 
-            <Slide className={classes.slide} >
+            <AwesomeSlider className={classes.slide} >
 
                 {/* 1 */}
 
@@ -143,7 +151,7 @@ const Headerslider = () => {
 
                 {/* //////////////////////////////////// */}
 
-            </Slide>
+            </AwesomeSlider>
 
         </div>
     )
