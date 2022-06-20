@@ -172,6 +172,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    overflow: hidden;
 }
 .backgo{
     background-color: var(--primary-dark);
@@ -254,6 +255,17 @@
     .backr p{
         width: 90%;
     }
+    
+    .ph{
+        width: 40%;
+    }
+
+    .ph p{
+        font-size:  22px ;
+    }
+
+
+
 
 }
 
@@ -264,6 +276,15 @@
     }
     .backr p{
         width: 80%;
+    }
+
+        
+    .ph{
+        width: 60%;
+    }
+
+    .ph p{
+        font-size:  22px ;
     }
 
 }
