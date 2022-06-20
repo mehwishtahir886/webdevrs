@@ -13,9 +13,9 @@ import Blogs from './Blogs'
 import Reviews from './Reviews'
 import Headerslider from './Headerslider'
 const Home = () => {
-  const navigate=useNavigate()
+  const navigate = useNavigate()
   const userLogin = useSelector((state) => state.userLogin)
-  const {userInfo } = userLogin
+  const { userInfo } = userLogin
 
   useEffect(() => {
     console.log(userInfo,"..")

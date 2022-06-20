@@ -1,7 +1,19 @@
 .nav-tabs{
     border-bottom: none;
 }
+.nav-link{
+    color: var(--primary-gray);
+    font-size: 1.2em;
+}
+.nav-link:hover{
+    color: var(--primary-light);
+}
 .nav-tabs .nav-link.active{
-    background: var(--primary-dark);
+    background: var(--primary-light);
     color: white;
+}
+
+.react-slideshow-container .default-nav{
+    background: rgba(255, 0, 0, 0) !important;
+    box-shadow: none;
 }

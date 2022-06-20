@@ -11,8 +11,6 @@ import { Link } from 'react-router-dom';
 const NavbarBanner = () => {
   return (
     <>
-
-      <div className='nav_nav'>
         <div className='navbar_main'>
           <div className='navbar_top'>
             <div className='top_part1'>
@@ -99,8 +97,6 @@ const NavbarBanner = () => {
             </Container>
           </Navbar>
         </div>
-      </div>
-
     </>
   )
 }
