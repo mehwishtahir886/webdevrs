@@ -10,6 +10,7 @@ import Forget from './Components/Forget'
 import Blogs from './Components/Blogs'
 import Events from './Components/Events'
 import Reviews from './Components/Reviews'
+import About from './Components/About'
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
+        <Route path="/about" element={<About />} />
         <Route path="//ContactPage" element={<ContactsPage />} />
         <Route path='/login' element={<Login />} />
         <Route path='/Signup' element={<SignUp />} />

@@ -1,0 +1,96 @@
+.main_About{
+    width: 100%;
+    height: max-content; 
+    padding: 0;
+}
+.banner_About{
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    color: white;
+    background:linear-gradient(rgba(25, 67, 118, 0.706),rgb(25,67,118,0.706)), url('https://images.unsplash.com/photo-1592890288564-76628a30a657?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
+    background-size: cover;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.banner_About_main{
+    font-family: var(--Heading-fonts);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner_About_content{
+    font-family: var(--Heading-fonts);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0 0;
+}
+.banner_About_content h1{
+    font-size: 55px;
+    font-weight: 400;
+    text-align: center;
+}
+.banner_About_content p{
+    text-align: center;
+    width: 55%;
+}
+.banner_About_icon{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 100px 0 0;
+}
+.About_container{
+    width: 100%;
+    height: max-content;
+    padding: 0;
+}
+.About_container_intro{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+}
+.About_container_Col{
+    height: 100%;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.About_container_main_circle{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border-radius: 50%;
+}
+.About_container_leftSides{
+    width: 50%;
+    height: 70vh;
+    background-color: red;
+}
+
+@media screen and (min-width: 320px) and (max-width:480px) {
+    .banner_About_main h1{
+        font-size: 40px;
+    }
+    .banner_About_main p{
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width:769px) {
+    .banner_About_main h1{
+        font-size: 45px;
+    }
+    .banner_About_main p{
+        width: 80%;
+    }
+}
