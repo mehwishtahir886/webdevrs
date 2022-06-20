@@ -27,9 +27,12 @@
 
 .headingser{
 
-   padding-left: 430px;
    padding-top: 50px;
    font-family: (var(--Para-fonts));
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
 
 
 }
