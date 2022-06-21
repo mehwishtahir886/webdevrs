@@ -14,18 +14,12 @@ const Faqsmy = ({a,q}) => {
 
 <div className={classes.f}>
 
-<div className={classes.fi} >
-
-
+<div className={classes.fi} onClick={()=> setLeng(!leng)}>
 <h5>{q}</h5>
-
 <div className={classes.btn} >
-
-
-    <div onClick={()=> setLeng(!leng)} className={`${classes.fpm} pl `}>
+    <div className={`${classes.fpm} pl `}>
         {leng ? <MdKeyboardArrowUp/> : <MdKeyboardArrowDown/>}
     </div>
-
 </div>
 
 </div>

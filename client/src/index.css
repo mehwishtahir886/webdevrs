@@ -20,3 +20,14 @@
   --main-heading-size:'2.5em';
   --sub-heading-size:'1.5em';
 }
+.Faqs_fp__Xq6W5{
+  animation:trans 1s linear!important;
+}
+@keyframes trans {
+    0%{
+        height:0;
+    }
+    100%{
+        height:max-content;
+    }
+}
