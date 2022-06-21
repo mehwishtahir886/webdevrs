@@ -15,7 +15,7 @@ import C4 from '../images/mobile.png'
 import C_banner_icon1 from '../images/VExtor___1.png'
 import C_banner_icon2 from '../images/VExtor___2.png'
 
-import Nav from 'react-bootstrap/Nav';
+import Banner_VExtor from '../images/VExtor.png'
 
 import LanguageImage1 from '../images/HTML.jpg'
 import LanguageImage2 from '../images/CSS.jpg'
@@ -25,6 +25,14 @@ import LanguageImage5 from '../images/tailment CSS.jpg'
 import LanguageImage6 from '../images/JQuerry.jpg'
 import LanguageImage7 from '../images/GITHUB.jpg'
 import LanguageImage8 from '../images/Redux.jpg'
+import LanguageImage9 from '../images/NodeJS.jpg'
+import LanguageImage10 from '../images/Express.jpg'
+import LanguageImage11 from '../images/MongoDB.jpg'
+import LanguageImage12 from '../images/MySQL.jpg'
+import LanguageImage13 from '../images/Flutter.jpg'
+import LanguageImage14 from '../images/ReactNative.jpg'
+import LanguageImage15 from '../images/DOCKER.jpg'
+import LanguageImage16 from '../images/KUBERNETES.jpg'
 
 import Carouselslider from './Carouselslider'
 
@@ -37,18 +45,20 @@ const ComCourses = () => {
       <Navbar />
       <Container fluid className={classes.Ccourses_main}>
         <Row>
-          <Col className={classes.Ccourses_banner_info}>
+          <Col lg={6} md={12} className={classes.Ccourses_banner_info}>
             <p>We've a unique Courses</p>
             <p>WebDevrs</p>
             <p>A Web Designing course belongs to the field of Computer Science and IT. It enables students to learn various techniques, tools and programming languages in order to create and maintain web pages. There is an array of courses in this field ranging from certificate and Diploma courses to UG, PG and PGDM programs.</p>
             <ul>
               <li><AiFillCheckCircle className={classes.Ccourses_banner_info_icons} /><span>Supporting development efforts from projects.</span></li>
               <li><AiFillCheckCircle className={classes.Ccourses_banner_info_icons} /><span>Prototyping and building applications and/or websites.</span></li>
-              <li><AiFillCheckCircle className={classes.Ccourses_banner_info_icons} /><span>Designing front end interfaces and user experiences.</span></li>
+              <li><AiFillCheckCircle className={classes.Ccourses_banner_info_icons} /><span>Designing f
+                ront end interfaces and user experiences.</span></li>
               <li><AiFillCheckCircle className={classes.Ccourses_banner_info_icons} /><span>Designing front end interfaces and user experiences.</span></li>
             </ul>
           </Col>
-          <Col className={classes.Ccourses_banner}>
+          <Col lg={6} md={12} className={classes.Ccourses_banner}>
+            <img className={classes.Ccourses_banner_image} src={Banner_VExtor} />
             <div className={classes.Ccourses_banners}>
               <div className={classes.C_banner__icon_main}><img src={C_banner_icon1} /></div>
               <span>Front End Development</span>
@@ -70,19 +80,6 @@ const ComCourses = () => {
             </div>
           </Col>
           <div id='maintabs' className={classes.main_tabs}>
-          {/* <Nav variant="tabs" defaultActiveKey="/home">
-            <Nav.Item>
-              <Nav.Link href="">Active</Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-              <Nav.Link eventKey="link-1">Option 2</Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-              <Nav.Link eventKey="disabled">
-                Disabled
-              </Nav.Link>
-            </Nav.Item>
-          </Nav> */}
             <Tabs
               className={classes.tabs}
               defaultActiveKey="Front-end-development"
@@ -149,6 +146,24 @@ const ComCourses = () => {
                     </div>
                     <div className={classes.Ccourses_item_image}><img src={C2} /></div>
                   </div>
+                  <div className={classes.Ccourses_item_projects}>
+                        <div>
+                          <div style={{width:"50px"}}><img src={LanguageImage9} /></div>
+                          <span>Node Js</span>
+                        </div>
+                        <div>
+                          <div style={{width:"50px"}}><img src={LanguageImage10} /></div>
+                          <span>Express</span>
+                        </div>
+                        <div>
+                          <div><img src={LanguageImage11} /></div>
+                          <span>MongoDB</span>
+                        </div>
+                        <div>
+                          <div style={{width:"50px"}}><img src={LanguageImage12} /></div>
+                          <span>MySQL</span>
+                        </div>
+                      </div>
                   <div className={classes.Ccourses_item_carousel}>
                     <Carouselslider />
                   </div>
@@ -163,6 +178,16 @@ const ComCourses = () => {
                     </div>
                     <div className={classes.Ccourses_item_image}><img src={C3} /></div>
                   </div>
+                  <div className={classes.Ccourses_item_projects}>
+                        <div>
+                          <div><img src={LanguageImage13} /></div>
+                          <span>Flutter</span>
+                        </div>
+                        <div>
+                          <div><img src={LanguageImage14} /></div>
+                          <span>React(Native)</span>
+                        </div>
+                      </div>
                   <div className={classes.Ccourses_item_carousel}>
                     <Carouselslider />
                   </div>
@@ -177,6 +202,16 @@ const ComCourses = () => {
                     </div>
                     <div className={classes.Ccourses_item_image}><img src={C4} /></div>
                   </div>
+                  <div className={classes.Ccourses_item_projects}>
+                        <div>
+                          <div><img src={LanguageImage15} /></div>
+                          <span>Docker.Heroku</span>
+                        </div>
+                        <div>
+                          <div><img src={LanguageImage16} /></div>
+                          <span>Kubernetes</span>
+                        </div>
+                      </div>
                   <div className={classes.Ccourses_item_carousel}>
                     <Carouselslider />
                   </div>

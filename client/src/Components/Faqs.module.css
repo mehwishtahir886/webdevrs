@@ -101,8 +101,34 @@
 @media screen and (min-width: 320px) and (max-width:480px) {
 
     .faq{
-        width: 90%;
+        width: 100%;
+
+
     }
+
+    .f{
+        /* height: 90px; */
+        min-height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .f h5{
+        font-size: 17px;
+        /* border: solid 1px orange; */
+        padding-top: 4px;
+
+   
+    }
+    .f p{
+        width: 90%;
+        padding-left: 5%;
+        padding-top: 5%;
+    }
+
+  
+   
 
 }
 
