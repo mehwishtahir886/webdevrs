@@ -43,9 +43,8 @@
 .banner_About_icon{
     width: 100%;
     display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
     align-items: center;
+    justify-content: center;
     margin: 100px 0 0;
 }
 .About_container{
@@ -55,31 +54,263 @@
 }
 .About_container_intro{
     width: 100%;
-    height: 100vh;
-    margin: 0;
+    height: max-content;
+    padding: 20px;
+    margin: 20px 0;
 }
-.About_container_Col{
-    position: relative;
-    height: 100%;
-    border: 1px solid;
+.About_container_intro1{
+    width: 100%;
+    height: max-content;
+    padding: 20px;
+    margin: 20px 0;
     display: flex;
+    flex-direction: row-reverse;
     align-items: center;
     justify-content: center;
 }
-.About_container_main_circle{
-    width: 200px;
-    height: 200px;
-    position: absolute;
-    top: -50%;
-    background-color: white;
-    border-radius: 50%;
+.About_container_ColLeft{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+.About_container_ColLeft1{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+.About_container_mainLeft{
+    width: 100%;
+    height: 100%;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.About_container_mainLeft1{
+    width: 100%;
+    height: 100%;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
 }
 .About_container_leftSides{
-    width: 50%;
-    height: 70vh;
-    background-color: red;
+    position: relative;
+    width: 400px;
+    height:60vh;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
 }
-
+.About_container_leftSides img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.About_container_main_circle{
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    top: 20%;
+    right: -90px;   
+    transform: translateY(-20%);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-color: white;
+    color: blue;
+    font-family: var(--Heading-fonts);
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.About_container_main_circle h4{
+    margin-top: 20px;
+}
+.About_container_main_circle p{
+    margin-top: -5px;
+    letter-spacing: 1px;
+    font-size: .9em;
+    color: var(--primary-light);
+}
+.About_container_main_circle:after{
+    position: absolute;
+    content: '';
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 150px;
+    height: 150px;
+    border: 1px solid var(--primary-dark);
+    border-radius: 50%;
+}
+.About_container_main_circle1{
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    top: 20%;
+    left: -18%;   
+    transform: translateY(-20%);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-color: white;
+    color: blue;
+    font-family: var(--Heading-fonts);
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.About_container_main_circle1 h4{
+    margin-top: 20px;
+}
+.About_container_main_circle1 p{
+    margin-top: -5px;
+    letter-spacing: 1px;
+    font-size: .9em;
+    color: var(--primary-light);
+}
+.About_container_main_circle1:after{
+    position: absolute;
+    content: '';
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 150px;
+    height: 150px;
+    border: 1px solid var(--primary-dark);
+    border-radius: 50%;
+}
+.About_container_main_icon{
+    position: absolute;
+    width: 100%;
+    height: 15%;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--primary-dark);
+    color: white;
+}
+.About_container_ColRight{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0;
+}
+.About_container_ColRight1{
+    width: 50%;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0;
+}
+.About_container_mainRight{
+    position: relative;
+    width: 86%;
+    height: max-content;
+    padding: 25px;
+    margin: 0 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.About_container_mainRight h1{
+    font-family: var(--Heading-fonts);
+    font-weight: bold;
+}
+.About_container_mainRight h5{
+    color: var(--primary-light);
+    letter-spacing: 1px;
+    font-weight: 350;
+}
+.About_container_mainRight_btn{
+    position: absolute;
+    padding: 10px 20px;
+    bottom: -20px;
+    left: 25px;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    background-size:300% 100%;
+    background-image: linear-gradient(45deg, var(--primary-light), var(--secondary-light),#04befe);
+    border-radius: 5px;
+    transition: all .4s ease-in-out;
+}
+.About_container_mainRight_btn:hover {
+    background-position:100% 0;
+    transition: all .4s ease-in-out;
+}
+@media screen and (max-width:1160px) {
+    .About_container_ColRight{
+        justify-content: flex-end;
+    }   
+}
+@media screen and (max-width:992px) {
+    .About_container_intro1{
+        flex-direction: column;
+    }    
+    .About_container_ColLeft1{
+        width: 100%;
+    }
+    .About_container_ColRight1{
+        width: 100%;
+        justify-content: center;
+    }
+    .About_container_ColRight{
+        justify-content: center;
+    }
+}
+@media screen and (max-width:610px) {
+    .About_container_leftSides{
+        width: 70%;
+    }
+}
+@media screen and (max-width:500px) {
+    .About_container_leftSides{
+        width: 100%;
+    }
+    .About_container_main_circle{
+        width: 100%;
+        height: 15%;
+        top: 0;
+        left: 0;   
+        border-radius: 0px;
+    }
+    .About_container_main_circle:after{
+        position: absolute;
+        content: '';
+        top: 0;
+        left: 0;
+        width: 0;
+        height: 0;
+        border: none;
+    }
+    .About_container_main_circle1{
+        width: 100%;
+        height: 15%;
+        top: 0;
+        left: 0;   
+        border-radius: 0px;
+    }
+    .About_container_main_circle1:after{
+        position: absolute;
+        content: '';
+        top: 0;
+        left: 0;
+        width: 0px;
+        height: 0px;
+        border: none;
+    }
+}
 @media screen and (min-width: 320px) and (max-width:480px) {
     .banner_About_main h1{
         font-size: 40px;

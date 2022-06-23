@@ -9,6 +9,7 @@ import {
  } from 'react-bootstrap'
 
 import { IoIosArrowDown } from "react-icons/io";
+import ceoImg from '../images/sir.jpeg'
 
 const About = () => {
   return (
@@ -29,20 +30,67 @@ const About = () => {
         </Container>
         <Container fluid className={classes.About_container}>
           <Row className={classes.About_container_intro}>
-            <Col className={classes.About_container_Col}>
-              <div className={classes.About_container_leftSides}>
-                <div className={classes.About_container_main_circle}></div>
+            <Col lg={6} md={12} className={classes.About_container_ColLeft}>
+              <div className={classes.About_container_mainLeft}>
+                <div className={classes.About_container_leftSides}>
+                      <img src={ceoImg} />
+                    <div className={classes.About_container_main_circle}>
+                      <h4>Chairman</h4>
+                      <p>Muhammad Iqbal</p>
+                    </div>
+                </div>
               </div>
             </Col>
-            <Col className={classes.About_container_Col}></Col>
+            <Col lg={6} md={12} className={classes.About_container_ColRight}>
+              <div className={classes.About_container_mainRight}>
+                <h1>Chairman's Message</h1>
+                <h5>Muhammad Iqbal</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi vitae repudiandae beatae cupiditate. Non, possimus facilis ut beatae inventore quod. Debitis corporis ea reiciendis pariatur ipsam blanditiis quia alias quam ad in! Harum dolores totam, rem voluptatibus praesentium quos. Impedit cum libero iste accusantium accusamus nobis nemo corporis et quasi! Distinctio consectetur optio blanditiis fuga aut numquam nostrum delectus provident amet illum, placeat commodi maxime aliquam officia eligendi officiis quo, tempora, perspiciatis eaque! Nobis esse, unde vitae quisquam labore voluptatibus ex maiores sit! Facilis laudantium illum quibusdam laborum praesentium ab molestias assumenda, est nemo ipsum eaque, esse doloremque, laboriosam dicta?</p>
+                <button className={classes.About_container_mainRight_btn}>Contact Him</button>
+              </div>
+            </Col>
+          </Row>
+          <Row className={classes.About_container_intro1}>
+            <div className={classes.About_container_ColLeft1}>
+              <div className={classes.About_container_mainLeft1}>
+                <div className={classes.About_container_leftSides}>
+                      <img src={ceoImg} />
+                    <div className={classes.About_container_main_circle1}>
+                      <h4>CEO</h4>
+                      <p>M.Zohaib Iqbal</p>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div className={classes.About_container_ColRight1}>
+              <div className={classes.About_container_mainRight}>
+              <h1>CEO's Message</h1>
+                <h5>Muhammad Zohaib Iqbal</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi vitae repudiandae beatae cupiditate. Non, possimus facilis ut beatae inventore quod. Debitis corporis ea reiciendis pariatur ipsam blanditiis quia alias quam ad in! Harum dolores totam, rem voluptatibus praesentium quos. Impedit cum libero iste accusantium accusamus nobis nemo corporis et quasi! Distinctio consectetur optio blanditiis fuga aut numquam nostrum delectus provident amet illum, placeat commodi maxime aliquam officia eligendi officiis quo, tempora, perspiciatis eaque! Nobis esse, unde vitae quisquam labore voluptatibus ex maiores sit! Facilis laudantium illum quibusdam laborum praesentium ab molestias assumenda, est nemo ipsum eaque, esse doloremque, laboriosam dicta?</p>
+                <button className={classes.About_container_mainRight_btn}>Contact Him</button>
+              </div>
+            </div>
           </Row>
           <Row className={classes.About_container_intro}>
-            <Col className={classes.About_container_Col}></Col>
-            <Col className={classes.About_container_Col}></Col>
-          </Row>
-          <Row className={classes.About_container_intro}>
-            <Col className={classes.About_container_Col}></Col>
-            <Col className={classes.About_container_Col}></Col>
+            <Col lg={6} md={12} className={classes.About_container_ColLeft}>
+              <div className={classes.About_container_mainLeft}>
+                <div className={classes.About_container_leftSides}>
+                      <img src={ceoImg} />
+                    <div className={classes.About_container_main_circle}>
+                      <h4>Director</h4>
+                      <p>Mehwish Tahir</p>
+                    </div>
+                </div>
+              </div>
+            </Col>
+            <Col lg={6} md={12} className={classes.About_container_ColRight}>
+              <div className={classes.About_container_mainRight}>
+                <h1>Director's Message</h1>
+                <h5>Mehwish Tahir</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi vitae repudiandae beatae cupiditate. Non, possimus facilis ut beatae inventore quod. Debitis corporis ea reiciendis pariatur ipsam blanditiis quia alias quam ad in! Harum dolores totam, rem voluptatibus praesentium quos. Impedit cum libero iste accusantium accusamus nobis nemo corporis et quasi! Distinctio consectetur optio blanditiis fuga aut numquam nostrum delectus provident amet illum, placeat commodi maxime aliquam officia eligendi officiis quo, tempora, perspiciatis eaque! Nobis esse, unde vitae quisquam labore voluptatibus ex maiores sit! Facilis laudantium illum quibusdam laborum praesentium ab molestias assumenda, est nemo ipsum eaque, esse doloremque, laboriosam dicta?</p>
+                <button className={classes.About_container_mainRight_btn}>Contact Her</button>
+              </div>
+            </Col>
           </Row>
         </Container>
       </Container>

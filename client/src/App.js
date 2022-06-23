@@ -11,6 +11,8 @@ import Blogs from './Components/Blogs'
 import Events from './Components/Events'
 import Reviews from './Components/Reviews'
 import ProjectDetail from './Components/ProjectDetail'
+import About from './Components/About'
+import './App.css'
 
 const App = () => {
   return (
@@ -19,6 +21,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
+        <Route path="/about" element={<About />} />
         <Route path="/ContactPage" element={<ContactsPage />} />
         <Route path='/login' element={<Login />} />
         <Route path='/Signup' element={<SignUp />} />

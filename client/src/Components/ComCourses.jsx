@@ -2,8 +2,6 @@ import React from 'react'
 import Navbar from './Navbar'
 import Footer from './Footer'
 
-import './ComCourses.css'
-
 import { AiFillCheckCircle } from "react-icons/ai"
 import { Container, Row, Col } from 'react-bootstrap'
 import classes from './ComCourses.module.css'
