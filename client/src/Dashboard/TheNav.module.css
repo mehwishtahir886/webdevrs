@@ -1,0 +1,85 @@
+.DashBoardNav{
+    height: 10vh;
+    width: 100%;
+    background-color: var(--primary-dark);
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.DashSearch{
+    height: 100%;
+    width: 40%;
+    border-left: 1px solid #999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+.DashAdmin{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.SearchMain{
+    height: 70%;
+    width: 80%;
+    overflow: hidden;
+    position: relative;
+}
+.SearchInput{
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 14px;
+    position: absolute;
+    background-color: transparent;
+    border-bottom: 1px solid white;
+    color: white;
+}
+.SearchInput::placeholder{
+    font-size: 14px;
+    color: white;
+}
+.SearchIcon{
+    position: absolute;
+    color: white;
+    z-index: 1;
+    top: 10px;
+    font-size: 25px;
+    right: 0;
+    cursor: pointer;
+}
+.SearchInput:focus{
+    outline: none;
+}
+.AdminBox{
+    height: 80%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.AdminPic{
+    height: 45px;
+    width: 45px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-left: -10px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.AdminName{
+    margin-left: 5px;
+    font-size: 17px;
+    color: white;
+    font-weight: normal;
+}
+.AdminIcon{
+    font-size: 30px;  
+}

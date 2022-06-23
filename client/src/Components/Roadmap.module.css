@@ -1,21 +1,28 @@
+/* ////////// */
+
+
+
+/* //////// */
 
 .slide-container{
-    background-color: white;
+    height: max-content;
+    width: max-content;
     /* border: 1px solid red; */
     
 }
-    
-    .slide{
-        width: 90%;
-        margin:50px auto;
-        height: max-content;
-        /* color: blue; */
-        background-color: white !important;
-        /* border: solid 1px green;  */
-        height: 50vh;       
-    }
 
-    .row{
+.slide{
+    /* border: solid 5px black; */
+    width: 90%;
+    margin:100px auto;
+    height: max-content;
+    /* color: blue; */
+    /* border: solid 1px green;  */
+    height: 60vh;       
+}
+
+.row{
+        background-color:rgb(253, 251, 251);
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -27,29 +34,27 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        /* box-shadow: 1px 0px 18px -2px rgba(231, 231, 231, 0.75); */
         
         
         
     }
     
     .mrow{
-        box-shadow: 1px 0px 18px -2px rgba(231, 231, 231, 0.75);
-        width: 85%;
+        width: 100%;
         /* border: solid 1px green; */
         height: 60vh;
         display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: center;  
         flex-direction: column;
-        
+        padding: 0px 60px;
     }
+    
 
-    .step{
-        /* border: solid 2px brown; */
-        height: 10%;
-    }
-
+    
     .sip{
+        /* background-color: gray; */
         height: 80%;
         /* border: solid 2px purple; */
         width: 100%;
@@ -77,13 +82,20 @@
         flex-direction: column;
     }
 
+    .pa h1{
+        color: var(--primary-dark);
+        /* color:; */
+        /* color: blue; */
+    }
+
      .pa h4{
-        color: var(--primaty-dark);
+        color: var(--primary-dark);
         text-decoration: underline;
      }
 
      .pa p{
         width: 90%;
+        color: var(--primary-gray);
      }
 
     .img{
@@ -476,3 +488,5 @@
         }
 
     }
+
+  

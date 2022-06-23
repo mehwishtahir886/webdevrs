@@ -11,14 +11,19 @@ import Blogs from './Components/Blogs'
 import Events from './Components/Events'
 import Reviews from './Components/Reviews'
 import ProjectDetail from './Components/ProjectDetail'
+<<<<<<< HEAD
 import About from './Components/About'
 import './App.css'
+=======
+import DashBoard from './Dashboard/DashBoard'
+>>>>>>> 940a6d11ae69038de9c922f71e7e54de57563ccd
 
 const App = () => {
   return (
     <>
-
+    
       <Routes>
+
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/about" element={<About />} />
@@ -31,6 +36,8 @@ const App = () => {
         <Route path='/events' element={<Events />} />
         <Route path='/reviews' element={<Reviews />} />
         <Route path='/projectdetail' element={<ProjectDetail />} />
+        <Route path='/Dashboard' element={<DashBoard/>} />
+
       </Routes>
     </>
   )

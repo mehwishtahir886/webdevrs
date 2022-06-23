@@ -9,7 +9,6 @@
 }
 
 
-
 .faq{
     height: max-content;
     width: 75%;
@@ -54,6 +53,19 @@
     margin-top: 10px;
     color: var(--primary-gray);
 }
+/* .fp p{
+    border:1px solid red!important;
+    overflow: hidden;
+   animation:trans 1s linear;
+}
+@keyframes trans {
+    0%{
+        height:0;
+    }
+    100%{
+        height:max-content;
+    }
+} */
 
 .fi{
     height:35px !important;
@@ -63,6 +75,7 @@
     align-items: center;
     /* border: solid 2px green; */
     margin-top: 15px;
+    cursor: pointer;
 }
 
 
@@ -80,10 +93,9 @@
     font-size: 30px;
     color: var(--primary-light);
     cursor: pointer;
-    transition: all linear 0.30s;
     margin-right: 20px;
     font-weight: 100;
-
+    transition: all linear 50s;
 }
 
 @media screen and (min-width: 320px) and (max-width:480px) {
