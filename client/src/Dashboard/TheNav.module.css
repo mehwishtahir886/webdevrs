@@ -18,8 +18,10 @@
 }
 .DashAdmin{
     height: 100%;
-    width: 30%;
-    border: 1px solid yellow;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .SearchMain{
     height: 70%;
@@ -52,4 +54,32 @@
 }
 .SearchInput:focus{
     outline: none;
+}
+.AdminBox{
+    height: 80%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.AdminPic{
+    height: 45px;
+    width: 45px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-left: -10px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.AdminName{
+    margin-left: 5px;
+    font-size: 17px;
+    color: white;
+    font-weight: normal;
+}
+.AdminIcon{
+    font-size: 30px;  
 }

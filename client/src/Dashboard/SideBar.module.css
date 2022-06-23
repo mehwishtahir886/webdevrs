@@ -3,6 +3,7 @@
     width: 100%;
     padding: 30px;
     color: var(--primary-light);
+
 }
 .MainSide{
     height: 100vh;
@@ -26,7 +27,7 @@
     color: var(--primary-light);
     padding-top: 8px;
     padding-bottom: 8px;
-    margin-left: 40px;
+    margin-left: 45px;
     font-size: 15px;
     cursor: pointer;
     width: 150px;
