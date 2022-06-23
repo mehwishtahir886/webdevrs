@@ -12,7 +12,7 @@ const Faqsmy = ({a,q}) => {
     <>
 
 
-<div className={classes.f}>
+<div onClick={()=> setLeng(!leng)} className={classes.f}>
 
 <div className={classes.fi} >
 
