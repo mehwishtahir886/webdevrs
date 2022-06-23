@@ -1,0 +1,9 @@
+.MainDashBoard{
+    height: 200vh;
+    padding: 0;
+    background-color: red;
+    position: absolute;
+    width: 80vw;
+    right: 0;
+}
+

@@ -50,8 +50,11 @@
     background-color: var(--primary-dark);
     border: none;
 }
-.col_right{
-    padding-top: 50px;
+.col_right div{
+    width: 100%;
+    height: max-content;
+    position: sticky;
+    top: 0;
 }
 .col_right span{
     padding: 2px 10px;

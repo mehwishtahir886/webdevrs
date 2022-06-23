@@ -11,12 +11,14 @@ import Blogs from './Components/Blogs'
 import Events from './Components/Events'
 import Reviews from './Components/Reviews'
 import ProjectDetail from './Components/ProjectDetail'
+import DashBoard from './Dashboard/DashBoard'
 
 const App = () => {
   return (
     <>
-
+    
       <Routes>
+
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/ContactPage" element={<ContactsPage />} />
@@ -28,6 +30,8 @@ const App = () => {
         <Route path='/events' element={<Events />} />
         <Route path='/reviews' element={<Reviews />} />
         <Route path='/projectdetail' element={<ProjectDetail />} />
+        <Route path='/Dashboard' element={<DashBoard/>} />
+
       </Routes>
     </>
   )
