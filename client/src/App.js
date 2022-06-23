@@ -11,12 +11,8 @@ import Blogs from './Components/Blogs'
 import Events from './Components/Events'
 import Reviews from './Components/Reviews'
 import ProjectDetail from './Components/ProjectDetail'
-<<<<<<< HEAD
-import About from './Components/About'
-import './App.css'
-=======
 import DashBoard from './Dashboard/DashBoard'
->>>>>>> 940a6d11ae69038de9c922f71e7e54de57563ccd
+import About from './Components/About'
 
 const App = () => {
   return (
