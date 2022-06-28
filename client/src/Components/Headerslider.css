@@ -3,4 +3,8 @@
         background:white!important;
     }
 
+    .awssld__bullets button {
+        display: none
+    }
+
   

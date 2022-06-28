@@ -6,11 +6,11 @@ import 'react-slideshow-image/dist/styles.css';
 
 import AwesomeSlider from 'react-awesome-slider';
 import 'react-awesome-slider/dist/styles.css';
-import './Roadmap.css';
+import './Headerslider.css';
 
 //
 
-import classes from './Roadmap.module.css';
+import classes from './Headerslider.module.css';
 import {
     Container,
     Row,
