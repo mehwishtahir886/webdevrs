@@ -36,13 +36,12 @@ const StudentSchema = mongoose.Schema(
                               type: String,
                               required: true,
                     },
-                    
-                    
-
           },
           {
                     timestamps: true,
           }
 )
 
-export default StudentSchema
+const Student = mongoose.model("Student",StudentSchema)
+
+export default Student

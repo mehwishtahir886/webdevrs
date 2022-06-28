@@ -1,0 +1,14 @@
+.StudentHead{
+          font-size: 22px;
+          color: var(--primary-dark);
+          padding: 20px;
+          font-family: var(--Heading-fonts);
+}
+.TableHead{
+          background-color: rgb(230, 230, 230);
+          color: rgb(16, 164, 223);
+}
+td{
+          color:rgb(97, 97, 97);
+
+}

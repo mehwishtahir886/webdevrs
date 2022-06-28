@@ -2,6 +2,7 @@ import React from 'react'
 import { Container, Row } from 'react-bootstrap'
 import classes from "./DashBoard.module.css"
 import SideBar from './SideBar'
+import StudentTable from './StudentTable'
 import TheNav from './TheNav'
 
 const DashBoard = () => {
@@ -10,7 +11,7 @@ const DashBoard = () => {
             <SideBar />
             <Container fluid className={classes.MainDashBoard}>
                 <TheNav/>
-                Admin Data there we add
+                    <StudentTable/>
             </Container>
         </>
     )
