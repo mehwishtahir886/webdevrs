@@ -5,6 +5,9 @@
     color: var(--primary-light);
 
 }
+.DashLogo h3{
+    font-size: 20px;
+}
 .MainSide{
     height: 100vh;
     width: 20vw;
@@ -17,7 +20,7 @@
 }
 .DashSideHead{
     color: white;
-    font-size: 25px;
+    font-size: 22px;
     padding: 30px;
     padding-bottom: 10px;
     font-family: var(--Heading-fonts);

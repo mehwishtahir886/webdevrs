@@ -11,7 +11,7 @@ const TheNav = () => {
     <nav className={classes.DashBoardNav}>
         <div className={classes.DashSearch}>
           <div className={classes.SearchMain}>
-              <input className={classes.SearchInput} placeholder="Search..........." />
+              <input className={classes.SearchInput} placeholder="Search" />
               <BsSearch className={classes.SearchIcon}/>
           </div>
         </div>
