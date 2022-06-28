@@ -6,7 +6,7 @@ const Faqsmy = ({a,q}) => {
 
 
     const [leng, setLeng] =React.useState(false);
-    
+ 
 
   return (
     <>
@@ -26,9 +26,13 @@ const Faqsmy = ({a,q}) => {
 
 
 <div className={classes.fp}>
+
 {
-  leng &&  <p>{a}</p>
+
+  leng && <p>{a}</p>
+  
 }
+
 </div>
 
 </div>
