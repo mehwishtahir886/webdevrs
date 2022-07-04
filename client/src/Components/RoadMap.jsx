@@ -1,26 +1,16 @@
 import React from 'react'
-// import { Slide, Fade } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
-
-//
 
 import AwesomeSlider from 'react-awesome-slider';
 import 'react-awesome-slider/dist/styles.css';
-import './Headerslider.css';
+import '../App.css';
 
-//
-
-import classes from './Headerslider.module.css';
-import {
-    Container,
-    Row,
-    Col,
-} from 'react-bootstrap';
+import classes from './RoadMap.module.css';
 import chose from '../images/one.png'
 import learning from '../images/two.png'
 import hired from '../images/three.png'
 
-const Headerslider = () => {
+const RoadMap = () => {
     return (
         <div className="slide-container">
 
@@ -157,4 +147,4 @@ const Headerslider = () => {
     )
 }
 
-export default Headerslider;
+export default RoadMap;

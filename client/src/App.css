@@ -20,3 +20,189 @@
     background: rgba(255, 0, 0, 0) !important;
     box-shadow: none;
 }
+.carousel_wrapper2 {
+  width: 90%;
+  margin:auto;
+}
+/* --------roadmap----------- */
+    
+.awssld__content{
+    background:white!important;
+}
+
+.awssld__bullets button {
+    display: none
+}
+/* -----------banner-------------- */
+.banner3{
+    position: relative;
+    max-height:100vh;
+    width:100vw;
+    min-height:90vh;
+    font-family:"Open Sans", sans-serif, Helvetica;
+    overflow: hidden;
+  }
+  .banner3-img, .banner4-img{
+    height:90vh;
+    /* background: url('images/images.jpeg'); */
+    background:linear-gradient(rgba(25, 67, 118, 0.706),rgb(25,67,118,0.706)), url('images/images.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .banner3 .heading1 button{
+    background-color: var(--darkblue);
+    border:none;
+    color:white;
+    padding:10px 15px;
+    border-radius: 5px;
+  }
+  
+  .banner3 .carousel-indicators, .fullcard3Indicators .carousel-indicators {
+    display: none;
+    }
+  
+  
+      .banner3 .heading1{
+        top:20vh;
+        position: absolute;
+        left:13%;
+        width:fit-content;
+        font-family: var(--Para-fonts);
+        overflow: hidden;
+        z-index: 2;
+    }
+    .banner3 .heading1 h1{
+        margin-left:100%;
+        font-size: 3.5em;
+        margin-top:20px;
+        margin-bottom:20px;
+        color: white;
+        white-space: nowrap;
+       text-transform: capitalize;
+        font-family: var(--Heading-fonts);
+        animation:show .7s linear forwards;
+        animation-delay: 1s;
+    }
+    .banner3 .heading1 h3{
+      position: relative;
+        height:30px;
+        width:fit-content;
+        margin-left:100%;
+        font-size: 2em;
+        white-space: nowrap;
+        text-transform:capitalize;
+        color:white;
+        animation:show .7s linear forwards;
+    }
+    .banner3 .heading1 h2{
+      position: relative;
+        height:40px;
+        width:fit-content;
+        margin-left:100%;
+        font-size: 2em;
+        white-space: nowrap;
+        text-transform: capitalize;
+        color:white;
+        animation:show .7s linear forwards;
+    }
+    .banner3 .heading1 p{
+      transition: all .4s ease-in-out;
+      color: #fff;
+      margin-left:100%;
+      animation:show .7s linear forwards;
+      animation-delay: 2s;
+    }
+    .banner3 .heading1 button{
+      border: none;
+      background-size:300% 100%;
+      background-image: linear-gradient(45deg, var(--primary-light), var(--secondary-light),#04befe);
+      border-radius: 5px;
+      transition: all .4s ease-in-out;
+      color: #fff;
+      cursor: pointer;
+      font-size: 16px;
+      text-transform: capitalize;
+      margin-left:100%;
+      animation:show .7s linear forwards;
+      animation-delay: 3s;
+    }
+    @keyframes show{
+        0%{
+            margin-left:100%;
+        }
+        100%{
+            margin-left:0;
+        }
+    }
+  
+    .banner3 .heading2{
+        top:35vh;
+        left:13%;
+        width:74%;
+        position: absolute;
+        text-transform: uppercase;
+        z-index: 2;
+    }
+    .banner3 .heading2 h1{
+        font-size: 3.5em;
+        color: white;
+        text-align: center!important;
+        font-family: var(--Heading-fonts);
+        font-weight: bold;
+        animation:zoom .7s linear forwards;
+    }
+    .banner3 .heading2 h2{
+        padding:12px 35px;
+        width:fit-content;
+        margin:auto;
+        background: white;
+        border-radius: 50px;
+        font-size: 2em;
+        text-transform: capitalize;
+        font-family: var(--Heading-fonts);
+        font-weight: lighter;
+        color: var(--primary-gray);
+        animation:zoom .7s linear forwards;   
+    }
+    @keyframes zoom{
+        0%{
+            transform:scale(0);
+        }
+        100%{
+            transform:scale(1);     
+        }
+    }
+   
+.banner3 .heading2 h1{
+    font-size: 3em;
+    font-weight: 500;
+  }
+  .banner3 .heading2 h2{
+    font-size: 1.5em;
+  }
+
+  @media  screen and (max-width:880px) {
+    .banner3 .heading1 h1{
+        font-size: 4em;
+      }
+      .banner3 .heading1 h2{
+        font-size: 2em;
+      }
+      .banner3 .heading2 h1{
+        font-size: 2.8em;
+        font-weight: 500;
+      }
+      .banner3 .heading2 h2{
+        font-size: 1.3em;
+      }
+      
+  }
+
+  @media screen and (max-width:630px) {
+    .banner3 .heading1 h1{
+        font-size: 3em;
+      }
+      .banner3 .heading1 h2{
+        font-size: 1.5em;
+      }
+  }

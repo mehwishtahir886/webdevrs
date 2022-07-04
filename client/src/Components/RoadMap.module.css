@@ -23,7 +23,7 @@
 }
 
 .row{
-        background-color:rgb(250, 250, 250);
+background: rgba(237, 238, 238, 0.524);
         display: flex;
         justify-content: space-between;
         align-items: center;

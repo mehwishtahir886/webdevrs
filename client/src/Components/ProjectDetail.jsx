@@ -3,7 +3,6 @@ import Navbar from './Navbar'
 import Footer from './Footer'
 import { Container, Col, Row } from 'react-bootstrap'
 import classes from './ProjectDetail.module.css'
-import './ComCourses.css'
 
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css'
