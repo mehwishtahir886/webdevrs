@@ -10,12 +10,12 @@ const breakPoints = [
     { width: 768, itemsToShow: 3, },
 ];
 
-const Carouselslider = () => {
+const ProjectCarousel = () => {
     const [items, setItems] = useState([1, 2, 3, 4, 5, 6,]);
     return (
         <>
-            <div className={classes.App}>
-                <div className={classes.carousel_wrapper}>
+            <div className={`${classes.App}`}>
+            <div className="carousel_wrapper2">
                     <Carousel breakPoints={breakPoints} >
                         {items.map((item) => (
                                 <div className={classes.MianCard}>
@@ -40,4 +40,4 @@ const Carouselslider = () => {
     )
 }
 
-export default Carouselslider
+export default ProjectCarousel

@@ -3,37 +3,30 @@ import { useDispatch, useSelector } from 'react-redux'
 import Courses from './Courses'
 import Footer from './Footer'
 import Navbar from './Navbar'
-import About from './About'
-// import Roadmap from './Roadmap'
 import Services from './Services'
 import Homeabout from './Homeabout'
-import Carousel from './Carouselslider'
 import Faqs from './Faqs'
-import { useNavigate } from 'react-router-dom'
-import Blogs from './Blogs'
-import Reviews from './Reviews'
-import Headerslider from './Headerslider'
+import RoadMap from './RoadMap'
+import Banner from './Banner'
+import BlogCarousel from './BlogCarousel'
+import ProjectCarousel from './ProjectCarousel'
+import ReviewCarousel from './ReviewCarousel'
+import EvenetCarousel from './EventsCarousel'
 const Home = () => {
-  const navigate = useNavigate()
-  const userLogin = useSelector((state) => state.userLogin)
-  const { userInfo } = userLogin
 
-  useEffect(() => {
-    console.log(userInfo,"..")
-    if (userInfo == null) {
-      navigate("/login")
-      console.log("login")
-    }
-  }, [userInfo])
   return (
     <div>
         <Navbar/>
-        <Headerslider/>
+        <Banner/>
+        <RoadMap/>
+      <EvenetCarousel/>
         <Homeabout/>
-        {/* <Roadmap/> */}
         <Courses />
+        <ProjectCarousel/>
         <Services/>
+        <ReviewCarousel/>
         <Faqs/>
+        <BlogCarousel/>
         <Footer/>
     </div>
   )

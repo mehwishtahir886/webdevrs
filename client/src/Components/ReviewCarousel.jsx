@@ -1,20 +1,22 @@
-import React from 'react';
-import { useState } from 'react';
+import React,{useState} from 'react'
+import Carousel from "react-elastic-carousel";
+import "./Carousel.module.css"
 import classes from './Reviews.module.css';
 import { RiStarSLine } from "react-icons/ri";
-import Navbar from './Navbar';
-import Footer from './Footer';
-import { IoIosArrowDown } from "react-icons/io";
-
-
 import {
     Container,
     Row,
     Col,
 } from 'react-bootstrap';
 
+const breakPoints = [
+    { width: 557, itemsToShow: 1 },
+    { width: 768, itemsToShow: 2, },
+];
 
-const Reviews = () => {
+
+
+const ReviewCarousel = () => {
 
 
     const reviews = [
@@ -54,107 +56,60 @@ const Reviews = () => {
 
     const [rev, setRev] = useState(reviews);
 
-    // console.log(rev);
-
-    const updown=()=>{
-        // console.log('updown');
-        // var v=document.getElementsByClassName('arrow')[0];
-        // window.scrollY=800
-        // window.innerHeight=1600
-        
-        // window
-        
-    }
-
     const ren = rev.map((item) => {
 
         return (
-            <>
+            < div>
     
-            <Col xl={6} lg={6} md={6} sm={12} >
-                <div className={classes.rev} >
-
-                    <div className={classes.port}>
-                        <img src={item.img} alt="" />
-                        <div className={classes.fr}>
-                            <h4>{item.name}</h4>
-                            <div className={classes.ed}>
-                                <h6>{item.degree}</h6>
+                <Col xl={11} lg={11} md={11} sm={12} >
+                    <div className={classes.rev} >
+    
+                        <div className={classes.port}>
+                            <img src={item.img} alt="" />
+                            <div className={classes.fr}>
+                                <h4>{item.name}</h4>
+                                <div className={classes.ed}>
+                                    <h6>{item.degree}</h6>
+                                </div>
                             </div>
                         </div>
-                    </div>
-
-                    <p>{item.message}</p>
-
-                    <button className={classes.brev} >
-                        Read More
-                    </button>
-
-                    <div className={classes.bot}>
-
-                        <div className={classes.stars}>
-                            <RiStarSLine className={classes.s} />
-                            <RiStarSLine className={classes.s} />
-                            <RiStarSLine className={classes.s} />
-                            <RiStarSLine className={classes.s} />
-                            <RiStarSLine className={classes.s} />
+    
+                        <p>{item.message}</p>
+    
+                        <button className={classes.brev} >
+                            Read More
+                        </button>
+    
+                        <div className={classes.bot}>
+    
+                            <div className={classes.stars}>
+                                <RiStarSLine className={classes.s} />
+                                <RiStarSLine className={classes.s} />
+                                <RiStarSLine className={classes.s} />
+                                <RiStarSLine className={classes.s} />
+                                <RiStarSLine className={classes.s} />
+                            </div>
+                            <div className={classes.date}>{item.date}</div>
+    
                         </div>
-                        <div className={classes.date}>{item.date}</div>
-
+    
+    
                     </div>
-
-
-                </div>
-
-
-            </Col>
-
-        </>
+    
+    
+                </Col>
+    
+            </div>
         )
     })
 
-
-
-    return (
-        <>
-
-            <Navbar />
-
-            <div className={classes.backg}>
-                <div className={classes.backgo}></div>
-                <div className={classes.backr} >
-
-                    <div className={classes.ph}>
-                        <h1>Students Reviews</h1>
-                        <p>This is Reviews and experience of the webdevr students and alumni
-                            We always explore our students works and increase thair skills
-                        </p>
-                    </div>
-
-                    <div className={classes.ic} >
-                       <IoIosArrowDown className={`${classes.ici} arrow `} onClick={updown()} />
-                    </div>
-
-
-                </div>
-
-            </div>
-
-
-            <Container className={classes.revcon}>
-                <Row>
-                    {ren}
-                </Row>
-            </Container>
-
-            <Footer />
-
-
-
-
-
-        </>
-    )
+  return (
+    <div className="carousel_wrapper2">
+    <Carousel breakPoints={breakPoints} >
+        {ren}
+        </Carousel>
+        </div>
+  )
 }
 
-export default Reviews
+export default ReviewCarousel
