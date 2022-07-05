@@ -2,6 +2,6 @@
     height: max-content;
     padding: 0;
     position: absolute;
-    width: 80vw;
+   width:calc(100vw - 230px);
     right: 0;
 }

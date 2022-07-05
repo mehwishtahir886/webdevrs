@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import { Container, Row } from 'react-bootstrap'
 import { useNavigate } from 'react-router-dom'
 import classes from "./DashBoard.module.css"
-import SideBar from './SideBar'
+import SideBar from './SideNavbar'
 import StudentTable from './StudentTable'
 import TheNav from './TheNav'
 
@@ -25,7 +25,7 @@ const DashBoard = () => {
             <SideBar />
             <Container fluid className={classes.MainDashBoard}>
                 <TheNav/>
-                    <StudentTable/>
+                <StudentTable/>
             </Container>
         </>
     )
