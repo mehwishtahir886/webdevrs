@@ -19,8 +19,8 @@ const Home = () => {
         <Navbar/>
         <Banner/>
         <RoadMap/>
-      <EvenetCarousel/>
         <Homeabout/>
+      <EvenetCarousel/>
         <Courses />
         <ProjectCarousel/>
         <Services/>

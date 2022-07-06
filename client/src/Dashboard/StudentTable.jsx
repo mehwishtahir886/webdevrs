@@ -4,7 +4,7 @@ import classes from "./Table.module.css"
 const StudentTable = () => {
   return (
     <div>
-          <h3 className={classes.StudentHead}>Student Data</h3>
+          <h3 className={classes.StudentHead}>Students Data</h3>
       <Table bordered hover>
   <thead className={classes.TableHead}>
     <tr>

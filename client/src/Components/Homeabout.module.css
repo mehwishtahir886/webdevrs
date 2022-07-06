@@ -15,7 +15,7 @@
 .twoimg{
     position: relative;
     height: 80%;
-    width: 80%;
+    width: 100%;
     background-size: cover;
     border-radius: 8px;
     background-image: linear-gradient(rgba(18, 66, 125, 0.8), rgba(22, 73, 135, 0.8)), url("../images/Forms\ Background.png");
