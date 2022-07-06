@@ -61,7 +61,7 @@ const ReviewCarousel = () => {
         return (
             < div>
     
-                <Col xl={11} lg={11} md={11} sm={12} >
+                <Col xl={11} lg={11} md={11} sm={12}>
                     <div className={classes.rev} >
     
                         <div className={classes.port}>
@@ -104,11 +104,11 @@ const ReviewCarousel = () => {
     })
 
   return (
-    <div className="carousel_wrapper2">
+    <div className={classes.main_Ref}>
     <Carousel breakPoints={breakPoints} >
         {ren}
-        </Carousel>
-        </div>
+    </Carousel>
+    </div>
   )
 }
 

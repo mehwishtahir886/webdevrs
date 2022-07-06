@@ -23,8 +23,8 @@ const Carouselslider = () => {
                                     <div className={classes.cardImage}>
                                         <img className={classes.cardimg} src={CardImage} />
                                     </div>
-                                    <h5 className={classes.CardHeading} style={{ textAlign: "center" }}>Experience build building <br /> a Google News like App </h5>
-                                    <p className={classes.CardPara}>Build Highly Responsive Websites <br /> Fronteend For App</p>
+                                    <h5 className={classes.CardHeading} style={{ textAlign: "center" }}>Experience build building a Google News like App </h5>
+                                    <p className={classes.CardPara}>Build Highly Responsive Websites Fronteend For App</p>
                                     <div className={classes.CardLanguage}>
                                         <div className={classes.Lang1}>HTML</div>
                                         <div className={classes.Lang1}>CSS</div>

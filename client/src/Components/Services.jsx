@@ -42,7 +42,6 @@ const Services = () => {
         <p>Why Choose Us<span>?</span></p>
         <p>It's often not the business itself that makes a company unique; it's the people, their approach, the intangible elements</p>
       </Col>
- c
           {/* //1// */}
 
           <Col className={`${classes.flex}`} xl={4} lg={4} md={6} sm={6}  >

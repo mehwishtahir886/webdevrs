@@ -1,3 +1,6 @@
+.App{
+    padding: 50px 0 50px 0;
+}
 .MainBlogg {
     height: max-content;
     display: flex;
@@ -6,12 +9,12 @@
 }
 
 .BlogCard {
-    height: 350px;
-    width: 280px;
+    height: 400px;
+    width: 320px;
     border-radius: 10px;
-    background-color: rgb(245, 245, 245);
+    /* background-color: rgb(245, 245, 245); */
     box-shadow: 0 0 10px 0 rgb(200, 200, 200);
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 0;
     overflow: hidden;
     position: relative;
@@ -20,23 +23,27 @@
 }
 
 .BlogBackIma {
-    height: 115px;
+    height: 180px;
     width: 100%;
+    border-radius: 10px 10px 0 0;
+
 }
 
 .BlogBackImage {
     height: 100%;
     width: 100%;
+    border-radius: 10px 10px 0 0;
 }
 
 .BlogHeadUser {
     height: 60px;
     width: 150px;
     position: absolute;
-    top: 24%;
+    top:37%;
     left: 10%;
+    border-radius: 5px;
     background-color: white;
-    box-shadow: 0 5px 10px 0 rgb(200, 200, 200);
+    box-shadow: 0 0px 5px 0 #999;
     display: flex;
     overflow: hidden;
    
@@ -56,38 +63,40 @@
 .Blogusrimg {
     height: 100%;
     width: 100%;
+    object-fit: cover;
 }
 
 .blogusrName:nth-child(1) {
     color: var(--primary-dark);
     font-size: 16px;
     font-weight: bold;
-    margin-bottom: -5px;
+    margin-bottom: -1px;
     margin-top: 5px;
     margin-left: 10px;
 }
 
 .blogusrName:nth-child(2) {
     color: var(--primary-gray);
-    font-size: 14px;
+    font-size: 12px;
     margin-left: 10px;
 }
 
 .Blogusrheading {
     position: absolute;
-    top: 45%;
+    top: 55%;
     left: 10%;
     color: var(--primary-dark);
-    font-size: 17px;
+    font-size: 18px;
+    font-weight: bold;
     font-family: var(--Heading-fonts);
 }
 
 .BlogDesp {
     position: absolute;
-    top: 53%;
+    top: 63%;
     left: 10%;
     color: var(--primary-gray);
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .BlogFooter {
@@ -102,8 +111,8 @@
     color: white;
     font-size: 12px;
     position: absolute;
-    right: 4%;
-    top: 40%;
+    right: 10%;
+    top: 35%;
 }
 
 .BlogRef {
