@@ -15,7 +15,7 @@ import EvenetCarousel from './EventsCarousel'
 const Home = () => {
 
   return (
-    <div style={{overflowX:"hidden"}}> 
+    <div> 
         <Navbar/>
         <Banner/>
         <Services/>
