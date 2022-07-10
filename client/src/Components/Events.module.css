@@ -1,7 +1,8 @@
 .EventSection {
     height: max-content;
-    display: flex;
+    width: 100%;
     padding: 0;
+    display: flex;
     background-color: rgb(245, 245, 245);
 }
 

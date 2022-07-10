@@ -2,6 +2,10 @@ import React from 'react'
 import classes from './Courses.module.css'
 import { Container,Row,Col } from 'react-bootstrap'
 import { AiFillCheckCircle,AiOutlineFieldTime,AiOutlineLaptop,AiOutlineRead } from "react-icons/ai"
+import vector from '../images/vector.png'
+import vector1 from '../images/vector1.png'
+import vector2 from '../images/vector2.png'
+import vector3 from '../images/vector3.png'
 
 const Courses = () => {
   return (
@@ -62,6 +66,9 @@ const Courses = () => {
                     </div>
                     <button className={classes.courses_St_btn}>View Relative Projects</button>
                   </div>
+                    <div className={classes.courses_St_vector}>
+                      <img src={vector} />
+                    </div>
                 </Row>
                 <Row className={classes.courses_St}>
                 <div className={classes.courses_St1}>
@@ -80,12 +87,18 @@ const Courses = () => {
                     <div className={classes.courses_St_Info2}>
                       <p>Skills to be Learned<span><AiOutlineRead /></span></p>
                       <div className={classes.courses_St_Info3}>
-                        <div>Flutter</div>
-                        <div>React(Native)</div>
+                          <div>Node Js</div>
+                          <div>Express</div>
+                          <div>Javascript</div>
+                          <div>Mongo DB</div>
+                          <div>MySQL</div>
                       </div>
                     </div>
                     <button className={classes.courses_St_btn}>View Relative Projects</button>
                   </div>
+                  <div className={classes.courses_St_vector}>
+                      <img src={vector3} />
+                    </div>
                 </Row>
                 <Row className={classes.courses_St}>
                 <div className={classes.courses_St1}>
@@ -110,6 +123,9 @@ const Courses = () => {
                     </div>
                     <button className={classes.courses_St_btn}>View Relative Projects</button>
                   </div>
+                    <div className={classes.courses_St_vector}>
+                      <img src={vector1} />
+                    </div>
                 </Row>
                 <Row className={classes.courses_St}>
                 <div className={classes.courses_St1}>
@@ -128,15 +144,15 @@ const Courses = () => {
                     <div className={classes.courses_St_Info2}>
                       <p>Skills to be Learned<span><AiOutlineRead /></span></p>
                       <div className={classes.courses_St_Info3}>
-                        <div>Node Js</div>
-                          <div>Express</div>
-                          <div>Javascript</div>
-                          <div>Mongo DB</div>
-                          <div>MySQL</div>
+                          <div>Flutter</div>
+                          <div>React(Native)</div>
                         </div>
                     </div>
                     <button className={ classes.courses_St_btn}>View Relative Projects</button>
                   </div>
+                  <div className={classes.courses_St_vector}>
+                      <img src={vector2} />
+                    </div>
                 </Row>
               </Container>
             </Col>

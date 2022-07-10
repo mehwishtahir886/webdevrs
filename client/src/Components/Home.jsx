@@ -15,15 +15,15 @@ import EvenetCarousel from './EventsCarousel'
 const Home = () => {
 
   return (
-    <div>
+    <div style={{overflowX:"hidden"}}> 
         <Navbar/>
         <Banner/>
-        <RoadMap/>
+        <Services/>
         <Homeabout/>
         <EvenetCarousel/>
         <Courses />
         <ProjectCarousel/>
-        <Services/>
+        <RoadMap/>
         <ReviewCarousel/>
         <Faqs/>
         <BlogCarousel/>

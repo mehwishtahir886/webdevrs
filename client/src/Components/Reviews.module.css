@@ -1,28 +1,12 @@
 .revcon{
-    /* background-color: rgb(252,252,254); */
-    /* border: solid 1px black; */
-    /* width: 100vw; */
     padding: 0;
-    
 }
 
 .main_Ref{
     padding: 50px;
 }
-
-/* .mrev{
-    height: 95%;
-    width: 100%;
-    border: solid 1px black; 
-} */
-
-
-
 .rev{
     height:270px;
-    /* background-color: var(--primary-light); */
-    /* width: 100%; */
-    /* border: solid 1px orange; */
     display: flex;
     justify-content: space-between;
     align-items:flex-start;
@@ -35,8 +19,6 @@
     cursor: pointer;
     transition: all linear 0.20s;
     font-family: var(--Para-fonts);
-
-
 }
 
 .rev:hover{
@@ -97,11 +79,6 @@
     text-overflow: ellipsis;
     white-space: normal;
 }
-/* .rev p::after{
-    content: '...';
-    position: absolute;
-    bottom: 0;
-} */
 
 .ed{
     color: var(--primary-light);
@@ -147,8 +124,6 @@
 .brev{
     /* position: absolute; */
     padding: 6px 12px;
-    /* bottom: 30px; */
-    /* left: 30px; */
     margin-left: 20px;
     margin-top: -10px;
     color: #fff;
