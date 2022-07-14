@@ -84,9 +84,8 @@ const Reviews = () => {
                         </div>
                     </div>
 
+                   <div className={classes.review}>
                     <p>{item.message}</p>
-                    <img className={classes.video} src={item.img} alt="" />
-
                     <button className={classes.brev} >
                         Read More
                     </button>
@@ -103,6 +102,8 @@ const Reviews = () => {
                         <div className={classes.date}>{item.date}</div>
 
                     </div>
+                    </div>
+                    <iframe className={classes.video} src="https://www.youtube.com/embed/xmGCQx7ul3o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
 
 
                 </div>

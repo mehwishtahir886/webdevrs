@@ -79,6 +79,8 @@
     background-color: var(--secondary-light);
 }
 .courses_St{
+    position: relative;
+    /* border: 1px solid; */
     height: 760px;
     display: flex;
     align-items: center;
@@ -87,8 +89,10 @@
 .courses_St1{
     position: relative;
     width: 90%;
+    z-index: 111;
     height: 80%;
-    background-color: white;
+    overflow: hidden;
+    /* background-color: white; */
     box-shadow: 0 0 20px 0 #eee;
     border-radius: 5px;
 }
@@ -176,9 +180,22 @@
     background-position:100% 0;
     transition: all .4s ease-in-out;
 }
+.courses_St_vector{
+    position: absolute;
+    bottom: 10%;
+    right: -6.5%;
+}
+.courses_St_vector img{
+    width: 90%;
+    height: 90%;
+    border-radius: 0 0 5px 0;
+}
 @media screen and (max-width: 1330px) {
     .courses_St1{
         height: 90%;
+    }
+    .courses_St_vector{
+        bottom: 5%;
     }
 }
 @media screen and (max-width: 1225px) {
@@ -314,9 +331,16 @@
     .courses_container{
         height: max-content;
     }
+    .courses_St_vector{
+        bottom: 0;
+        right: -6.5%;
+    }
 }
 @media screen and (max-width: 420px) {
     .courses_St_Info{
         flex-wrap: wrap;
+    }
+    .courses_St_vector{
+        display: none;
     }
 }

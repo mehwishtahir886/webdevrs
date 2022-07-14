@@ -15,7 +15,7 @@ import EvenetCarousel from './EventsCarousel'
 const Home = () => {
 
   return (
-    <div>
+    <div> 
         <Navbar/>
         <Banner/>
         <Services/>
@@ -24,9 +24,9 @@ const Home = () => {
         <ProjectCarousel/>
         <ReviewCarousel/>
         <RoadMap/>
-        <BlogCarousel/>
-        <Faqs/>
         <EvenetCarousel/>
+        <Faqs/>
+        <BlogCarousel/>
         <Footer/>
     </div>
   )

@@ -1,28 +1,12 @@
 .revcon{
-    /* background-color: rgb(252,252,254); */
-    /* border: solid 1px black; */
-    /* width: 100vw; */
     padding: 0;
-    
 }
 
 .main_Ref{
     padding: 50px;
 }
-
-/* .mrev{
-    height: 95%;
-    width: 100%;
-    border: solid 1px black; 
-} */
-
-
-
 .rev{
-    height:270px;
-    /* background-color: var(--primary-light); */
-    /* width: 100%; */
-    /* border: solid 1px orange; */
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items:flex-start;
@@ -35,8 +19,6 @@
     cursor: pointer;
     transition: all linear 0.20s;
     font-family: var(--Para-fonts);
-
-
 }
 
 .rev:hover{
@@ -67,7 +49,11 @@
 
 }
 
-
+.rev .video{
+    position: absolute;
+    right:10px;
+    top:70px;
+}
 
 .fr{
     /* border: solid 1px orange; */
@@ -80,32 +66,24 @@
     margin-left: 20px;
    
 }
-
-.rev p{
+.review p{
     position: relative;
     /* border: solid 1px black; */
-    height: 50px;
-    width: 55%; 
+    height: 75px;
+    width: 40%; 
      text-align: justify; 
-     margin-left: 20px;
-    margin-top: 0px;
+     margin:0 20px;
     color: var(--primary-gray);
     overflow: hidden;
     -webkit-box-orient: vertical;
     display: -webkit-box;
-    -webkit-line-clamp: 2;
+    -webkit-line-clamp: 3;
     text-overflow: ellipsis;
     white-space: normal;
 }
-.video{
-    height:100%;
-    width: 40%; 
-}
-/* .rev p::after{
-    content: '...';
-    position: absolute;
-    bottom: 0;
-} */
+
+
+
 
 .ed{
     color: var(--primary-light);
@@ -151,10 +129,8 @@
 .brev{
     /* position: absolute; */
     padding: 6px 12px;
-    /* bottom: 30px; */
-    /* left: 30px; */
     margin-left: 20px;
-    margin-top: -10px;
+    margin-top: 20px;
     color: #fff;
     cursor: pointer;
     border: none;

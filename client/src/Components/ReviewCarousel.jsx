@@ -62,39 +62,41 @@ const ReviewCarousel = () => {
             < div>
     
                 <Col xl={11} lg={11} md={11} sm={12}>
-                    <div className={classes.rev} >
-    
-                        <div className={classes.port}>
-                            <img src={item.img} alt="" />
-                            <div className={classes.fr}>
-                                <h4>{item.name}</h4>
-                                <div className={classes.ed}>
-                                    <h6>{item.degree}</h6>
-                                </div>
-                            </div>
-                        </div>
-    
-                        <p>{item.message}</p>
-    
-                        <button className={classes.brev} >
-                            Read More
-                        </button>
-    
-                        <div className={classes.bot}>
-    
-                            <div className={classes.stars}>
-                                <RiStarSLine className={classes.s} />
-                                <RiStarSLine className={classes.s} />
-                                <RiStarSLine className={classes.s} />
-                                <RiStarSLine className={classes.s} />
-                                <RiStarSLine className={classes.s} />
-                            </div>
-                            <div className={classes.date}>{item.date}</div>
-    
-                        </div>
-    
-    
-                    </div>
+                <div className={classes.rev} >
+
+<div className={classes.port}>
+    <img src={item.img} alt="" />
+    <div className={classes.fr}>
+        <h4>{item.name}</h4>
+        <div className={classes.ed}>
+            <h6>{item.degree}</h6>
+        </div>
+    </div>
+</div>
+
+<div className={classes.review}>
+<p>{item.message}</p>
+<button className={classes.brev} >
+    Read More
+</button>
+
+<div className={classes.bot}>
+
+    <div className={classes.stars}>
+        <RiStarSLine className={classes.s} />
+        <RiStarSLine className={classes.s} />
+        <RiStarSLine className={classes.s} />
+        <RiStarSLine className={classes.s} />
+        <RiStarSLine className={classes.s} />
+    </div>
+    <div className={classes.date}>{item.date}</div>
+
+</div>
+</div>
+<iframe className={classes.video} src="https://www.youtube.com/embed/xmGCQx7ul3o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+
+
+</div>
     
     
                 </Col>
