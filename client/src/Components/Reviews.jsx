@@ -5,7 +5,7 @@ import { RiStarSLine } from "react-icons/ri";
 import Navbar from './Navbar';
 import Footer from './Footer';
 import { IoIosArrowDown } from "react-icons/io";
-
+import img from "../images/Event1.jpg"
 
 import {
     Container,
@@ -85,6 +85,7 @@ const Reviews = () => {
                     </div>
 
                     <p>{item.message}</p>
+                    <img className={classes.video} src={item.img} alt="" />
 
                     <button className={classes.brev} >
                         Read More

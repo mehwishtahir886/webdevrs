@@ -18,15 +18,15 @@ const Home = () => {
     <div>
         <Navbar/>
         <Banner/>
-        <RoadMap/>
-        <Homeabout/>
-        <EvenetCarousel/>
+        <Services/>
+        {/* <Homeabout/> */}
         <Courses />
         <ProjectCarousel/>
-        <Services/>
         <ReviewCarousel/>
-        <Faqs/>
+        <RoadMap/>
         <BlogCarousel/>
+        <Faqs/>
+        <EvenetCarousel/>
         <Footer/>
     </div>
   )
