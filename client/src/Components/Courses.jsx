@@ -11,7 +11,7 @@ const Courses = () => {
   return (
     <>
       <Container fluid className={classes.courses_container}>
-        <Row style={{height: "100%"}}>
+        <Row style={{"height": "100%"}}>
             <Col md={6} className={classes.courses_info}>
               <p>Full Stack Development</p>
               <p>WebDevrs</p>

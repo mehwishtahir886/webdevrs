@@ -1,5 +1,6 @@
 .revcon{
     padding: 0;
+    position: relative;
 }
 
 .main_Ref{
@@ -52,9 +53,42 @@
 .rev .video{
     position: absolute;
     right:10px;
-    top:70px;
+    top:60px;
+    width:220px;
+    height:160px;
+    background-image: url("../images/review1.png");
+    background-size:cover ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
+.rev .video_btn{
+   width:35px;
+   height:35px;
+   transition: all .5s;
+}
+.rev .video_btn:hover{
+transform: scale(1.1);
+ }
+ .review_frame{
+    position: fixed;
+    background-color: rgb(0, 0, 0, .8);
+    box-shadow: 0 0 10px 0 #eee;
+    z-index:50!important;
+    top:0;
+    left:0;
+    width:100vw;
+    height:100vh;
+overflow: hidden;
+display: none;
+justify-content: center;
+align-items: center;
+ }
+ .review_frame iframe{
+    width:85%;
+    height:75%;
+    border-radius: 5px;
+ }
 .fr{
     /* border: solid 1px orange; */
     display: flex;
@@ -70,7 +104,7 @@
     position: relative;
     /* border: solid 1px black; */
     height: 75px;
-    width: 40%; 
+    width: 50%; 
      text-align: justify; 
      margin:0 20px;
     color: var(--primary-gray);
