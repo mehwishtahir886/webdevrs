@@ -55,6 +55,7 @@ const Courses = () => {
                     <div className={classes.courses_St_Info2}>
                       <p>Skills to be Learned<span><AiOutlineRead /></span></p>
                       <div className={classes.courses_St_Info3}>
+
                         <div>HTML</div>
                         <div>CSS</div>
                         <div>Javascript</div>

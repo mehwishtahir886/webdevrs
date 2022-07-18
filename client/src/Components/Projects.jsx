@@ -1,6 +1,7 @@
 import React from 'react'
 import { Container, Row, Col, Card, Button } from 'react-bootstrap'
 import classes from './Projects.module.css'
+import classe from './Courses.module.css'
 import Navbar from "./Navbar"
 import Footer from "./Footer"
 import { FiEye } from "react-icons/fi";
@@ -13,10 +14,23 @@ const projects = () => {
     <>
     <Navbar/>
         <Container fluid style={{marginTop: "50px",marginBottom: "50px", paddingLeft: " 0 5%"}}>
+
             <h1 className={classes.heading}>Student projects</h1>
             <p className={classes.para}>Our students build real-world projects to put theories into practice.</p>
+            
             <Row className={classes.row}>
+  <div className="mt-3">            
+            <div className={classe.courses_St_Info3}>
 
+<div>HTML</div>
+<div>CSS</div>
+<div>Javascript</div>
+<div>React</div>
+<div>Tailwind css</div>
+<div>Git Hub</div>
+<div>Bootstrap</div>
+</div>
+</div>  
             {/* <Button variant="primary" style={{backgroundColor: "rgb(25,67,118)"}}>View Course</Button> */}
 
             <Card className={classes.Card} style={{ width: '16rem',marginRight: "35px", marginTop: "30px", padding: "0",border: "none",borderRadius: "5px", boxShadow: "0px 0px 20px rgba(0,0,0,0.1)" }}>

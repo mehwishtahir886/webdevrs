@@ -152,6 +152,7 @@
     align-items: center;
     flex-wrap: wrap;
     justify-content: flex-start;
+    cursor: pointer;
 }
 .courses_St_Info3 div{
     padding: 5px 20px;

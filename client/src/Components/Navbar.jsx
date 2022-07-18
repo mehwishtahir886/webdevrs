@@ -7,6 +7,8 @@ import { IoLocationOutline } from "react-icons/io5";
 import { FaUserCircle } from "react-icons/fa";
 import { Navbar, Container, Nav, NavDropdown } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import { BsArrowRight } from "react-icons/bs";
+import classes from "./Events.module.css"
 
 const NavbarBanner = () => {
   return (
@@ -86,6 +88,7 @@ const NavbarBanner = () => {
                         </div>
                       </div>
                       <div className='coursesGif'>
+                      <Link style={{padding: "10px 5px" ,textDecoration: "none", color: "#999"}} to={"/courses"}><BsArrowRight className={classes.EventArrow}/> <p>All Cources</p></Link>
                         <img src={navImg} />
                       </div>
                     </div>
