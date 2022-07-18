@@ -54,7 +54,7 @@
     position: absolute;
     right:10px;
     top:60px;
-    width:220px;
+    width:42%;
     height:160px;
     background-image: url("../images/review1.png");
     background-size:cover ;
@@ -80,7 +80,6 @@ transform: scale(1.1);
     width:100vw;
     height:100vh;
 overflow: hidden;
-display: none;
 justify-content: center;
 align-items: center;
  }

@@ -5,7 +5,7 @@ import { RiStarSLine } from "react-icons/ri";
 import Navbar from './Navbar';
 import Footer from './Footer';
 import { IoIosArrowDown } from "react-icons/io";
-import img from "../images/Event1.jpg"
+import { AiOutlineClose } from "react-icons/ai";
 
 import {
     Container,
@@ -54,14 +54,11 @@ const Reviews = () => {
     const [rev, setRev] = useState(reviews);
 
     const openVideo = () => {
-        document.getElementsByClassName("review_frame")[0].style.display="flex";
+        document.getElementsByClassName("r_video")[0].style.display="flex";
+        document.getElementsByClassName("v_frame")[0].src="https://www.youtube.com/embed/xmGCQx7ul3o";
         }
-        
     return (
         <>
-              <div  className={classes.review_frame}>
-                                   <iframe src="https://www.youtube.com/embed/xmGCQx7ul3o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
-                                   </div>
             <Navbar />
 
             <div className={classes.backg}>

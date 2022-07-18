@@ -13,11 +13,20 @@ import Reviews from './Components/Reviews'
 import ProjectDetail from './Components/ProjectDetail'
 import DashBoard from './Dashboard/DashBoard'
 import About from './Components/About'
+import classes from './Components/Reviews.module.css';
+import { AiOutlineClose } from "react-icons/ai";
 
 const App = () => {
+  const closeVideo = () => {
+    document.getElementsByClassName("r_video")[0].style.display="none";
+    document.getElementsByClassName("v_frame")[0].src="";
+    }
   return (
     <>
-    
+                  <div  className={`${classes.review_frame} r_video`}>
+                <div className="vid_close" onClick={closeVideo}><AiOutlineClose/></div>
+                                   <iframe className="v_frame" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+                                   </div>
       <Routes>
 
         <Route path="/" element={<Home />} />

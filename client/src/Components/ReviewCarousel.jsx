@@ -57,7 +57,8 @@ const ReviewCarousel = () => {
     const [rev, setRev] = useState(reviews);
 
     const openVideo = () => {
-        document.getElementsByClassName("review_frame")[0].style.display="flex";
+        document.getElementsByClassName("r_video")[0].style.display="flex";
+        document.getElementsByClassName("v_frame")[0].src="https://www.youtube.com/embed/xmGCQx7ul3o";
         }
 
 
@@ -98,7 +99,7 @@ return  < div>
 
             </div>
             </div>
-<div className={classes.video}>
+<div className={` ${classes.video}`}>
     <img className={classes.video_btn} src="https://cdn.pixabay.com/photo/2013/07/13/11/42/audio-158489_960_720.png" alt="" onClick={openVideo} />
     </div>
 

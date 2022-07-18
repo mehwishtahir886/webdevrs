@@ -1,19 +1,42 @@
-.rec-pagination{
-    display: none !important;
-}
+/*---- nav links ----*/
 .nav-tabs{
-    border-bottom: none;
+  border-bottom: none;
 }
 .nav-link{
-    color: var(--primary-gray);
-    font-size: 1.2em;
+  color: var(--primary-gray);
+  font-size: 1.2em;
 }
 .nav-link:hover{
-    color: var(--primary-light);
+  color: var(--primary-light);
 }
 .nav-tabs .nav-link.active{
-    background: var(--primary-light);
-    color: white;
+  background: var(--primary-light);
+  color: white;
+}
+ /*--- video frame -----*/
+.r_video{
+display: none;
+}
+.vid_close{
+  position: absolute;
+  top:10%;
+  left:6.5%;
+  font-size: 1.1em;
+  background: white;
+height:35px;
+width:35px;
+line-height: 30px;
+text-align: center;
+  border-radius: 50%;
+  cursor: pointer;
+  background: linear-gradient(to bottom,var(--primary-light),var(--primary-dark));
+  color:white;
+  border:1px solid #0C0D95;
+}
+
+ /*--- carousel  -----*/
+.rec-pagination{
+    display: none !important;
 }
 
 .react-slideshow-container .default-nav{
